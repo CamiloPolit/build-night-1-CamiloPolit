@@ -1,0 +1,7251 @@
+{
+  "12060003": {
+    "department": "AA - Área para el Aprendizaje de la Ingeniería y Ciencias A2IC",
+    "courses": {
+      "AA0010": {
+        "name": "Taller de Inducción a Competencias Docentes para Auxiliares",
+        "professors": [
+          "Diana Bermejo E.",
+          "Julio Contreras V.",
+          "Ricardo Mancilla G."
+        ]
+      },
+      "AA0020": {
+        "name": "Taller de Facilitadores de Trabajo en Equipo en Cursos de Proyecto",
+        "professors": [
+          "Rodrigo Salas O."
+        ]
+      },
+      "AA0030": {
+        "name": "Taller de Ayudante de Corrección en Cursos Masivos",
+        "professors": [
+          "Juan Pedro Ross Olivares"
+        ]
+      },
+      "AA0040": {
+        "name": "Taller de Retroalimentación de Competencias Comunicativas",
+        "professors": [
+          "Felipe Martínez R."
+        ]
+      }
+    }
+  },
+  "3": {
+    "department": "AS - Departamento de Astronomía",
+    "courses": {
+      "AS2001": {
+        "name": "Astronomía General",
+        "professors": [
+          "Anibal Sierra M.",
+          "Diego Mardones P.",
+          "Laura Pérez M.",
+          "Patricio Rojo"
+        ]
+      },
+      "AS3000": {
+        "name": "Astronomía y Astrofísica",
+        "professors": [
+          "Edgardo Costa H."
+        ]
+      },
+      "AS3010": {
+        "name": "Introducción a la Astrobiología",
+        "professors": [
+          "César I. Fuentes",
+          "Jaime Campos M.",
+          "Luis Campusano B.",
+          "Patricio Rojo",
+          "Ricardo Cabrera",
+          "Ricardo Muñoz V.",
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "AS3101": {
+        "name": "Astrofísica de Estrellas",
+        "professors": [
+          "Simón Casassus M."
+        ]
+      },
+      "AS3201": {
+        "name": "Astronomía Experimental",
+        "professors": [
+          "Leonardo Bronfman A.",
+          "Patricio Rojo",
+          "Walter Max-Moerbeck A."
+        ]
+      },
+      "AS4101": {
+        "name": "Astrofísica de Galaxias",
+        "professors": [
+          "Ricardo Muñoz V."
+        ]
+      },
+      "AS4108": {
+        "name": "Investigación Dirigida II",
+        "professors": [
+          "Andres Escala Astorquiza",
+          "César I. Fuentes",
+          "Laura Pérez M.",
+          "Leonardo Bronfman A.",
+          "Manuel Merello F."
+        ]
+      },
+      "AS4501": {
+        "name": "Astroinformática",
+        "professors": [
+          "Francisco Forster Buron",
+          "Valentino González C."
+        ]
+      },
+      "AS725": {
+        "name": "Astronomía Galáctica",
+        "professors": [
+          "Ricardo Muñoz V."
+        ]
+      },
+      "AS730": {
+        "name": "Galaxias",
+        "professors": [
+          "Valentino González C."
+        ]
+      },
+      "AS794": {
+        "name": "Taller de Investigación I",
+        "professors": [
+          "James Jenkins",
+          "Ricardo Muñoz V."
+        ]
+      },
+      "AS801": {
+        "name": "Taller de Investigación III",
+        "professors": [
+          "Leonardo Bronfman A.",
+          "Manuel Merello F."
+        ]
+      },
+      "AS802": {
+        "name": "Taller de Investigación IV",
+        "professors": [
+          "Guillermo A. Blanc",
+          "Patricio Rojo",
+          "Paulina Lira T.",
+          "Sebastián López",
+          "Simón Casassus M.",
+          "Valentino González C."
+        ]
+      },
+      "AS895": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Francisco Forster Buron",
+          "James Jenkins",
+          "Paulina Lira T.",
+          "Valentino González C."
+        ]
+      },
+      "AS896": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "René Alejandro Méndez Bussard",
+          "Ricardo Muñoz V.",
+          "Simón Casassus M."
+        ]
+      },
+      "AS897": {
+        "name": "Tesis III",
+        "professors": [
+          "Paulina Lira T."
+        ]
+      },
+      "AS898": {
+        "name": "Trabajo de Tesis IV",
+        "professors": [
+          "Laura Pérez M.",
+          "Sebastián López",
+          "Walter Max-Moerbeck A."
+        ]
+      },
+      "AS899": {
+        "name": "Trabajo de Tesis V",
+        "professors": [
+          "James Jenkins",
+          "Simón Casassus M."
+        ]
+      },
+      "AS900": {
+        "name": "Trabajo de Tesis VI",
+        "professors": [
+          "Guillermo A. Blanc"
+        ]
+      }
+    }
+  },
+  "5": {
+    "department": "CC - Departamento de Ciencias de la Computación",
+    "courses": {
+      "CC1000": {
+        "name": "Herramientas Computacionales para Ingeniería y Ciencias",
+        "professors": [
+          "Juan Álvarez R."
+        ]
+      },
+      "CC1002": {
+        "name": "Introducción a la Programación",
+        "professors": [
+          "Alejandro Hevia A.",
+          "Benjamín Bustos",
+          "Bárbara Poblete",
+          "Francisco J. Gutiérrez",
+          "Juan Álvarez R.",
+          "Jérémy Barbay",
+          "Nelson Baloian T.",
+          "Patricio Inostroza F."
+        ]
+      },
+      "CC3001": {
+        "name": "Algoritmos y Estructuras de Datos",
+        "professors": [
+          "Benjamín Bustos",
+          "Nelson Baloian T.",
+          "Patricio Poblete"
+        ]
+      },
+      "CC3002": {
+        "name": "Metodologías de Diseño y Programación",
+        "professors": [
+          "Alexandre Bergel"
+        ]
+      },
+      "CC3101": {
+        "name": "Matemáticas Discretas para la Computación",
+        "professors": [
+          "Alejandro Hevia A.",
+          "Federico Olmedo"
+        ]
+      },
+      "CC3102": {
+        "name": "Teoría de la Computación",
+        "professors": [
+          "Gonzalo Navarro"
+        ]
+      },
+      "CC3201": {
+        "name": "Bases de Datos",
+        "professors": [
+          "Claudio Gutiérrez",
+          "Matías Toro I."
+        ]
+      },
+      "CC3301": {
+        "name": "Programación de Software de Sistemas",
+        "professors": [
+          "Luis Mateu B."
+        ]
+      },
+      "CC3501": {
+        "name": "Modelación y Computación Gráfica para Ingenieros",
+        "professors": [
+          "Iván Sipiran"
+        ]
+      },
+      "CC4002": {
+        "name": "Taller de Programación B",
+        "professors": [
+          "Andrés Abeliuk"
+        ]
+      },
+      "CC4006": {
+        "name": "Taller de Programación Competitiva B",
+        "professors": [
+          "Andrés Abeliuk"
+        ]
+      },
+      "CC4101": {
+        "name": "Lenguajes de Programación",
+        "professors": [
+          "Federico Olmedo"
+        ]
+      },
+      "CC4102": {
+        "name": "Diseño y Análisis de Algoritmos",
+        "professors": [
+          "Gonzalo Navarro"
+        ]
+      },
+      "CC4301": {
+        "name": "Arquitectura de Computadores",
+        "professors": [
+          "Luis Mateu B."
+        ]
+      },
+      "CC4302": {
+        "name": "Sistemas Operativos",
+        "professors": [
+          "Luis Mateu B."
+        ]
+      },
+      "CC4303": {
+        "name": "Redes",
+        "professors": [
+          "José M. Piquer"
+        ]
+      },
+      "CC4401": {
+        "name": "Ingeniería de Software",
+        "professors": [
+          "Jocelyn Simmonds"
+        ]
+      },
+      "CC4901": {
+        "name": "Práctica Profesional I",
+        "professors": [
+          "Alexandre Bergel"
+        ]
+      },
+      "CC4902": {
+        "name": "Taller de Práctica Profesional I",
+        "professors": [
+          "Alexandre Bergel"
+        ]
+      },
+      "CC5002": {
+        "name": "Desarrollo de Aplicaciones Web",
+        "professors": [
+          "José Urzúa"
+        ]
+      },
+      "CC5101": {
+        "name": "Análisis Avanzado de Algoritmos",
+        "professors": [
+          "Patricio Poblete"
+        ]
+      },
+      "CC5116": {
+        "name": "Diseño e Implementación de Compiladores",
+        "professors": [
+          "Éric Tanter"
+        ]
+      },
+      "CC5206": {
+        "name": "Introducción a la Minería de Datos",
+        "professors": [
+          "Andrés Abeliuk",
+          "Hernán Sarmiento A."
+        ]
+      },
+      "CC5213": {
+        "name": "Recuperación de Información Multimedia",
+        "professors": [
+          "Juan Manuel Barrios"
+        ]
+      },
+      "CC5304": {
+        "name": "Arquitectura de Sistemas de Alta Disponibilidad",
+        "professors": [
+          "Cesar Guerrero S."
+        ]
+      },
+      "CC5322": {
+        "name": "Taller de Redes De Datos",
+        "professors": [
+          "Rodrigo Arenas A."
+        ]
+      },
+      "CC5326": {
+        "name": "Diseño de Sistemas de Internet de las Cosas",
+        "professors": [
+          "Luciano Radrigan F."
+        ]
+      },
+      "CC5401": {
+        "name": "Ingeniería de Software II",
+        "professors": [
+          "Sergio F. Ochoa D."
+        ]
+      },
+      "CC5402": {
+        "name": "Proyecto de Software",
+        "professors": [
+          "Cecilia Bastarrica"
+        ]
+      },
+      "CC5408": {
+        "name": "Taller de Diseño y Desarrollo de Videojuegos",
+        "professors": [
+          "Elías Zelada"
+        ]
+      },
+      "CC5502": {
+        "name": "Geometría Computacional",
+        "professors": [
+          "Nancy Hitschfeld K."
+        ]
+      },
+      "CC5504": {
+        "name": "Interface Humano Computador",
+        "professors": [
+          "Jaime Sanchez I."
+        ]
+      },
+      "CC5511": {
+        "name": "Fundamentos e Ingeniería de Interacciones Humano-Computador",
+        "professors": [
+          "Jose Pino U.",
+          "Nelson Baloian T."
+        ]
+      },
+      "CC5512": {
+        "name": "Arquitectura de Motores de Juegos",
+        "professors": [
+          "Daniel Calderón"
+        ]
+      },
+      "CC5602": {
+        "name": "Gestión Informática",
+        "professors": [
+          "Jose Benguria D."
+        ]
+      },
+      "CC5609": {
+        "name": "Taller de Desarrollo Comercial",
+        "professors": [
+          "Adolfo Carrasco A."
+        ]
+      },
+      "CC5613": {
+        "name": "Taller de Comunicación Efectiva: Caso Práctico de Lanzamiento de Producto",
+        "professors": [
+          "Eduardo Godoy Vega"
+        ]
+      },
+      "CC5614": {
+        "name": "Herramientas para el Trabajo en Equipo",
+        "professors": [
+          "Andrea Rodríguez Silva"
+        ]
+      },
+      "CC5619": {
+        "name": "Diseño e Implementación de Prototipos Digitales",
+        "professors": [
+          "Eduardo Díaz C."
+        ]
+      },
+      "CC5901": {
+        "name": "Práctica Profesional II",
+        "professors": [
+          "Alexandre Bergel"
+        ]
+      },
+      "CC5905": {
+        "name": "Trabajo Dirigido",
+        "professors": [
+          "Alejandro Hevia A.",
+          "Bárbara Poblete",
+          "Felipe Bravo M.",
+          "Francisco J. Gutiérrez",
+          "Javier Bustos Jiménez",
+          "Nancy Hitschfeld K."
+        ]
+      },
+      "CC6104": {
+        "name": "Pensamiento Estadístico",
+        "professors": [
+          "Felipe Bravo M."
+        ]
+      },
+      "CC6204": {
+        "name": "Deep Learning",
+        "professors": [
+          "Jorge Pérez Rojas"
+        ]
+      },
+      "CC6501": {
+        "name": "Taller de Interacción Humano-Computador",
+        "professors": [
+          "Jaime Sanchez I."
+        ]
+      },
+      "CC6502": {
+        "name": "Taller de Usabilidad de Interfaces de Software",
+        "professors": [
+          "Jaime Sanchez I."
+        ]
+      },
+      "CC6908": {
+        "name": "Introducción al Trabajo de Título",
+        "professors": [
+          "Aidan Hogan"
+        ]
+      },
+      "CC6909": {
+        "name": "Trabajo de Título",
+        "professors": [
+          "Aidan Hogan",
+          "Alejandro Hevia A.",
+          "Andrés Abeliuk",
+          "Andrés Muñoz Ordenes",
+          "Bárbara Poblete",
+          "Cecilia Bastarrica",
+          "Federico Olmedo",
+          "Gonzalo Navarro",
+          "Iván Sipiran",
+          "Jaime Sanchez I.",
+          "Jocelyn Simmonds",
+          "José M. Saavedra R.",
+          "Juan Manuel Barrios",
+          "Jérémy Barbay",
+          "Nancy Hitschfeld K.",
+          "Nelson Baloian T.",
+          "Sergio F. Ochoa D.",
+          "Willy Maikowski C."
+        ]
+      },
+      "CC7020": {
+        "name": "Investigación Dirigida",
+        "professors": [
+          "Gonzalo Navarro"
+        ]
+      },
+      "CC7110": {
+        "name": "Lenguajes de Programación II",
+        "professors": [
+          "Éric Tanter"
+        ]
+      },
+      "CC7220": {
+        "name": "La Web de Datos",
+        "professors": [
+          "Aidan Hogan"
+        ]
+      },
+      "CC7910": {
+        "name": "Investigación en Ciencias de la Computación (Métodos, Técnicas, Perspectivas)",
+        "professors": [
+          "Claudio Gutiérrez"
+        ]
+      },
+      "CC7920": {
+        "name": "Introducción a la Tesis",
+        "professors": [
+          "Gonzalo Navarro"
+        ]
+      },
+      "CC7970": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Nancy Hitschfeld K."
+        ]
+      },
+      "CC7980": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Nancy Hitschfeld K."
+        ]
+      },
+      "CC8910": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Gonzalo Navarro"
+        ]
+      },
+      "CC8920": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Gonzalo Navarro"
+        ]
+      },
+      "CC8940": {
+        "name": "Trabajo de Tesis IV",
+        "professors": [
+          "Gonzalo Navarro"
+        ]
+      },
+      "CC8950": {
+        "name": "Trabajo de Tesis V",
+        "professors": [
+          "Gonzalo Navarro"
+        ]
+      },
+      "CC8960": {
+        "name": "Trabajo de Tesis VI",
+        "professors": [
+          "Gonzalo Navarro"
+        ]
+      },
+      "CC63B": {
+        "name": "Gestión de Proyectos de TI",
+        "professors": [
+          "Sergio F. Ochoa D."
+        ]
+      },
+      "CC63C": {
+        "name": "Negociación de Proyectos de TI",
+        "professors": [
+          "Marcelo Cristián Monsalves Muñoz"
+        ]
+      },
+      "CC63E": {
+        "name": "Gestión del Conocimiento",
+        "professors": [
+          "Marcelo Cristián Monsalves Muñoz"
+        ]
+      },
+      "CC63Y": {
+        "name": "Liderando Transformaciones desde el Sentido",
+        "professors": [
+          "Veronica Pardo L.",
+          "Veronica Virgilio C."
+        ]
+      },
+      "CC66M": {
+        "name": "Algoritmos Evolutivos",
+        "professors": [
+          "Alexandre Bergel"
+        ]
+      },
+      "CC66O": {
+        "name": "Inteligencia Artificial en Robótica",
+        "professors": [
+          "Rodrigo Verschae T."
+        ]
+      },
+      "CC66Q": {
+        "name": "Procesamiento de Lenguaje Natural",
+        "professors": [
+          "Mauricio Cerda"
+        ]
+      },
+      "CC66R": {
+        "name": "Taller de Proyecto IA",
+        "professors": [
+          "Juan Manuel Barrios"
+        ]
+      },
+      "CC66S": {
+        "name": "Machine Learning",
+        "professors": [
+          "Jocelyn Dunstan E."
+        ]
+      },
+      "CC66T": {
+        "name": "Reconocimiento Visual con Deep Learning",
+        "professors": [
+          "José M. Saavedra R."
+        ]
+      },
+      "CC66U": {
+        "name": "Redes Neuronales y Deep Learning",
+        "professors": [
+          "Iván Sipiran"
+        ]
+      },
+      "CC67B": {
+        "name": "Fundamentos de Criptografía",
+        "professors": [
+          "Alejandro Hevia A."
+        ]
+      },
+      "CC67C": {
+        "name": "Seguridad de Redes",
+        "professors": [
+          "Sergio Miranda M."
+        ]
+      },
+      "CC67D": {
+        "name": "Seguridad de Software",
+        "professors": [
+          "Cristian Rojas"
+        ]
+      },
+      "CC67E": {
+        "name": "Análisis de Riesgo y Planificación de Contingencia",
+        "professors": [
+          "Carlos Samaniego Chunga",
+          "Esteban Maurin"
+        ]
+      },
+      "CC67F": {
+        "name": "Aspectos del Derecho Informático",
+        "professors": [
+          "Lorena Donoso Abarca"
+        ]
+      },
+      "CC67G": {
+        "name": "Comercio Electrónico",
+        "professors": [
+          "Marco Zuñiga Y."
+        ]
+      },
+      "CC73F": {
+        "name": "Avances en Bases de Datos",
+        "professors": [
+          "Rodrigo Frez P."
+        ]
+      },
+      "CC73J": {
+        "name": "Taller de Gestión de Proyectos de TI",
+        "professors": [
+          "Sergio F. Ochoa D.",
+          "Tomas Vera"
+        ]
+      },
+      "CC79E": {
+        "name": "Seminario de Proyectos de TI I",
+        "professors": [
+          "Daniel Perovich",
+          "Sergio F. Ochoa D."
+        ]
+      },
+      "CC79F": {
+        "name": "Seminario de Proyectos de TI II",
+        "professors": [
+          "Daniel Perovich",
+          "Sergio F. Ochoa D."
+        ]
+      },
+      "CC79G": {
+        "name": "Proyecto de Grado I",
+        "professors": [
+          "Daniel Perovich",
+          "Sergio F. Ochoa D."
+        ]
+      },
+      "CC79H": {
+        "name": "Proyecto de Grado II",
+        "professors": [
+          "Daniel Perovich",
+          "Sergio F. Ochoa D."
+        ]
+      }
+    }
+  },
+  "6": {
+    "department": "CI - Departamento de Ingeniería Civil",
+    "courses": {
+      "CI3111": {
+        "name": "Mecánica Estructural",
+        "professors": [
+          "Francisco Hernández P."
+        ]
+      },
+      "CI3141": {
+        "name": "Análisis de Sistemas de Transporte",
+        "professors": [
+          "C. Angelo Guevara"
+        ]
+      },
+      "CI3162": {
+        "name": "Mecánica de Fluidos",
+        "professors": [
+          "Alberto De la Fuente Stranger"
+        ]
+      },
+      "CI3202": {
+        "name": "Mecánica de Sólidos",
+        "professors": [
+          "Francisco Hernández P."
+        ]
+      },
+      "CI3211": {
+        "name": "Ingeniería Estructural",
+        "professors": [
+          "Francisco Hernández P."
+        ]
+      },
+      "CI3242": {
+        "name": "Análisis de Datos para Ingeniería",
+        "professors": [
+          "C. Angelo Guevara",
+          "Cristián E. Cortés"
+        ]
+      },
+      "CI3251": {
+        "name": "Cálculo Numérico para Ingeniería Civil",
+        "professors": [
+          "Rafael Ruiz G."
+        ]
+      },
+      "CI3252": {
+        "name": "Topografía",
+        "professors": [
+          "Ivan Bejarano B."
+        ]
+      },
+      "CI3261": {
+        "name": "Ingeniería Ambiental",
+        "professors": [
+          "Ana Lucía Prieto Santa",
+          "Katherine Lizama Allende"
+        ]
+      },
+      "CI3262": {
+        "name": "Ingeniería Hidráulica",
+        "professors": [
+          "James Mcphee T.",
+          "Yarko Niño C."
+        ]
+      },
+      "CI3501": {
+        "name": "Materiales de Construcción",
+        "professors": [
+          "Eduardo Donoso C.",
+          "Gerardo Díaz Rodenas"
+        ]
+      },
+      "CI4150": {
+        "name": "Taller de Práctica Profesional I",
+        "professors": [
+          "Alejandro Tirachini H.",
+          "Carlos Muñoz Navarro",
+          "Fabiola Borne"
+        ]
+      },
+      "CI4201": {
+        "name": "Hormigón Estructural",
+        "professors": [
+          "Leonardo Massone S."
+        ]
+      },
+      "CI4202": {
+        "name": "Análisis Estructural",
+        "professors": [
+          "Francisco Hernández P.",
+          "J Felipe Beltran M."
+        ]
+      },
+      "CI4203": {
+        "name": "Dinámica de Estructuras",
+        "professors": [
+          "J Felipe Beltran M.",
+          "Ruben Boroschek Krauskopf"
+        ]
+      },
+      "CI4301": {
+        "name": "Análisis de Sistemas de Transporte",
+        "professors": [
+          "C. Angelo Guevara"
+        ]
+      },
+      "CI4401": {
+        "name": "Geotecnia",
+        "professors": [
+          "Felipe Ochoa Cornejo"
+        ]
+      },
+      "CI4402": {
+        "name": "Geomecánica",
+        "professors": [
+          "J Felipe Beltran M.",
+          "Yolanda Alberto"
+        ]
+      },
+      "CI4901": {
+        "name": "Práctica de Topografía",
+        "professors": [
+          "Alejandro Tirachini H."
+        ]
+      },
+      "CI5101": {
+        "name": "Hidrología",
+        "professors": [
+          "Pablo Mendoza"
+        ]
+      },
+      "CI5102": {
+        "name": "Calidad del Agua",
+        "professors": [
+          "Ana Lucía Prieto Santa",
+          "J Felipe Beltran M.",
+          "Katherine Lizama Allende"
+        ]
+      },
+      "CI5103": {
+        "name": "Análisis de Sistemas Ambientales",
+        "professors": [
+          "J Felipe Beltran M.",
+          "Marcelo Olivares A."
+        ]
+      },
+      "CI5104": {
+        "name": "Hidráulica Aplicada al Diseño de Obras",
+        "professors": [
+          "Arnaldo Santander Horta",
+          "Franco Ricchetti Campos"
+        ]
+      },
+      "CI5105": {
+        "name": "Hidráulica de Aguas Subterráneas y su Aprovechamiento",
+        "professors": [
+          "J Felipe Beltran M.",
+          "Juvenal Letelier V."
+        ]
+      },
+      "CI5106": {
+        "name": "Procesos de Tratamiento de Aguas",
+        "professors": [
+          "Gerardo Ahumada T.",
+          "Javier Nannig B."
+        ]
+      },
+      "CI5108": {
+        "name": "Seminario de Recursos Hidrícos y Medio Ambiente",
+        "professors": [
+          "Jorge Castillo G."
+        ]
+      },
+      "CI5115": {
+        "name": "Agua en Minería",
+        "professors": [
+          "Pamela Muñoz V."
+        ]
+      },
+      "CI5147": {
+        "name": "Transporte Aéreo",
+        "professors": [
+          "Iván Zurita M."
+        ]
+      },
+      "CI5201": {
+        "name": "Diseño Sísmico de Estructuras",
+        "professors": [
+          "Fabian Rojas B.",
+          "J Felipe Beltran M."
+        ]
+      },
+      "CI5202": {
+        "name": "Estructuras de Acero",
+        "professors": [
+          "Alejandro Verdugo P."
+        ]
+      },
+      "CI5206": {
+        "name": "Proyecto de Hormigón Armado",
+        "professors": [
+          "Juan Mendoza Valenzuela",
+          "Tomás Yañez"
+        ]
+      },
+      "CI5222": {
+        "name": "Hormigón Pretensado",
+        "professors": [
+          "Fernando Yañez U."
+        ]
+      },
+      "CI5223": {
+        "name": "Diseño de Albañileria Estructural",
+        "professors": [
+          "Thomas Sturm M."
+        ]
+      },
+      "CI5303": {
+        "name": "Microeconomía",
+        "professors": [
+          "Sergio Jara D."
+        ]
+      },
+      "CI5304": {
+        "name": "Economía de Transporte",
+        "professors": [
+          "Sergio Jara D."
+        ]
+      },
+      "CI5305": {
+        "name": "Redes y Circulación",
+        "professors": [
+          "Cristián E. Cortés"
+        ]
+      },
+      "CI5306": {
+        "name": "Economía de Localización",
+        "professors": [
+          "Francisco Martinez C."
+        ]
+      },
+      "CI5307": {
+        "name": "Modelos de Localización",
+        "professors": [
+          "Francisco Martinez C."
+        ]
+      },
+      "CI5308": {
+        "name": "Demanda de Transporte",
+        "professors": [
+          "C. Angelo Guevara"
+        ]
+      },
+      "CI5309": {
+        "name": "Diseño Vial",
+        "professors": [
+          "Carlos Moya Saavedra"
+        ]
+      },
+      "CI5310": {
+        "name": "Competencia y Regulación en Mercados de Transporte",
+        "professors": [
+          "Leonardo Basso"
+        ]
+      },
+      "CI5313": {
+        "name": "Transporte Sustentable y Tecnologías Disruptivas",
+        "professors": [
+          "Alejandro Tirachini H."
+        ]
+      },
+      "CI5401": {
+        "name": "Fundaciones",
+        "professors": [
+          "J Felipe Beltran M.",
+          "Roberto Gesche S."
+        ]
+      },
+      "CI5411": {
+        "name": "Fundaciones II",
+        "professors": [
+          "Sebastián Boldrini López"
+        ]
+      },
+      "CI5413": {
+        "name": "Instrumentación en Ingeniería Geotecnica y Estructural",
+        "professors": [
+          "Pedro Soto",
+          "Roberto Gesche S."
+        ]
+      },
+      "CI5415": {
+        "name": "Seminario de Geotecnia",
+        "professors": [
+          "Felipe Ochoa Cornejo"
+        ]
+      },
+      "CI5501": {
+        "name": "Métodos Constructivos",
+        "professors": [
+          "William Wragg L."
+        ]
+      },
+      "CI5502": {
+        "name": "Planificación y Control de Proyectos",
+        "professors": [
+          "Claudio Mancilla Pizarro"
+        ]
+      },
+      "CI5503": {
+        "name": "Tecnología del Hormigón",
+        "professors": [
+          "Carmen Paz Muñoz E."
+        ]
+      },
+      "CI5504": {
+        "name": "Patología de las Obras de Construcción",
+        "professors": [
+          "David Silva S."
+        ]
+      },
+      "CI5511": {
+        "name": "Dirección de Proyectos",
+        "professors": [
+          "Alejandro Polanco C."
+        ]
+      },
+      "CI5532": {
+        "name": "Diseño y Construcción de Estructuras Prefabricadas",
+        "professors": [
+          "David Campusano B."
+        ]
+      },
+      "CI5535": {
+        "name": "Seminario de Ingeniería",
+        "professors": [
+          "Jorge Pulgar A."
+        ]
+      },
+      "CI5536": {
+        "name": "Tecnología del Acero",
+        "professors": [
+          "Juan Carlos Gutiérrez P.",
+          "Marlena Murillo S."
+        ]
+      },
+      "CI5602": {
+        "name": "Construcción de Plantas de Tratamiento",
+        "professors": [
+          "Gerardo Ahumada T."
+        ]
+      },
+      "CI5803": {
+        "name": "Trabajo Dirigido en Ingeniería Civil",
+        "professors": [
+          "Ruben Boroschek Krauskopf"
+        ]
+      },
+      "CI5806": {
+        "name": "Gestión de la Innovación",
+        "professors": [
+          "Santiago Barcaza S."
+        ]
+      },
+      "CI5807": {
+        "name": "Derecho y Regulación Ambiental",
+        "professors": [
+          "Ezio Costa Cordella",
+          "Pablo Andrés Aranda Valenzuela"
+        ]
+      },
+      "CI5809": {
+        "name": "Taller de Liderazgo y Trabajo en equipo para Ingenieros Civiles",
+        "professors": [
+          "Andrea Rodríguez Silva"
+        ]
+      },
+      "CI5810": {
+        "name": "Oratoria para Ingenieros Civiles",
+        "professors": [
+          "Catalina Millán Montoya"
+        ]
+      },
+      "CI5901": {
+        "name": "Práctica Profesional II",
+        "professors": [
+          "Alejandro Tirachini H."
+        ]
+      },
+      "CI6102": {
+        "name": "Proyecto Integrado de Recursos Hídricos",
+        "professors": [
+          "Carolina Meruane N."
+        ]
+      },
+      "CI6103": {
+        "name": "Proyecto de Sistemas Hidráulicos/Sanitarios/Ambiental",
+        "professors": [
+          "Ricardo Opazo C.",
+          "Rodrigo Arbuch M."
+        ]
+      },
+      "CI6201": {
+        "name": "Proyecto de Estructuras de Acero",
+        "professors": [
+          "Boris Saez G.",
+          "Elizabeth A. Parra H.",
+          "Horacio Pinochet V."
+        ]
+      },
+      "CI6202": {
+        "name": "Estructuras de Acero II",
+        "professors": [
+          "Ricardo Herrera Mardones"
+        ]
+      },
+      "CI6314": {
+        "name": "Modelamiento y Simulación de Sistemas",
+        "professors": [
+          "Cristián E. Cortés",
+          "Pablo Rey"
+        ]
+      },
+      "CI6315": {
+        "name": "Planificación Urbana y Transporte",
+        "professors": [
+          "Cristóbal Pineda A."
+        ]
+      },
+      "CI6501": {
+        "name": "Proyecto de Construcción de Edificios",
+        "professors": [
+          "Jorge Pulgar A."
+        ]
+      },
+      "CI6502": {
+        "name": "Proyecto de Construcción de Obras Civiles",
+        "professors": [
+          "Hugo Baesler C."
+        ]
+      },
+      "CI6901": {
+        "name": "Práctica Profesional III",
+        "professors": [
+          "Alejandro Tirachini H."
+        ]
+      },
+      "CI6908": {
+        "name": "Introducción al Trabajo de Título",
+        "professors": [
+          "Adolfo Ochoa Llangato",
+          "Agustín Campos C.",
+          "Jorge Pulgar A."
+        ]
+      },
+      "CI6909": {
+        "name": "Trabajo de Título",
+        "professors": [
+          "Adolfo Ochoa Llangato",
+          "Agustín Campos C.",
+          "David Campusano B.",
+          "Katherine Lizama Allende"
+        ]
+      },
+      "CI6910": {
+        "name": "Trabajo de Memoria de Título",
+        "professors": [
+          "Mauricio Sarrazin A."
+        ]
+      },
+      "CI7110": {
+        "name": "Análisis Geo-Espacial de Recursos Hídricos",
+        "professors": [
+          "Miguel Lagos Zuñiga",
+          "Yohann Videla G."
+        ]
+      },
+      "CI7115": {
+        "name": "Biotecnología Ambiental",
+        "professors": [
+          "Ana Lucía Prieto Santa"
+        ]
+      },
+      "CI7201": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Fabian Rojas B."
+        ]
+      },
+      "CI7202": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Fabian Rojas B."
+        ]
+      },
+      "CI7211": {
+        "name": "Introducción al Análisis no Lineal de Estructuras",
+        "professors": [
+          "Leonardo Massone S."
+        ]
+      },
+      "CI7212": {
+        "name": "Elementos Finitos",
+        "professors": [
+          "Mauricio Sarrazin A."
+        ]
+      },
+      "CI7301": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Leonardo Basso"
+        ]
+      },
+      "CI7302": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Leonardo Basso"
+        ]
+      },
+      "CI7411": {
+        "name": "Dinámica de Suelos",
+        "professors": [
+          "César Pasten P.",
+          "Felipe Ochoa Cornejo"
+        ]
+      },
+      "CI7900": {
+        "name": "Trabajo de Tesis Doctoral I",
+        "professors": [
+          "Ruben Boroschek Krauskopf"
+        ]
+      },
+      "CI7906": {
+        "name": "Seminario de Investigación Doctoral I",
+        "professors": [
+          "Ruben Boroschek Krauskopf"
+        ]
+      },
+      "CI7907": {
+        "name": "Seminario de Investigación Doctoral II",
+        "professors": [
+          "Ruben Boroschek Krauskopf"
+        ]
+      },
+      "CI71A": {
+        "name": "Análisis de Sistemas de Recursos Hídricos",
+        "professors": [
+          "Marcelo Olivares A."
+        ]
+      },
+      "CI71B": {
+        "name": "Mecánica de Fluidos Avanzada",
+        "professors": [
+          "Aldo Tamburrino T."
+        ]
+      },
+      "CI71C": {
+        "name": "Análisis Hidrológico y Evaluación de Recursos Hídricos Avanzados",
+        "professors": [
+          "Miguel Lagos Zuñiga",
+          "Pablo Mendoza"
+        ]
+      },
+      "CI71D": {
+        "name": "Modelación Numérica con Aplic. en Ing. Hidráulica y Ambiental",
+        "professors": [
+          "Luis Zamorano R.",
+          "Yarko Niño C."
+        ]
+      },
+      "CI71J": {
+        "name": "Transporte Hidráulico de Sólidos",
+        "professors": [
+          "Aldo Tamburrino T.",
+          "Yarko Niño C."
+        ]
+      },
+      "CI71K": {
+        "name": "Hidráulica Marítima",
+        "professors": [
+          "César Guzmán M."
+        ]
+      },
+      "CI71T": {
+        "name": "Modelación de Aguas Subterráneas",
+        "professors": [
+          "Julio Cornejo M.",
+          "René Figueroa L."
+        ]
+      },
+      "CI79A": {
+        "name": "Introducción a la Tesis",
+        "professors": [
+          "Marcelo Olivares A."
+        ]
+      },
+      "CI79B": {
+        "name": "Tesis I",
+        "professors": [
+          "Alberto De la Fuente Stranger"
+        ]
+      },
+      "CI79C": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Alberto De la Fuente Stranger"
+        ]
+      }
+    }
+  },
+  "306": {
+    "department": "CM - Departamento de Ciencia de los Materiales",
+    "courses": {
+      "CM4201": {
+        "name": "Materiales de Ingeniería",
+        "professors": [
+          "Gerardo Díaz Rodenas"
+        ]
+      },
+      "CM4202": {
+        "name": "Caracterización de Materiales",
+        "professors": [
+          "Andreas Rosenkranz"
+        ]
+      }
+    }
+  },
+  "7": {
+    "department": "DR - Área de Deportes, Educación Física y Expresiones Artísticas",
+    "courses": {
+      "DR100A": {
+        "name": "Acondicionamiento Físico Básico",
+        "professors": [
+          "Hugo Basaure U.",
+          "Mario Rodríguez Vargas"
+        ]
+      },
+      "DR100B": {
+        "name": "Acondicionamiento Físico Avanzado",
+        "professors": [
+          "Hugo Basaure U.",
+          "Mario Rodríguez Vargas"
+        ]
+      },
+      "DR120A": {
+        "name": "Running I",
+        "professors": [
+          "Mario Rodríguez Vargas"
+        ]
+      },
+      "DR120B": {
+        "name": "Running II",
+        "professors": [
+          "Mario Rodríguez Vargas"
+        ]
+      },
+      "DR130A": {
+        "name": "Gimnasia Aeróbica I",
+        "professors": [
+          "Mónica Vásquez C."
+        ]
+      },
+      "DR150A": {
+        "name": "Entrenamiento Funcional I",
+        "professors": [
+          "Carolina Andrade P.",
+          "Gisel Rodiño S.",
+          "Mauricio Mignogna A."
+        ]
+      },
+      "DR170A": {
+        "name": "Cardio Fitness I",
+        "professors": [
+          "Carolina Andrade P."
+        ]
+      },
+      "DR180A": {
+        "name": "Ejercicio Físico y Manejo del Estrés",
+        "professors": [
+          "Julio Figueroa C.",
+          "Mauricio Mignogna A.",
+          "Raul Moya H."
+        ]
+      },
+      "DR180B": {
+        "name": "Ejercicio físico y manejo del estrés II",
+        "professors": [
+          "Julio Figueroa C.",
+          "Mauricio Mignogna A."
+        ]
+      },
+      "DR180C": {
+        "name": "Ejercicio físico y manejo del estrés III",
+        "professors": [
+          "Julio Figueroa C.",
+          "Mauricio Mignogna A."
+        ]
+      },
+      "DR190A": {
+        "name": "Pilates I",
+        "professors": [
+          "Diana Villares G."
+        ]
+      },
+      "DR210A": {
+        "name": "Tai Chi I",
+        "professors": [
+          "Jaime Cáceres P."
+        ]
+      },
+      "DR230A": {
+        "name": "Aikido I",
+        "professors": [
+          "Gabriel Ayala B."
+        ]
+      },
+      "DR301A": {
+        "name": "Futsal Varones",
+        "professors": [
+          "Marcelo Berríos E."
+        ]
+      },
+      "DR311A": {
+        "name": "Futsal Damas",
+        "professors": [
+          "Marcelo Berríos E."
+        ]
+      },
+      "DR320A": {
+        "name": "Voleibol I",
+        "professors": [
+          "Jorge de la Cerda H."
+        ]
+      },
+      "DR331A": {
+        "name": "Basquetbol Varones I",
+        "professors": [
+          "Julio Figueroa C."
+        ]
+      },
+      "DR332A": {
+        "name": "Basquetbol Damas  I",
+        "professors": [
+          "Julio Figueroa C."
+        ]
+      },
+      "DR340A": {
+        "name": "Balonmano I",
+        "professors": [
+          "Víctor Reyes"
+        ]
+      },
+      "DR410A": {
+        "name": "Tenis I",
+        "professors": [
+          "Rodolfo Catalan G."
+        ]
+      },
+      "DR420A": {
+        "name": "Tenis de Mesa I",
+        "professors": [
+          "Mauricio Mignogna A."
+        ]
+      },
+      "DR500A": {
+        "name": "Ajedrez I",
+        "professors": [
+          "Pablo Calvo S."
+        ]
+      },
+      "DR500B": {
+        "name": "Ajedrez II",
+        "professors": [
+          "Pablo Calvo S."
+        ]
+      },
+      "DR520A": {
+        "name": "Yoga",
+        "professors": [
+          "Ruth Contreras S."
+        ]
+      },
+      "DR610A": {
+        "name": "Guitarra Clásica I",
+        "professors": [
+          "M. Ángel Álvarez Vásquez"
+        ]
+      },
+      "DR610B": {
+        "name": "Guitarra Clásica II",
+        "professors": [
+          "M. Ángel Álvarez Vásquez"
+        ]
+      },
+      "DR700A": {
+        "name": "Teatro I",
+        "professors": [
+          "Tamara Capino"
+        ]
+      },
+      "DR700B": {
+        "name": "Teatro II",
+        "professors": [
+          "Tamara Capino"
+        ]
+      },
+      "DR800A": {
+        "name": "Práctica Deportiva de Selección I",
+        "professors": [
+          "Raul Moya H."
+        ]
+      },
+      "DR800B": {
+        "name": "Práctica Deportiva de Selección II",
+        "professors": [
+          "Raul Moya H."
+        ]
+      }
+    }
+  },
+  "305": {
+    "department": "ED - Doctorado en Ingeniería Eléctrica",
+    "courses": {
+      "ED740": {
+        "name": "Seminario de Doctorado",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      },
+      "ED741": {
+        "name": "Trabajo de Investigación I",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      },
+      "ED742": {
+        "name": "Trabajo de Investigación II",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      },
+      "ED743": {
+        "name": "Taller de Investigación I",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      },
+      "ED744": {
+        "name": "Taller de Investigación II",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      },
+      "ED785": {
+        "name": "Trabajo de Investigación Dirigido",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      },
+      "ED786": {
+        "name": "Introducción a la Tesis",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      }
+    }
+  },
+  "8": {
+    "department": "EH - Estudios Transversales en Humanidades para las Ingenierías y Ciencias",
+    "courses": {
+      "EH2002": {
+        "name": "Argumentación, la Realización del Ser Humano en el Discurso",
+        "professors": [
+          "María Torres"
+        ]
+      },
+      "EH2103": {
+        "name": "Filosofía Política",
+        "professors": [
+          "Pablo Ramirez Rivas"
+        ]
+      },
+      "EH2108": {
+        "name": "Experiencia Estética entre Arte, Ciencia y Tecnología",
+        "professors": [
+          "Ricardo Loebell"
+        ]
+      },
+      "EH2202": {
+        "name": "Ética Profesional de la Ingeniería",
+        "professors": [
+          "Pablo Ramirez Rivas"
+        ]
+      },
+      "EH2204": {
+        "name": "Problemas Éticos en la Investigación Científica",
+        "professors": [
+          "Eduardo Rodríguez Y.",
+          "Sebastián Guerrero C."
+        ]
+      },
+      "EH2205": {
+        "name": "Otras Éticas, Otras Economías",
+        "professors": [
+          "Andrés Monares R."
+        ]
+      },
+      "EH2206": {
+        "name": "Introducción al Transhumanismo. Prospectivas Éticas Sobre el Futuro de la Humanidad",
+        "professors": [
+          "Roberto Campos Garro"
+        ]
+      },
+      "EH2307": {
+        "name": "Territorio y Sociedad",
+        "professors": [
+          "Claudia Rodríguez Seeger",
+          "Deborah Carrasco C.",
+          "Sara Rodríguez",
+          "Óscar Berrios"
+        ]
+      },
+      "EH2403": {
+        "name": "Ciencia y Religión",
+        "professors": [
+          "Andrés Monares R."
+        ]
+      },
+      "EH2505": {
+        "name": "Historia II",
+        "professors": [
+          "Alfredo Jocelyn-Holt"
+        ]
+      },
+      "EH2509": {
+        "name": "Psicología e Historia para Entender la Cultura Latinoamericana",
+        "professors": [
+          "Andrea Rodríguez Silva"
+        ]
+      },
+      "EH2515": {
+        "name": "Primeras Naciones Americanas",
+        "professors": [
+          "Carlos Contreras Painemal"
+        ]
+      },
+      "EH2516": {
+        "name": "Ingeniería, Tecnología y Sociedad: una Perspectiva Histórica",
+        "professors": [
+          "Michael Reynolds N."
+        ]
+      },
+      "EH2518": {
+        "name": "Introducción a la Lengua y Cultura Mapuche",
+        "professors": [
+          "Cristián Ahumada O."
+        ]
+      },
+      "EH2519": {
+        "name": "Políticas Públicas Indígenas en Chile",
+        "professors": [
+          "Verónica Figueroa Huencho"
+        ]
+      },
+      "EH2520": {
+        "name": "Introducción al enfoque de género para las ingenierías y las ciencias",
+        "professors": [
+          "Erika Fuenzalida T."
+        ]
+      },
+      "EH2521": {
+        "name": "¿Las Ciencias y Tecnologías tienen género? Ampliar la mirada desde las teorías y perspectivas críticas de género",
+        "professors": [
+          "Debora De Fina"
+        ]
+      },
+      "EH2603": {
+        "name": "Todo es Poesía Menos la Poesía",
+        "professors": [
+          "César Cuadra B."
+        ]
+      },
+      "EH2607": {
+        "name": "Literatura y Memoria",
+        "professors": [
+          "Ximena Azua R."
+        ]
+      },
+      "EH2609": {
+        "name": "Cine Latinoamericano y Chileno",
+        "professors": [
+          "Ximena Vergara"
+        ]
+      },
+      "EH2610": {
+        "name": "Travesías Indisciplinarias: Exploraciones en Arte, Ciencia y Tecnología",
+        "professors": [
+          "Daniel Cruz V.",
+          "Gabriel Matthey Correa",
+          "Ricardo Loebell"
+        ]
+      },
+      "EH3001": {
+        "name": "Trabajo Tutorial en Humanidades para las Ingenierías y Ciencias",
+        "professors": [
+          "Sebastián Guerrero C."
+        ]
+      }
+    }
+  },
+  "9": {
+    "department": "EI - Área de Idiomas, Escuela de Ingeniería",
+    "courses": {
+      "EIELE01": {
+        "name": "Curso Inmersión de Español para Extranjeros",
+        "professors": [
+          "Álvaro Meza M."
+        ]
+      },
+      "EIELE03": {
+        "name": "Curso Inmersión de Español para Extranjeros Intermedio",
+        "professors": [
+          "Jaime Rojas A."
+        ]
+      },
+      "EI0003": {
+        "name": "Test de Diagnóstico de Inglés",
+        "professors": []
+      },
+      "EI0004": {
+        "name": "Test de Diagnóstico de Inglés",
+        "professors": []
+      },
+      "EI0005": {
+        "name": "Test de Diagnóstico de Inglés",
+        "professors": []
+      },
+      "EI0006": {
+        "name": "Test de Diagnóstico de Inglés",
+        "professors": []
+      },
+      "EI1090": {
+        "name": "Examen de Suficiencia en Inglés I",
+        "professors": []
+      },
+      "EI2090": {
+        "name": "Examen de Suficiencia en Inglés II",
+        "professors": []
+      },
+      "EI2201": {
+        "name": "Inglés 1",
+        "professors": [
+          "Carla Aro Navarro",
+          "Mónica Lipari V."
+        ]
+      },
+      "EI2202": {
+        "name": "Inglés 2",
+        "professors": [
+          "Carolina Santander G.",
+          "Margarita Santibañez",
+          "Mariela Badilla R.",
+          "Ámbar Romero"
+        ]
+      },
+      "EI2301": {
+        "name": "Francés Elemental",
+        "professors": [
+          "Jaime Rojas A."
+        ]
+      },
+      "EI2302": {
+        "name": "Frances Básico Intermedio",
+        "professors": [
+          "Jaime Rojas A."
+        ]
+      },
+      "EI3203": {
+        "name": "Inglés 3",
+        "professors": [
+          "Ana María Carvallo",
+          "Elba Navarro C.",
+          "Marcela O'Ryan M.",
+          "Margarita Santibañez",
+          "Mónica Lipari V.",
+          "Álvaro Meza M.",
+          "Ámbar Romero"
+        ]
+      },
+      "EI4204": {
+        "name": "Inglés 4",
+        "professors": [
+          "Ana María Carvallo",
+          "Carolina Santander G.",
+          "Marcela O'Ryan M.",
+          "Margarita Santibañez",
+          "Mariela Badilla R.",
+          "Marta Araya",
+          "María Pilar Mai Villalobos",
+          "Mónica Lipari V.",
+          "Álvaro Meza M.",
+          "Ámbar Romero"
+        ]
+      },
+      "EI4205": {
+        "name": "Inglés 5",
+        "professors": [
+          "Ana María Carvallo",
+          "Carla Aro Navarro",
+          "Carolina Santander G.",
+          "Marcela O'Ryan M.",
+          "Margarita Santibañez",
+          "Mariela Badilla R.",
+          "Mónica Lipari V.",
+          "Álvaro Meza M.",
+          "Ámbar Romero"
+        ]
+      },
+      "FT1101": {
+        "name": "Comunicación académica en Ingeniería y Ciencias",
+        "professors": [
+          "Amparo Galdames F.",
+          "Carmen Núñez C.",
+          "Enrique Sologuren",
+          "Paula Morgado"
+        ]
+      }
+    }
+  },
+  "12060002": {
+    "department": "EI - Área de Ingeniería e Innovación",
+    "courses": {
+      "CD1100": {
+        "name": "Desafíos de Innovación en Ingeniería y Ciencias",
+        "professors": [
+          "Constanza Prado D.",
+          "Loreto Aguirre Ortiz"
+        ]
+      },
+      "CD1201": {
+        "name": "Proyecto de Innovación en Ingeniería y Ciencias",
+        "professors": [
+          "Cecilia Mujica M.",
+          "Christian Basáez Villagrán",
+          "Eugenio Bravo C.",
+          "Horacio Buldrini D'Ottone",
+          "James Mcphee T.",
+          "Jorge Castillo G.",
+          "Julio Lira",
+          "Leon Quesney C.",
+          "Luisa Pinto L.",
+          "Maria Jose Sandoval S.",
+          "Marlena Murillo S.",
+          "María José Adedo",
+          "Mitzi Vielma L.",
+          "Pedro B. Mirauda",
+          "Rafael Molina S.",
+          "Rodrigo Vargas C.",
+          "Rudy Arriagada F.",
+          "Sergio F. Donoso C."
+        ]
+      },
+      "CD2201": {
+        "name": "Módulo Interdisciplinario",
+        "professors": [
+          "Andrés Bercovich",
+          "Carlos Flores G.",
+          "Constanza Araya Ibarra",
+          "Cristian Burr R.",
+          "Cristóbal Ostornol G.",
+          "César Arredondo P.",
+          "Eugenio Bravo C.",
+          "Felipe San Martin Vasquez",
+          "Fernando Nowajewski Vega",
+          "Francisca Acosta P.",
+          "Francisco Casado Castro",
+          "Gonzalo Montes A.",
+          "Guillermo Piñones Aguilera",
+          "Ignacio Guiñez Molina",
+          "Jaime Díaz B.",
+          "Jimena Gomez L.",
+          "Joaquín Ardiles Ponce",
+          "Katherine Muñoz T.",
+          "Lilian Romero V.",
+          "Liza Fonseca",
+          "Loreto Aguirre Ortiz",
+          "Luis Vargas Díaz",
+          "Maria Elena Lienqueo C.",
+          "Marlena Murillo S.",
+          "Max Isakson E.",
+          "Melanie Colet L.",
+          "Mitzi Vielma L.",
+          "Natalia Álvarez J.",
+          "Paula Cabrera P.",
+          "Rafael Molina S.",
+          "Rene Lagos Barrios",
+          "Reynaldo Cabezas Cifuentes",
+          "Ricardo Herrera Mardones",
+          "Rodrigo Chi Durán",
+          "Rodrigo Leal F.",
+          "Rosemarie Garay M.",
+          "Sergio F. Donoso C.",
+          "Sergio González P.",
+          "Viviana Ulloa P.",
+          "Víctor Nadal"
+        ]
+      },
+      "EI3001": {
+        "name": "Proyecto I: Desarrollo de Proyectos",
+        "professors": [
+          "Cristóbal Ostornol G.",
+          "Francisco Casado Castro"
+        ]
+      },
+      "EI4001": {
+        "name": "Proyecto II: Coordinación de Proyectos",
+        "professors": [
+          "Cristóbal Ostornol G.",
+          "Francisco Casado Castro"
+        ]
+      },
+      "EI4002": {
+        "name": "Proyecto III",
+        "professors": [
+          "Cristóbal Ostornol G.",
+          "Francisco Casado Castro"
+        ]
+      },
+      "IO4100": {
+        "name": "Técnicas de venta y levantamiento de capital",
+        "professors": [
+          "Felipe Ñancupil S.",
+          "Fernando Nowajewski Vega"
+        ]
+      }
+    }
+  },
+  "10": {
+    "department": "EL - Departamento de Ingeniería Eléctrica",
+    "courses": {
+      "EL3101": {
+        "name": "Análisis y Diseño de Circuitos Eléctricos",
+        "professors": [
+          "Pablo Andrés Medina Cofre"
+        ]
+      },
+      "EL3102": {
+        "name": "Sistemas Digitales",
+        "professors": [
+          "Francisco Rivera"
+        ]
+      },
+      "EL3103": {
+        "name": "Electromagnetismo Aplicado",
+        "professors": [
+          "Ernest A. Michael"
+        ]
+      },
+      "EL3104": {
+        "name": "Probabilidad y Procesos Estocásticos",
+        "professors": [
+          "Alberto Castro R."
+        ]
+      },
+      "EL3105": {
+        "name": "Seminario de Ingeniería Eléctrica e innovación tecnológica",
+        "professors": [
+          "Francisco Casado Castro",
+          "Patricio Valenzuela C."
+        ]
+      },
+      "EL3201": {
+        "name": "Laboratorio de Ingeniería Eléctrica",
+        "professors": [
+          "Constanza Ahumada"
+        ]
+      },
+      "EL3202": {
+        "name": "Circuitos Eléctricos Analógicos",
+        "professors": [
+          "Marcos Diaz Q."
+        ]
+      },
+      "EL3203": {
+        "name": "Análisis de Señales",
+        "professors": [
+          "Jorge F. Silva",
+          "Néstor Becerra Y."
+        ]
+      },
+      "EL3204": {
+        "name": "Análisis de Sistemas Dinámicos y Estimación",
+        "professors": [
+          "Marcos Orchard C."
+        ]
+      },
+      "EL4001": {
+        "name": "Conversión de la Energía y Sistemas Eléctricos",
+        "professors": [
+          "Patricio Mendoza A."
+        ]
+      },
+      "EL4004": {
+        "name": "Fundamentos de Control de Sistemas",
+        "professors": [
+          "Roberto Cárdenas Dobson"
+        ]
+      },
+      "EL4005": {
+        "name": "Principios de Comunicaciones",
+        "professors": [
+          "Cesár Azurdia M."
+        ]
+      },
+      "EL4030": {
+        "name": "Seminario de Diseño e Innovación Tecnológica",
+        "professors": [
+          "Andrés Caba",
+          "Javier Ruiz del Solar"
+        ]
+      },
+      "EL4102": {
+        "name": "Arquitectura de Computadores",
+        "professors": [
+          "Francisco Rivera"
+        ]
+      },
+      "EL4103": {
+        "name": "Sistemas de Energía y Equipos Eléctricos",
+        "professors": [
+          "Claudia Rahmann Z."
+        ]
+      },
+      "EL4105": {
+        "name": "Control Avanzado de Sistemas",
+        "professors": [
+          "Doris Saez H."
+        ]
+      },
+      "EL4106": {
+        "name": "Inteligencia Computacional",
+        "professors": [
+          "Pablo Estevez V."
+        ]
+      },
+      "EL4107": {
+        "name": "Tecnologías de Información y de Comunicación",
+        "professors": [
+          "Jorge Ignacio Sandoval"
+        ]
+      },
+      "EL4116": {
+        "name": "Taller de Práctica Profesional I",
+        "professors": [
+          "Andrés Caba"
+        ]
+      },
+      "EL4901": {
+        "name": "Práctica Profesional I",
+        "professors": [
+          "Santiago Bradford V."
+        ]
+      },
+      "EL5001": {
+        "name": "Introducción al Taller de Proyecto",
+        "professors": [
+          "Arturo Otto V.",
+          "Juan Vásquez C.",
+          "Oriol Tucas A.",
+          "Patricio Valenzuela C."
+        ]
+      },
+      "EL5002": {
+        "name": "Introducción al Taller de Diseño",
+        "professors": [
+          "Augusto Alcides Lucero Alday",
+          "Eugenio Bravo C.",
+          "Francisco Casado Castro",
+          "Francisco Rivera"
+        ]
+      },
+      "EL5003": {
+        "name": "Taller de Proyecto",
+        "professors": [
+          "Sergio Bunel T.",
+          "Sergio Marchant K."
+        ]
+      },
+      "EL5004": {
+        "name": "Taller de Diseño",
+        "professors": [
+          "Augusto Alcides Lucero Alday",
+          "Eugenio Bravo C.",
+          "Francisco Casado Castro"
+        ]
+      },
+      "EL5030": {
+        "name": "Seminario de Diseño e Innovación Tecnológica II",
+        "professors": [
+          "Javier Ruiz del Solar"
+        ]
+      },
+      "EL5202": {
+        "name": "Laboratorio de Sistemas Digitales",
+        "professors": [
+          "Helmuth Thiemer W."
+        ]
+      },
+      "EL5203": {
+        "name": "Laboratorio de Energía",
+        "professors": [
+          "Ricardo Henriquez K",
+          "Sebastián Ferretto"
+        ]
+      },
+      "EL5204": {
+        "name": "Laboratorio de Equipos y Dispositivos Eléctricos",
+        "professors": [
+          "Ricardo Henriquez K",
+          "Sebastián Ferretto"
+        ]
+      },
+      "EL5206": {
+        "name": "Laboratorio de Inteligencia Computacional y Robótica",
+        "professors": [
+          "Carlos Navarro C.",
+          "Claudio A. Pérez",
+          "Cristián J. Figueroa S.",
+          "Martín Adams"
+        ]
+      },
+      "EL5207": {
+        "name": "Laboratorio de Tecnologías de Información y Comunicaciones",
+        "professors": [
+          "Adriana Arteaga A."
+        ]
+      },
+      "EL5900": {
+        "name": "Taller de Desempeño Profesional",
+        "professors": [
+          "Álvaro Silva M."
+        ]
+      },
+      "EL5901": {
+        "name": "Práctica Profesional II",
+        "professors": [
+          "Santiago Bradford V."
+        ]
+      },
+      "EL6012": {
+        "name": "Protecciones de Instalaciones Eléctricas",
+        "professors": [
+          "Sergio Díaz C."
+        ]
+      },
+      "EL6013": {
+        "name": "Puesta a Tierra de Instalaciones Eléctricas y Electrónicas",
+        "professors": [
+          "Nelson Morales O."
+        ]
+      },
+      "EL6016": {
+        "name": "Análisis Técnico Económico del Sector Eléctrico",
+        "professors": [
+          "Cristián Hermansen R.",
+          "L. Francisco Aguirre Leo"
+        ]
+      },
+      "EL6017": {
+        "name": "Gestión de la Distribución de la Energía Eléctrica",
+        "professors": [
+          "Felix Canales P.",
+          "Juan Alberto Bravo C."
+        ]
+      },
+      "EL6020": {
+        "name": "Taller de Innovación Tecnológica y Emprendimiento",
+        "professors": [
+          "Andrés Caba",
+          "Jorge Urrutia",
+          "Sergio Astudillo T."
+        ]
+      },
+      "EL6024": {
+        "name": "Regulación y Competencia del Sector de Telecomunicaciones",
+        "professors": [
+          "Nazre El Hureimi Facuse"
+        ]
+      },
+      "EL6027": {
+        "name": "Sistemas de Acceso Móvil Inalámbrico",
+        "professors": [
+          "Patricio Valenzuela C."
+        ]
+      },
+      "EL6029": {
+        "name": "Propagación y Comunicaciones Inalámbricas",
+        "professors": [
+          "Benjamin Jacard H."
+        ]
+      },
+      "EL6030": {
+        "name": "Seminario de Diseño e Innovación Tecnológica III",
+        "professors": [
+          "Andrés Caba",
+          "Javier Ruiz del Solar"
+        ]
+      },
+      "EL6033": {
+        "name": "Introducción a la Teoría de la Relatividad General",
+        "professors": [
+          "Galo Eidelstein S."
+        ]
+      },
+      "EL6046": {
+        "name": "Impacto Ambiental y Social de Proyectos Eléctricos",
+        "professors": [
+          "Aldo Di Biase F."
+        ]
+      },
+      "EL6050": {
+        "name": "Análisis y Diseño de Sistemas basados en Internet de las Cosas (IoT)",
+        "professors": [
+          "Jose Gonzalez G."
+        ]
+      },
+      "EL6801": {
+        "name": "Trabajo Dirigido I",
+        "professors": [
+          "Andrés Caba"
+        ]
+      },
+      "EL6802": {
+        "name": "Trabajo Dirigido II",
+        "professors": [
+          "Andrés Caba"
+        ]
+      },
+      "EL6803": {
+        "name": "Trabajo Dirigido III",
+        "professors": [
+          "Andrés Caba"
+        ]
+      },
+      "EL6908": {
+        "name": "Introducción al Trabajo de Título",
+        "professors": [
+          "Andrés Caba",
+          "Francisco Rivera",
+          "Álvaro Silva M."
+        ]
+      },
+      "EL6909": {
+        "name": "Trabajo de Título",
+        "professors": [
+          "Andrés Caba",
+          "Francisco Rivera"
+        ]
+      },
+      "EL7006": {
+        "name": "Redes Neuronales y Teoría de Información para el Aprendizaje",
+        "professors": [
+          "Pablo Estevez V."
+        ]
+      },
+      "EL7007": {
+        "name": "Introducción al Procesamiento Digital de Imágenes",
+        "professors": [
+          "Claudio A. Pérez"
+        ]
+      },
+      "EL7008": {
+        "name": "Procesamiento Avanzado de Imágenes",
+        "professors": [
+          "Javier Ruiz del Solar"
+        ]
+      },
+      "EL7014": {
+        "name": "Diagnóstico Y Pronóstico de Fallas",
+        "professors": [
+          "Marcos Orchard C."
+        ]
+      },
+      "EL7017": {
+        "name": "Control Adaptativo de Sistemas",
+        "professors": [
+          "Juan Carlos Travieso T."
+        ]
+      },
+      "EL7018": {
+        "name": "Mercados Internacionales de la Energia",
+        "professors": [
+          "Rodrigo Palma B."
+        ]
+      },
+      "EL7019": {
+        "name": "Fenómenos Dinámicos en Redes Eléctricas",
+        "professors": [
+          "Claudia Rahmann Z."
+        ]
+      },
+      "EL7022": {
+        "name": "Procesamiento de Voz  en Telecomunicaciones",
+        "professors": [
+          "Néstor Becerra Y."
+        ]
+      },
+      "EL7030": {
+        "name": "Antenas",
+        "professors": [
+          "Ricardo Finger C.",
+          "Valeria Tapia L."
+        ]
+      },
+      "EL7037": {
+        "name": "Computación Evolutiva",
+        "professors": [
+          "Pablo Estevez V."
+        ]
+      },
+      "EL7039": {
+        "name": "Seminario de Sistemas Digitales",
+        "professors": [
+          "Francisco Rivera"
+        ]
+      },
+      "EL7047": {
+        "name": "Riesgo y Confiabilidad en Sistemas Eléctricos",
+        "professors": [
+          "Rodrigo Moreno V."
+        ]
+      },
+      "EL7050": {
+        "name": "Writing for Engineers",
+        "professors": [
+          "Diane G."
+        ]
+      },
+      "EL7051": {
+        "name": "Control Predictivo",
+        "professors": [
+          "Diego Muñoz Carpintero"
+        ]
+      },
+      "EL7055": {
+        "name": "Modelos Avanzados de Sistemas Distribución y Redes Inteligentes",
+        "professors": [
+          "Alejandro A. Navarro E."
+        ]
+      },
+      "EL7056": {
+        "name": "Modelamiento y control de sistemas con interacciones electromecánicas",
+        "professors": [
+          "Constanza Ahumada"
+        ]
+      },
+      "EL7108": {
+        "name": "Dispositivos Ópticos y Fotónicos",
+        "professors": [
+          "Ernest A. Michael"
+        ]
+      },
+      "EL7806": {
+        "name": "Introducción a la Tesis",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      },
+      "EL7850": {
+        "name": "Trabajo de Investigación Dirigido",
+        "professors": [
+          "Andrés Caba"
+        ]
+      },
+      "EL7907": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      },
+      "EL7908": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Andrés Caba",
+          "Cesár Azurdia M."
+        ]
+      },
+      "EL7950": {
+        "name": "Trabajo Dirigido Colaborativo",
+        "professors": [
+          "Cesár Azurdia M.",
+          "Ernest A. Michael"
+        ]
+      }
+    }
+  },
+  "303": {
+    "department": "EP - Escuela de Postgrado",
+    "courses": {
+      "DPDIIILI4F01-2": {
+        "name": "Logística y la Estrategia de Negocio",
+        "professors": [
+          "Fernando Ordoñez P."
+        ]
+      },
+      "DPDIIILI4F02-2": {
+        "name": "Operación logística",
+        "professors": [
+          "Fernando Ordoñez P."
+        ]
+      },
+      "DPDIIILI4F03-2": {
+        "name": "Planificación en la Cadena de Suministros",
+        "professors": [
+          "Fernando Ordoñez P."
+        ]
+      },
+      "DPDIIILI4F04-2": {
+        "name": "Logística Digital",
+        "professors": [
+          "Fernando Ordoñez P."
+        ]
+      },
+      "DPDIIILI4F05-2": {
+        "name": "Tendencias en Cadena de Suministros",
+        "professors": [
+          "Fernando Ordoñez P."
+        ]
+      },
+      "DPDIIILI4F06-2": {
+        "name": "Calidad y Foco en el Usuario",
+        "professors": [
+          "Fernando Ordoñez P."
+        ]
+      },
+      "DPDIIILI4F07-2": {
+        "name": "Taller de Práctica en Logística y Cadena de Suministro",
+        "professors": [
+          "Fernando Ordoñez P."
+        ]
+      },
+      "CEDIICICDPP01": {
+        "name": "Curso Internacional Ciencia de Datos para las Políticas Públicas en contexto de Crisis",
+        "professors": [
+          "Patricio Rodríguez"
+        ]
+      },
+      "CEDIICIGEPP01": {
+        "name": "Curso Internacional Gestión Estratégica del Presupuesto Público en tiempos de Crisis",
+        "professors": [
+          "Jerko Juretic D."
+        ]
+      },
+      "DPDIIGEVCB010": {
+        "name": "Gestión Estratégica",
+        "professors": [
+          "Eduardo Kohler E."
+        ]
+      },
+      "DPDIIGEWKLC07": {
+        "name": "Gestión de Marketing",
+        "professors": [
+          "Christian Diez"
+        ]
+      },
+      "DPDIIGEWKLC08": {
+        "name": "Gestión de Recursos Humanos",
+        "professors": [
+          "Aranguiz Salazar Cristián",
+          "Claudia Vargas P."
+        ]
+      },
+      "DPDIIGEWKLC09": {
+        "name": "Gestión de Operaciones",
+        "professors": [
+          "Francisco Tubino C."
+        ]
+      },
+      "DPDIIGEWKLC10": {
+        "name": "Gestión Estratégica",
+        "professors": [
+          "Eduardo Kohler E."
+        ]
+      },
+      "DPDIIGEWKLC11": {
+        "name": "Taller de Habilidades Directivas",
+        "professors": [
+          "Cristián Binimelis S."
+        ]
+      },
+      "CEABHNERHS01": {
+        "name": "Capacitación en aplicaciones del nuevo balance hídrico nacional al estudio de recursos hídricos para SOCHID",
+        "professors": [
+          "Miguel Lagos Zuñiga",
+          "Nicolás Vásquez",
+          "Pablo Mendoza"
+        ]
+      },
+      "CEDIIDGPPV01": {
+        "name": "Dirección y Gestión de Proyectos",
+        "professors": [
+          "Christian Willatt H."
+        ]
+      },
+      "CEDIMINBAM01": {
+        "name": "Fundamentos de la biotecnología en minería",
+        "professors": []
+      },
+      "CEDIMINBAM02": {
+        "name": "Experiencias de biotecnología en minería: casos de estudio",
+        "professors": [
+          "Carlos Saffie V.",
+          "Damaso Barrios O.",
+          "María Salhe L.",
+          "Pilar Parada V."
+        ]
+      },
+      "CEDIMINBAM03": {
+        "name": "Modelos de innovación en biotecnología para la minería: casos de estudio",
+        "professors": [
+          "Fidel Baez N.",
+          "Mauricio Latorre M.",
+          "Sebastian Rojas N."
+        ]
+      },
+      "CEECDICBIM01": {
+        "name": "Curso de Especialización en Dirección BIM en Infraestructura y Minería",
+        "professors": [
+          "Carlos Patuelli V.",
+          "Ricardo Rojas P.",
+          "William Wragg L."
+        ]
+      },
+      "CEEPCICSPP01": {
+        "name": "Curso Internacional Crisis Social, Políticas Públicas y Pobreza",
+        "professors": [
+          "María Pía Martín"
+        ]
+      },
+      "CEEPECCASG01": {
+        "name": "Curso de Auditoría Interna  ISO 9001:2015 V3",
+        "professors": []
+      },
+      "CEEPECCEAE01": {
+        "name": "Curso Almacenamiento de Energía",
+        "professors": [
+          "Fernando Fuentes C.",
+          "Marcos Orchard C.",
+          "Patricio Mendoza A.",
+          "Rigoberto Torres Á.",
+          "Rodrigo Palma B."
+        ]
+      },
+      "CEEPECCPBI01": {
+        "name": "Power BI Inicial V-2",
+        "professors": []
+      },
+      "CEEPECCPBI02": {
+        "name": "Power BI Intermedio V-2",
+        "professors": []
+      },
+      "CEEPECEXVE01": {
+        "name": "V-Ene-Explorer G1",
+        "professors": [
+          "Eduardo Azzola"
+        ]
+      },
+      "CEEPECEXVE02": {
+        "name": "V-Ene-Explorer G2",
+        "professors": [
+          "Eduardo Azzola"
+        ]
+      },
+      "CEEPECFCMF01": {
+        "name": "FINTECH",
+        "professors": []
+      },
+      "CEEPECIARI01": {
+        "name": "Interpretación y Análisis de Requisitos ISO 45001:2018",
+        "professors": []
+      },
+      "CEEPECPAVE01": {
+        "name": "V2-Ene/Pavimentos Asfalticos",
+        "professors": []
+      },
+      "CEEPECPBBA01": {
+        "name": "Curso Power BI Inicial",
+        "professors": []
+      },
+      "CEEPECPBII03": {
+        "name": "V3-Power Bi Inicial",
+        "professors": [
+          "Claudia Castaño"
+        ]
+      },
+      "CEEPECPBIO03": {
+        "name": "V3-Power Bi Intermedio",
+        "professors": [
+          "Claudia Castaño"
+        ]
+      },
+      "CEEPECPBME01": {
+        "name": "Curso Power BI Intermedio V4-23",
+        "professors": []
+      },
+      "CEEPECPMAF01": {
+        "name": "Pavimentos Asfalticos",
+        "professors": []
+      },
+      "CEEPECPYEP01": {
+        "name": "Programación y Estructuras en Python",
+        "professors": [
+          "Francisco J. Gutiérrez"
+        ]
+      },
+      "CEEPECRSEG01": {
+        "name": "Reclutamiento y Selección con enfoque de género",
+        "professors": []
+      },
+      "CEEPECRSGJ01": {
+        "name": "Curso RyS con enfoque genero Jefaturas-Contraloría",
+        "professors": [
+          "Carla Herrera J."
+        ]
+      },
+      "CEEPECSIBN01": {
+        "name": "Seguridad de la Información en base a la norma ISO 27001",
+        "professors": [
+          "Erwin Garrido E."
+        ]
+      },
+      "CEEPECVOLC01": {
+        "name": "Volcanology: Processes, Hazards and Mitigation in Crisis Context",
+        "professors": [
+          "Angelo Castruccio A."
+        ]
+      },
+      "CEPECOSTGR01": {
+        "name": "Técnicas de Gestión de Riesgo para su Aplicación ISO 31000 V3-21",
+        "professors": []
+      },
+      "CEPLFCLIFE01": {
+        "name": "Programa de Liderazgo Femenino Científico LI*FE",
+        "professors": [
+          "Anice Barahona",
+          "Claudia Vargas P.",
+          "Loreto Martínez O.",
+          "Paula Ruiz-Tagle B.",
+          "Sebastián Conde D."
+        ]
+      },
+      "CEPOSIRISO02": {
+        "name": "Interpretación y Análisis del SGC ISO 9001:2015",
+        "professors": [
+          "Mauro Ramirez A."
+        ]
+      },
+      "DPDICDMDRS01": {
+        "name": "Manejo en Residuos Sólidos",
+        "professors": [
+          "A. Ximena Alegria",
+          "Alfredo Rihm S.",
+          "Gonzalo Velásquez C."
+        ]
+      },
+      "DPDIIGEVCB07": {
+        "name": "Gestión de Operaciones",
+        "professors": [
+          "Charles Thraves C."
+        ]
+      },
+      "DPDIIGEVCB08": {
+        "name": "Gestión de Marketing",
+        "professors": [
+          "Christian Diez"
+        ]
+      },
+      "DPDIIGEVCB09": {
+        "name": "Gestión Financiera",
+        "professors": [
+          "Eduardo Contreras V.",
+          "Joan Massons"
+        ]
+      },
+      "DPDIIGEWCBO1": {
+        "name": "Economía para la Gestión de Negocios-Microeconomía",
+        "professors": [
+          "Pablo González S."
+        ]
+      },
+      "DPDIIGEWCBO2": {
+        "name": "Economía para la Gestión de Negocios-Macroeconomía",
+        "professors": [
+          "Jaime Gatica B."
+        ]
+      },
+      "DPDIIGEWCBO3": {
+        "name": "Contabilidad y Control",
+        "professors": [
+          "Iván Álvarez V."
+        ]
+      },
+      "DPDIIGEWCBO4": {
+        "name": "Métodos Cuantitativos Aplicados a la Gestión",
+        "professors": [
+          "Sara Arancibia C."
+        ]
+      },
+      "DPDIIHDPV001": {
+        "name": "Gestión de sí Mismo y Perfil Personal",
+        "professors": [
+          "Anice Barahona",
+          "Claudia Arratia M.",
+          "Claudio Caro P.",
+          "Cristián Binimelis S.",
+          "Rodrigo Bruna"
+        ]
+      },
+      "DPDIIHDPV002": {
+        "name": "Liderazgo Uno a Uno",
+        "professors": [
+          "Anice Barahona",
+          "Claudia Arratia M.",
+          "Claudio Caro P.",
+          "Cristián Binimelis S.",
+          "Rodrigo Bruna"
+        ]
+      },
+      "DPDIIHDPV003": {
+        "name": "Liderazgo de Equipos",
+        "professors": [
+          "Anice Barahona",
+          "Claudia Vargas P.",
+          "Claudio Caro P.",
+          "Cristián Binimelis S.",
+          "Loreto Martínez O."
+        ]
+      },
+      "DPDIIHDPV004": {
+        "name": "Liderazgo Comunicacional",
+        "professors": [
+          "Aldo Siri F.",
+          "Anice Barahona",
+          "Claudio Caro P.",
+          "Cristián Binimelis S.",
+          "Fabián Navia C.",
+          "Rodrigo Bruna"
+        ]
+      },
+      "DPDIIHDPV005": {
+        "name": "Administración de Conflictos y Negociación",
+        "professors": [
+          "Aldo Siri F.",
+          "Anice Barahona",
+          "Claudio Caro P.",
+          "Cristián Binimelis S.",
+          "Jorge López D.",
+          "Sebastián Conde D."
+        ]
+      },
+      "DPDIMINGADM3": {
+        "name": "Geomecánica en Minería Subterránea Selectiva y Masiva",
+        "professors": [
+          "Eduardo Rojas V.",
+          "Javier Vallejos M."
+        ]
+      },
+      "DPDIMINGADM4": {
+        "name": "Geomecánica en Minería a Cielo Abierto",
+        "professors": [
+          "Manuel Rapimán C."
+        ]
+      },
+      "DPDIMINGADM5": {
+        "name": "Modelamiento Numérico en Geomecánica",
+        "professors": [
+          "Claudio Martínez E.",
+          "Javier Vallejos M."
+        ]
+      },
+      "DPDIMINGMM03": {
+        "name": "Diseño Minero",
+        "professors": [
+          "Javier Vallejos M.",
+          "Kimie Suzuki Morales",
+          "Raúl Castro R."
+        ]
+      },
+      "DPDIMINGMM04": {
+        "name": "Fundamentos de Procesos Mineralúrgicos",
+        "professors": [
+          "Gonzalo Montes A.",
+          "Jaime Sepulveda J."
+        ]
+      },
+      "DPDIMINGMM05": {
+        "name": "Fundamentos de Procesos Metalúrgicos",
+        "professors": [
+          "Gonzalo Montes A.",
+          "Leandro A. Voisin A."
+        ]
+      },
+      "DPDIMINGMM10": {
+        "name": "Introducción a la Planificación Minera / Gestión y Evaluación de Proyectos Mineros",
+        "professors": [
+          "Marcelo Vargas V.",
+          "Sebastián Troncoso B."
+        ]
+      },
+      "DPDIMINGMM15": {
+        "name": "Estudio de Caso",
+        "professors": [
+          "Antoni Magri",
+          "Brian Townley Callejas"
+        ]
+      },
+      "DPDIMINGMM16": {
+        "name": "Taller de Sustentabilidad y Relaves",
+        "professors": [
+          "Christian Ihle",
+          "Jacques Wiertz"
+        ]
+      },
+      "CEDIITRDI01": {
+        "name": "Transformación Digital",
+        "professors": [
+          "Claudio Pizarro T.",
+          "Iván Braga C."
+        ]
+      },
+      "CEEPAISI911": {
+        "name": "Auditor Interno SIG ISO 9001-14001-45001 V1-21",
+        "professors": []
+      },
+      "CEEPECCDR01": {
+        "name": "Curso de Capacitación en Depósitos de Relaves",
+        "professors": [
+          "Roberto Gesche S."
+        ]
+      },
+      "CEEPECCTE01": {
+        "name": "Coach Metodológico Tutores Expertos SICA /CHILE /MÉXICO",
+        "professors": [
+          "Veronica Avila"
+        ]
+      },
+      "CEEPECGCC01": {
+        "name": "Riesgo, Vulnerabilidad y Adaptación",
+        "professors": [
+          "Marco Billi",
+          "René Darío Garreaud Salazar"
+        ]
+      },
+      "CEEPECGCC02": {
+        "name": "Emisiones de Gases de Efecto Invernadero y Mitigación",
+        "professors": [
+          "Andrea Rudnick G."
+        ]
+      },
+      "CEEPECGCC03": {
+        "name": "Instrumentos de Gestión Subnacional",
+        "professors": [
+          "Pilar Moraga Sariego"
+        ]
+      },
+      "CEEPECGIA01": {
+        "name": "Gestión Integrada del Agua",
+        "professors": [
+          "James Mcphee T.",
+          "Linda Daniele",
+          "Marco Billi",
+          "Marisol Lara C.",
+          "Mauricio Fuentes",
+          "Miguel Lagos Zuñiga",
+          "Pablo Mendoza",
+          "Roberto Rondanelli"
+        ]
+      },
+      "CEOBIELEC01": {
+        "name": "Curso Internacional de Electromovilidad",
+        "professors": [
+          "Bárbara Silva",
+          "Guillermo Jiménez E.",
+          "Sergio Celis Guzmán",
+          "Williams R. Calderón Muñoz"
+        ]
+      },
+      "CEPOSAISG01": {
+        "name": "Auditoría Interna para Sistemas de Gestión de Calidad ISO 9001",
+        "professors": [
+          "Alejandro Gonzalez P.",
+          "Mauro Ramirez A."
+        ]
+      },
+      "DPDGHMMA005": {
+        "name": "Exploración y Evaluación de Acuíferos",
+        "professors": [
+          "Carlos Parraguez D.",
+          "Igor Aguirre A.",
+          "Luis Acevedo",
+          "Pablo Casanova G.",
+          "Sergio Iriarte D."
+        ]
+      },
+      "DPDGHMMA006": {
+        "name": "Modelación Hidrogeológica",
+        "professors": [
+          "Alexandra Cuellar P.",
+          "Carlos Espinoza C.",
+          "Carlos Parraguez D.",
+          "Julio Cornejo M.",
+          "Rodrigo Zamorano Morales"
+        ]
+      },
+      "DPDGHMMA007": {
+        "name": "Contaminación de Recursos Subterráneos",
+        "professors": [
+          "Alexandra Cuellar P.",
+          "Carlos Espinoza C.",
+          "Julio Cornejo M.",
+          "Manuel Caraballo",
+          "Rodrigo Zamorano Morales",
+          "Sebastián García C."
+        ]
+      },
+      "DPDICDPIC05": {
+        "name": "Gestión de las Compras y Contratos en los Proyectos",
+        "professors": [
+          "Juan De la Carrera P."
+        ]
+      },
+      "DPDICDPIC06": {
+        "name": "Gestión de los Recursos Humanos y Comunicaciones de Proyectos",
+        "professors": [
+          "Alejandro Polanco C.",
+          "Juan Barros M."
+        ]
+      },
+      "DPDICDPIC07": {
+        "name": "Plan de Ejecución y Control integral de Proyectos",
+        "professors": [
+          "Alejandro Polanco C."
+        ]
+      },
+      "DPDIIINVW01": {
+        "name": "Inteligencia de Negocios",
+        "professors": [
+          "Carla M. Vairetti",
+          "Diego López H.",
+          "Juan D. Velásquez",
+          "Richard Weber H.",
+          "Sebastián Santana R."
+        ]
+      },
+      "DPDIMINEG03": {
+        "name": "Muestreo y Control de Calidad para Evaluación de Yacimientos",
+        "professors": [
+          "Antoni Magri",
+          "Eduardo Magri V."
+        ]
+      },
+      "DPDIMINEG04": {
+        "name": "Simulación Geoestadística de Geología y Leyes",
+        "professors": [
+          "Mohammadali Malekitehrani",
+          "Nadia Mery",
+          "Xavier Emery"
+        ]
+      },
+      "DPDIMINEG05": {
+        "name": "Tópicos Especiales de Geoestadística",
+        "professors": [
+          "Mohammadali Malekitehrani",
+          "Nadia Mery",
+          "Xavier Emery"
+        ]
+      },
+      "DPDIMINEG06": {
+        "name": "Categorización y Reporte de Recursos y Reservas",
+        "professors": [
+          "Mohammadali Malekitehrani",
+          "Nadia Mery",
+          "Xavier Emery"
+        ]
+      },
+      "DPDIMINEM01": {
+        "name": "Minería y Desarrollo Económico",
+        "professors": [
+          "Patricio Meller B."
+        ]
+      },
+      "DPDIMINEM03": {
+        "name": "Financiamiento de la Actividad Minera",
+        "professors": [
+          "Eduardo Contreras V."
+        ]
+      },
+      "DPDIMINEM04": {
+        "name": "Innovación y Entrepreneurship en Minería",
+        "professors": [
+          "David Vargas N.",
+          "Pedro Gonzalez C."
+        ]
+      },
+      "DPDIMINEM05": {
+        "name": "Análisis de Riesgo y Decisiones en Minería",
+        "professors": [
+          "José Munizaga R.",
+          "Juan L. Yarmuch G."
+        ]
+      },
+      "DPDIMINEM06": {
+        "name": "Competitividad Mundial en Minería",
+        "professors": [
+          "Jorge Bande",
+          "Marcelo Vargas V."
+        ]
+      },
+      "DPDIMINEM07": {
+        "name": "Impactos Socioeconómicos de la Minería",
+        "professors": [
+          "Jan Cardemartori"
+        ]
+      },
+      "DPDIMINEM09": {
+        "name": "Entorno Legal y Regulatorio",
+        "professors": [
+          "Jacques Wiertz",
+          "Sebastian Alfo Santamaria Rodríguez"
+        ]
+      },
+      "DPDIMINPM00": {
+        "name": "Geomecánica",
+        "professors": [
+          "Javier Vallejos M.",
+          "Kimie Suzuki Morales"
+        ]
+      },
+      "DPDIMINPM03": {
+        "name": "Diseño Minero y Planificación a Cielo Abierto",
+        "professors": [
+          "Juan L. Yarmuch G.",
+          "Sebastián Troncoso B."
+        ]
+      },
+      "DPDIMINPM04": {
+        "name": "Diseño y Planificación de Minas Subterráneas",
+        "professors": [
+          "Ernesto Arancibia V."
+        ]
+      },
+      "DPDIMINPM10": {
+        "name": "Modelamiento y Optimización en Planificación Minera",
+        "professors": [
+          "Juan L. Yarmuch G."
+        ]
+      },
+      "CEDCCDAM01": {
+        "name": "Diseño de Aplicaciones Móviles",
+        "professors": [
+          "Andrés Muñoz Ordenes"
+        ]
+      },
+      "CEDCCGRO01": {
+        "name": "Gestión de Riesgo Operacional",
+        "professors": [
+          "Eduardo Godoy Vega"
+        ]
+      },
+      "CEDCCMDP01": {
+        "name": "Metodologías de Diseño y Programación",
+        "professors": [
+          "Alexandre Bergel"
+        ]
+      },
+      "CEDIIACA04": {
+        "name": "Administración de Contratos",
+        "professors": [
+          "Alex Caqueo",
+          "Iván Braga C.",
+          "Juan Castellón M."
+        ]
+      },
+      "CEDIIACA05": {
+        "name": "Administración de Contratos",
+        "professors": [
+          "Alex Caqueo",
+          "Iván Braga C.",
+          "Juan Castellón M."
+        ]
+      },
+      "CEDIMINAED": {
+        "name": "Análisis Estadístico de Datos",
+        "professors": [
+          "Xavier Emery"
+        ]
+      },
+      "CEDIMPOM03": {
+        "name": "Escuela de Verano en Planificación y Operaciones Mineras 2022",
+        "professors": [
+          "Adeline Delonca",
+          "Carlos Arroyo O.",
+          "Enrique Jelvez M",
+          "Fabián Manríquez León",
+          "Francisco Saavedra",
+          "Giovanni Franco S.",
+          "Héctor González Riquelme",
+          "Kimie Suzuki Morales",
+          "Luis Felipe Orellana E.",
+          "Matías A. Caro Troncoso",
+          "Nelson Morales V.",
+          "Ninibeth Saavedra M.",
+          "Rodrigo De Lemos P.",
+          "Santiago Valencia M.",
+          "Sergio Palma M.",
+          "Xavier Emery"
+        ]
+      },
+      "CEEPECCR01": {
+        "name": "Creator 1",
+        "professors": [
+          "Eduardo Azzola"
+        ]
+      },
+      "CEEPECCR02": {
+        "name": "Creator 2",
+        "professors": [
+          "Eduardo Azzola"
+        ]
+      },
+      "CEEPECEG01": {
+        "name": "Explorer G1",
+        "professors": [
+          "Eduardo Azzola"
+        ]
+      },
+      "CEEPECEG02": {
+        "name": "Explorer G2",
+        "professors": [
+          "Eduardo Azzola"
+        ]
+      },
+      "CEEPECEG03": {
+        "name": "Explorer G3",
+        "professors": [
+          "Eduardo Azzola"
+        ]
+      },
+      "CEEPECRS01": {
+        "name": "Peligro Sísmico",
+        "professors": [
+          "Sergio Ruiz T."
+        ]
+      },
+      "CEEPECSM01": {
+        "name": "Strategic Management of the Public Budget in Times of Crisis",
+        "professors": [
+          "Jerko Juretic D."
+        ]
+      },
+      "DPDICTES05": {
+        "name": "Construcción de Túneles con Métodos Convencionales",
+        "professors": [
+          "Edgardo González Lizama",
+          "Juan Ulloa C."
+        ]
+      },
+      "DPDICTES07": {
+        "name": "Construcción de Túneles con Métodos Mecanizados",
+        "professors": [
+          "Giorgio Piaggio M.",
+          "Yolanda Alberto"
+        ]
+      },
+      "DPDICTES09": {
+        "name": "Gestión de Riesgos en Obras Subterráneas",
+        "professors": [
+          "Alejo Sfriso C."
+        ]
+      },
+      "DPDICTES12": {
+        "name": "Taller de Construcción de Obras Subterráneas",
+        "professors": [
+          "Ana Contreras",
+          "Javier Aparicio S.",
+          "Matías José Egaña E."
+        ]
+      },
+      "DPDICTES43": {
+        "name": "Modelación Numérica de Túneles",
+        "professors": [
+          "Yolanda Alberto"
+        ]
+      },
+      "DPDICTES44": {
+        "name": "Instrumentación y Monitoreo de Túneles",
+        "professors": [
+          "Roberto Gesche S."
+        ]
+      },
+      "DPDII00101": {
+        "name": "Introducción a la Gestión Pública",
+        "professors": [
+          "Javier Fuenzalida A.",
+          "L. Macarena del Pilar San Martín V."
+        ]
+      },
+      "DPDII00103": {
+        "name": "Liderazgo y Negociación",
+        "professors": [
+          "Cristián Binimelis S."
+        ]
+      },
+      "DPDII00104": {
+        "name": "Innovación y Tecnologías de Información",
+        "professors": [
+          "Alejandro Barros"
+        ]
+      },
+      "DPDII00108": {
+        "name": "Taller de Análisis Organizacional",
+        "professors": [
+          "José Inostroza Lara"
+        ]
+      },
+      "DPDII00109": {
+        "name": "Gestión Estratégica",
+        "professors": [
+          "Vivien Villagrán Acuña"
+        ]
+      },
+      "DPDII00110": {
+        "name": "Rediseño de Procesos",
+        "professors": [
+          "Iván Braga C."
+        ]
+      },
+      "DPDII00111": {
+        "name": "Charla y Otros",
+        "professors": [
+          "Pablo González S."
+        ]
+      },
+      "DPDIIGID01": {
+        "name": "Introducción a la Industria del Deporte",
+        "professors": [
+          "Daniel Muñoz Quevedo",
+          "Sabino Aguad M."
+        ]
+      },
+      "DPDIIGID02": {
+        "name": "Gestión de Operaciones en la Industria del Deporte",
+        "professors": [
+          "Andres Weintraub P.",
+          "Denis Saure V."
+        ]
+      },
+      "DPDIIGID03": {
+        "name": "Marketing en la Industria del Deporte",
+        "professors": [
+          "Andrés Musalem S."
+        ]
+      },
+      "DPDIIGID04": {
+        "name": "Aspectos Legales en la Industria del Deporte",
+        "professors": [
+          "Daniel Simón Orsi Peñaloza",
+          "Romina Ester Fernández Rodríguez"
+        ]
+      },
+      "DPDIIGID05": {
+        "name": "Habilidades Directivas",
+        "professors": [
+          "Cristián Binimelis S.",
+          "Mauricio Echeverría F."
+        ]
+      },
+      "DPDIIGID06": {
+        "name": "Contabilidad y Control de Gestión",
+        "professors": [
+          "Michael Jorratt D."
+        ]
+      },
+      "DPDIIGID07": {
+        "name": "Taller de Gestión en la Industria del Deporte",
+        "professors": [
+          "Blanca Durán A.",
+          "Daniel Muñoz Quevedo"
+        ]
+      },
+      "DPMINAIC03": {
+        "name": "Fundamentos Geomecánicos y Aplicación",
+        "professors": [
+          "Javier Vallejos M.",
+          "Kimie Suzuki Morales"
+        ]
+      },
+      "DPMINAIC04": {
+        "name": "Diseño Minero",
+        "professors": [
+          "Javier Ruiz del Solar",
+          "Raúl Castro R."
+        ]
+      },
+      "DPMINAIC05": {
+        "name": "Tronadura y Excavación en Roca",
+        "professors": [
+          "Danko Morales G.",
+          "Juan Henriquez Valencia",
+          "Luis Felipe Orellana E.",
+          "Raúl Castro R."
+        ]
+      },
+      "DPMINAIC06": {
+        "name": "Ventilación de Minas",
+        "professors": [
+          "Sergio Valencia"
+        ]
+      },
+      "DPMINAIC07": {
+        "name": "Planificación Minera",
+        "professors": [
+          "Alfonso Ovalle W."
+        ]
+      },
+      "CEDCCGD01": {
+        "name": "Taller Gobierno de Datos",
+        "professors": [
+          "Hugo Beltran A."
+        ]
+      },
+      "CEDIILM01": {
+        "name": "Lean Management",
+        "professors": [
+          "Iván Rubio P.",
+          "Jorge Fuenzalida B."
+        ]
+      },
+      "CEDIIRC01": {
+        "name": "Riesgo de Crédito",
+        "professors": [
+          "J. Miguel Cruz",
+          "Paz Obrecht I."
+        ]
+      },
+      "MBAESCP01": {
+        "name": "ESCP: Contabilidad de Costes",
+        "professors": []
+      },
+      "MBAESCP03": {
+        "name": "ESCP: Gestión de la Estrategia de la Empresa",
+        "professors": []
+      },
+      "MBAESCP04": {
+        "name": "ESCP: Marketing Digital y Community Management",
+        "professors": []
+      },
+      "MBAESCP06": {
+        "name": "ESCP: Gestión Internacional de Proyectos",
+        "professors": []
+      },
+      "MBAESCP07": {
+        "name": "ESCP: Management en Contextos Multiculturales",
+        "professors": []
+      },
+      "MDS7103": {
+        "name": "Bases de Datos",
+        "professors": [
+          "Felipe E. Vildoso Castillo",
+          "Héctor Álvarez Gómez"
+        ]
+      },
+      "MDS7201": {
+        "name": "Proyecto de Ciencia de Datos",
+        "professors": [
+          "Cinthya Leonor Vergara Silva",
+          "Sebastián Santana R."
+        ]
+      },
+      "MDS7202": {
+        "name": "Laboratorio de Programación Científica para Ciencia de Datos",
+        "professors": [
+          "Pablo Badilla Torrealba"
+        ]
+      },
+      "MDS7305": {
+        "name": "Seminario de Tesis I",
+        "professors": [
+          "Felipe Tobar"
+        ]
+      },
+      "MIE7103": {
+        "name": "Apropiabilidad y Gestión de la Innovación",
+        "professors": [
+          "Edgardo Santibañez V.",
+          "Rodrigo Cooper Cortés"
+        ]
+      },
+      "MIE7104": {
+        "name": "Seminario de Innovación y Emprendimiento Científico-Tecnológico I",
+        "professors": [
+          "Cecilia Ibarra M.",
+          "Maria Jose Sandoval S."
+        ]
+      },
+      "MIE7201": {
+        "name": "Formulación y Gestión de Proyectos de Innovación y Emprendimiento Tecnológicos",
+        "professors": [
+          "Eduardo Contreras V.",
+          "Rafael Corvalan C."
+        ]
+      },
+      "MIE7204": {
+        "name": "Seminario de Innovación y Emprendimiento Científico-Tecnológico II",
+        "professors": [
+          "Julio Lira",
+          "Maria Jose Sandoval S."
+        ]
+      },
+      "CEFE10": {
+        "name": "Curso Electivo de Formación Específica",
+        "professors": []
+      },
+      "EP0001": {
+        "name": "Diagnóstico Inglés Postgrado",
+        "professors": [
+          "Jorge Carroza"
+        ]
+      },
+      "EP2202": {
+        "name": "Inglés 2",
+        "professors": [
+          "Álvaro Meza M."
+        ]
+      },
+      "EP4204": {
+        "name": "Inglés 4",
+        "professors": [
+          "Marcela O'Ryan M."
+        ]
+      },
+      "EP5205": {
+        "name": "Academic Writing 1",
+        "professors": [
+          "Jorge Carroza",
+          "Ámbar Romero"
+        ]
+      },
+      "EP7002": {
+        "name": "Nuevos Desafíos para las Ciencias en la Sociedad Actual: Construcción de Pensamiento Crítico, Trabajo en Equipo y Acción Colaborativa con el Entorno",
+        "professors": [
+          "Enrique Sologuren",
+          "Nelson Escobar B."
+        ]
+      },
+      "EP7003": {
+        "name": "Laboratorio de Escritura y Comunicación Científica: El Trabajo de Tesis",
+        "professors": [
+          "Enrique Sologuren"
+        ]
+      },
+      "EP7004": {
+        "name": "Ecología Política y Sustentabilidad",
+        "professors": [
+          "Eduardo Giesen Amtmann",
+          "Vanessa Rugiero"
+        ]
+      },
+      "EP9000": {
+        "name": "Cotutela Doctoral",
+        "professors": []
+      },
+      "EP80A": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP80B": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP80C": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP80D": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP80E": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP91A": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP91B": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP91C": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP91D": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP91E": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP91F": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP91G": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP91H": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP91J": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP700": {
+        "name": "Taller de Tesis",
+        "professors": []
+      },
+      "EP900": {
+        "name": "Preparación Examen de Calificación",
+        "professors": [
+          "Marcos Flores Carrasco",
+          "Mónica Soler",
+          "Rodrigo Espinoza G."
+        ]
+      },
+      "EP901": {
+        "name": "Preparación Examen de Calificación",
+        "professors": []
+      },
+      "FD703": {
+        "name": "Métodos Computacionales en Fluidodinámica",
+        "professors": [
+          "Álvaro Valencia M."
+        ]
+      },
+      "FD704": {
+        "name": "Métodos Experimentales en Fluidodinámica",
+        "professors": [
+          "Christian Ihle",
+          "Claudio Falcon B.",
+          "Maria Cordero Garayar",
+          "Nicolás Mujica"
+        ]
+      }
+    }
+  },
+  "12": {
+    "department": "ES - Escuela de Ingeniería y Ciencias",
+    "courses": {
+      "MOVEC1": {
+        "name": "Programa Doble Titulación I",
+        "professors": [
+          "Daniel Castillo M.",
+          "Viviana Ruiz P."
+        ]
+      },
+      "MOVEC3": {
+        "name": "Programa Doble Titulación III",
+        "professors": [
+          "Daniel Castillo M.",
+          "Viviana Ruiz P."
+        ]
+      },
+      "PPI01": {
+        "name": "Programa de Prácticas Integrales",
+        "professors": [
+          "Cristóbal Ostornol G.",
+          "Loreto Aguirre Ortiz"
+        ]
+      },
+      "MOV1": {
+        "name": "Semestre Intercambio I",
+        "professors": [
+          "Daniel Castillo M.",
+          "Viviana Ruiz P."
+        ]
+      }
+    }
+  },
+  "310": {
+    "department": "FG - Plataforma",
+    "courses": {
+      "MOV-UYSEN00001": {
+        "name": "Geografía Aysén Patagonia",
+        "professors": []
+      },
+      "MOV-UFRO00004": {
+        "name": "Humor en Equipo",
+        "professors": []
+      },
+      "MOV-UFRO00008": {
+        "name": "Lengua de Señas Ufro",
+        "professors": []
+      },
+      "MOV-UTEM00002": {
+        "name": "Taller de Ciencia y Tecnología",
+        "professors": []
+      },
+      "VA-01-0327-51": {
+        "name": "Euskera y cultura vasca",
+        "professors": [
+          "Maider del Olmo Z."
+        ]
+      },
+      "VA-01-0327-68": {
+        "name": "Acoso Multilateral al Cine de Raúl Ruiz",
+        "professors": [
+          "Carlos Flores D."
+        ]
+      },
+      "VA-01-0327-69": {
+        "name": "Cátedra de racismos y migraciones contemporáneas",
+        "professors": [
+          "María Emilia Tijoux M."
+        ]
+      },
+      "VA-01-0327-70": {
+        "name": "Construyendo Capacidades Comunitarias en la Pandemia",
+        "professors": [
+          "Francisca Valdebenito A.",
+          "Julio Hasbún"
+        ]
+      },
+      "VA-01-0327-71": {
+        "name": "Diversidades Sexuales y de Género: Inclusión, Derechos y No Discriminación",
+        "professors": [
+          "José Miguel Labrín E.",
+          "Margarita Bustos C."
+        ]
+      },
+      "VA-01-0327-72": {
+        "name": "Educación Superior y Segregación Social en Chile: Historia de sus Ideas, Políticas e Instituciones. Elementos para el Proceso Constituyente",
+        "professors": [
+          "Claudio Gutiérrez",
+          "Mercedes Natalia López N."
+        ]
+      },
+      "VA-01-0327-73": {
+        "name": "Género y Violencias: ¿Qué Está Evidenciando la Pandemia?",
+        "professors": [
+          "Carolina Muñoz Rojas"
+        ]
+      },
+      "VA-01-0327-74": {
+        "name": "Herramientas Didácticas para el Acompañamiento Integral a Estudiantes",
+        "professors": [
+          "Paula González-Álvarez"
+        ]
+      },
+      "VA-01-0327-75": {
+        "name": "Infancia y Política: Concepciones e Imaginarios de las Infancias",
+        "professors": [
+          "Camilo Morales",
+          "Matías Marchant"
+        ]
+      },
+      "VA-01-0327-77": {
+        "name": "Manejo del Estrés Académico: Recursos Personales para su Prevención y Afrontamiento",
+        "professors": [
+          "Blanca Liberona M.",
+          "Carolina Canales A.",
+          "Claudia Ulloa",
+          "G. Matías Ríos Erazo",
+          "Rina Castillo L."
+        ]
+      },
+      "VA-01-0327-78": {
+        "name": "Obesidad, un Problema Complejo: Enfoque Transdisciplinario",
+        "professors": [
+          "Lorena Rodríguez Osiac",
+          "Marcela Araya B."
+        ]
+      },
+      "VA-01-0327-79": {
+        "name": "Pensar Internacionalmente: un Análisis de la Realidad Mundial desde (y para) la Universidad de Chile",
+        "professors": [
+          "Eduardo Andrés Carreño Lara"
+        ]
+      },
+      "VA-01-0327-80": {
+        "name": "Perspectivas Críticas sobre Discapacidad y Diversidad Funcional",
+        "professors": [
+          "Luis Alejandro Vera F.",
+          "Patricio Javier Bustamante Veas",
+          "Sandra Sara Mella Díaz"
+        ]
+      },
+      "VA-01-0327-81": {
+        "name": "Pobreza Energética en Chile: Enfoques y Perspectivas",
+        "professors": [
+          "Anahí Urquiza",
+          "Julián Antonio Cortés Oggero"
+        ]
+      },
+      "VA-01-0327-82": {
+        "name": "Pueblos indígenas hoy: nuevos enfoques, nuevos desafíos",
+        "professors": [
+          "Claudio Millacura S."
+        ]
+      },
+      "VA-01-0327-83": {
+        "name": "Translations and betrayals. Pop music and its cultural impact",
+        "professors": [
+          "Diego Vallejos O."
+        ]
+      },
+      "VA-01-0327-84": {
+        "name": "Actualidad del Mundo Árabe: Túnez y Palestina",
+        "professors": [
+          "Kamal Cumsille M.",
+          "Mauricio Amar D.",
+          "Ricardo Marzuca B."
+        ]
+      },
+      "VA-01-0327-86": {
+        "name": "Biodiversidad y Conservación, una Mirada Internacional",
+        "professors": [
+          "María Jesús Ovalle",
+          "Rosa Scherson V."
+        ]
+      },
+      "VA-01-0327-87": {
+        "name": "Cátedra Amanda Labarca: Diálogos sobre Feminismos y Proceso Constituyente",
+        "professors": [
+          "Roxana Pey T."
+        ]
+      },
+      "VA-01-0327-88": {
+        "name": "Estrategias de lectura y escritura académica",
+        "professors": [
+          "Paula González-Álvarez"
+        ]
+      },
+      "VA-01-0327-89": {
+        "name": "Filosofía en tiempos de emergencia: hacia una ética de la responsabilidad",
+        "professors": [
+          "Ana M. Tapia Adler",
+          "Paula Calderón M.",
+          "Yercko Olivares C."
+        ]
+      },
+      "VA-01-0327-90": {
+        "name": "Mente, Cerebro y Educación",
+        "professors": [
+          "Paulo Barraza R."
+        ]
+      },
+      "VA-01-0327-91": {
+        "name": "Métodos de Autocuidados Laborales para Futuros Profesionales  y Consideraciones del Contexto de Pandemia Covid-19",
+        "professors": [
+          "Natalia Lucero M."
+        ]
+      },
+      "VA-01-0327-92": {
+        "name": "Pensando la conservación de la biodiversidad: reflexiones y experiencias en torno al Santuario de la Naturaleza Quebrada de la Plata",
+        "professors": [
+          "Constanza Cabello",
+          "Solange Lobos H.",
+          "Valeria Rojas E."
+        ]
+      },
+      "VA-01-0327-93": {
+        "name": "Representaciones de lo urbano. Imaginario, percepción, vivencia",
+        "professors": [
+          "Felipe Corvalán T.",
+          "Mónica Aubán B."
+        ]
+      },
+      "VA-01-0327-94": {
+        "name": "Sistemas Socioecológicos y Enfoques Transdisciplinarios: de la Teoría a la Acción",
+        "professors": [
+          "Luisa E. Delgado",
+          "Víctor H. Marín"
+        ]
+      },
+      "VA-01-0327-95": {
+        "name": "Sociedad, Tecnologías y Datos Personales",
+        "professors": [
+          "Daniel Álvarez Valenzuela",
+          "Michelle Bordachar B."
+        ]
+      },
+      "VA-01-0327-96": {
+        "name": "Biología Histórica: la Evolución de su Evolución",
+        "professors": [
+          "Fernando Ulloa V.",
+          "Isaac Peña V."
+        ]
+      },
+      "VA-01-0327-97": {
+        "name": "Reconocimiento de Actividades Comunitarias y Sociales",
+        "professors": [
+          "Cristina Marquez"
+        ]
+      },
+      "MOV-UOH00003": {
+        "name": "Creatividad e Innovación",
+        "professors": []
+      },
+      "MOV-UV00007": {
+        "name": "Autoestima y Desarrollo Humano",
+        "professors": []
+      },
+      "VA-01-0324": {
+        "name": "Debates públicos contemporáneos sobre sexualidades y género",
+        "professors": [
+          "Irma Palma M."
+        ]
+      },
+      "FG4018": {
+        "name": "Holocausto y Derechos Humanos",
+        "professors": [
+          "Ana M. Tapia Adler",
+          "Bernardo González Mella",
+          "Luis Bahamondes G.",
+          "Paula Calderón M."
+        ]
+      },
+      "FG6082": {
+        "name": "Apreciación de la Literatura",
+        "professors": [
+          "Danilo Aros O."
+        ]
+      },
+      "FG6086": {
+        "name": "El Arte del Cine: Principales Movimientos, Escuelas y Tendencias",
+        "professors": [
+          "Víctor Muñoz"
+        ]
+      }
+    }
+  },
+  "13": {
+    "department": "FI - Departamento de Física",
+    "courses": {
+      "FI1000": {
+        "name": "Introducción a la Física Clásica",
+        "professors": [
+          "Jocelyn Dunstan E."
+        ]
+      },
+      "FI1100": {
+        "name": "Introducción a la Física Moderna",
+        "professors": [
+          "Claudio Arenas A.",
+          "Claudio Falcon B.",
+          "César I. Fuentes",
+          "Diego Mardones P.",
+          "José Mella R.",
+          "Nelson Zamorano H.",
+          "Rodrigo Soto B.",
+          "Simón Riquelme M."
+        ]
+      },
+      "FI2001": {
+        "name": "Mecánica",
+        "professors": [
+          "Andres Escala Astorquiza",
+          "Patricio Aceituno G.",
+          "Ricardo Muñoz M."
+        ]
+      },
+      "FI2002": {
+        "name": "Electromagnetismo",
+        "professors": [
+          "Andrés Meza",
+          "Claudio Romero Z.",
+          "Domenico Sapone",
+          "Francisco Brieva",
+          "Hugo Arellano S.",
+          "Marcel Clerc G.",
+          "Mario Riquelme H.",
+          "Walter Max-Moerbeck A."
+        ]
+      },
+      "FI2003": {
+        "name": "Métodos Experimentales",
+        "professors": [
+          "Boris Chornik A.",
+          "Carla Hermann A.",
+          "Diego Guzmán S.",
+          "Nicolás Mujica"
+        ]
+      },
+      "FI2004": {
+        "name": "Termodinámica",
+        "professors": [
+          "Andrés Meza",
+          "Victor Fuenzalida E."
+        ]
+      },
+      "FI3001": {
+        "name": "Vibraciones y Ondas",
+        "professors": [
+          "Rodrigo Vicencio P."
+        ]
+      },
+      "FI3002": {
+        "name": "Métodos Matemáticos de la Física",
+        "professors": [
+          "Néstor Sepúlveda S."
+        ]
+      },
+      "FI3003": {
+        "name": "Física Experimental I",
+        "professors": [
+          "Maria Cordero Garayar",
+          "Victor Fuenzalida E."
+        ]
+      },
+      "FI3102": {
+        "name": "Física Moderna",
+        "professors": [
+          "Álvaro S. Núñez"
+        ]
+      },
+      "FI3104": {
+        "name": "Métodos Numéricos para la Ciencia e Ingeniería",
+        "professors": [
+          "Mario Riquelme H."
+        ]
+      },
+      "FI3105": {
+        "name": "Física Experimental II",
+        "professors": [
+          "Carla Hermann A.",
+          "Claudio Falcon B.",
+          "Diana Dulic",
+          "Marcel Clerc G.",
+          "Marcos Flores Carrasco",
+          "Maria Cordero Garayar",
+          "Nicolás Mujica",
+          "Rodrigo Vicencio P."
+        ]
+      },
+      "FI3106": {
+        "name": "Electrodinámica",
+        "professors": [
+          "Gonzalo A. Palma"
+        ]
+      },
+      "FI3111": {
+        "name": "Mecánica Clásica",
+        "professors": [
+          "Fernando Lund P."
+        ]
+      },
+      "FI4001": {
+        "name": "Mecánica Cuántica",
+        "professors": [
+          "Luis Foa Torres"
+        ]
+      },
+      "FI4101": {
+        "name": "Introducción a la Física del Sólido",
+        "professors": [
+          "Rodrigo Arias F."
+        ]
+      },
+      "FI4104": {
+        "name": "Mecánica Estadística",
+        "professors": [
+          "Felipe Barra D."
+        ]
+      },
+      "FI4105": {
+        "name": "Introducción a la Investigación Experimental y Teórica",
+        "professors": [
+          "Diana Dulic"
+        ]
+      },
+      "FI4106": {
+        "name": "Introducción a la Investigación II",
+        "professors": [
+          "Marcos Flores Carrasco"
+        ]
+      },
+      "FI6010": {
+        "name": "Introducción a la Física Espacial",
+        "professors": [
+          "Enrique Cordaro C."
+        ]
+      },
+      "FI6104": {
+        "name": "Introducción a la Óptica Cuántica",
+        "professors": [
+          "Carla Hermann A."
+        ]
+      },
+      "FI7002": {
+        "name": "Mecánica Cuántica II",
+        "professors": [
+          "Raul Muñoz A."
+        ]
+      },
+      "FI7009": {
+        "name": "Seminario de Investigación I",
+        "professors": [
+          "Francisco Muñoz S."
+        ]
+      },
+      "FI7012": {
+        "name": "Relatividad General",
+        "professors": [
+          "Nelson Zamorano H."
+        ]
+      },
+      "FI7023": {
+        "name": "Seminario de Investigación II",
+        "professors": [
+          "Francisco Muñoz S."
+        ]
+      },
+      "FI797": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Luis Foa Torres"
+        ]
+      },
+      "FI798": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Luis Foa Torres"
+        ]
+      },
+      "FI896": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Luis Foa Torres"
+        ]
+      },
+      "FI897": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Luis Foa Torres"
+        ]
+      },
+      "FI898": {
+        "name": "Trabajo de Tesis III",
+        "professors": [
+          "Luis Foa Torres"
+        ]
+      },
+      "FI899": {
+        "name": "Trabajo de Tesis IV",
+        "professors": [
+          "Luis Foa Torres"
+        ]
+      }
+    }
+  },
+  "15": {
+    "department": "GF - Departamento de Geofísica",
+    "courses": {
+      "GF3001": {
+        "name": "Geofísica General",
+        "professors": [
+          "Jaime Campos M."
+        ]
+      },
+      "GF3004": {
+        "name": "Sistema Climático",
+        "professors": [
+          "Maisa Rojas Corradi"
+        ]
+      },
+      "GF3103": {
+        "name": "Introducción a la Meteorología",
+        "professors": [
+          "Nicolás Huneeus L.",
+          "René Darío Garreaud Salazar"
+        ]
+      },
+      "GF4001": {
+        "name": "Sismología",
+        "professors": [
+          "Mario Pardo P.",
+          "Sergio Ruiz T."
+        ]
+      },
+      "GF4002": {
+        "name": "Física de la Tierra",
+        "professors": [
+          "Emilio Vera S."
+        ]
+      },
+      "GF4005": {
+        "name": "Matemáticas Aplicadas a la Geociencia",
+        "professors": [
+          "Javier Ruiz P."
+        ]
+      },
+      "GF4006": {
+        "name": "Métodos de Exploración Geofísica",
+        "professors": [
+          "Andrei Maksymowicz J.",
+          "Daniel Díaz A."
+        ]
+      },
+      "GF4025": {
+        "name": "Cambio Climático: la Base del Sistema Físico",
+        "professors": [
+          "Maisa Rojas Corradi"
+        ]
+      },
+      "GF4101": {
+        "name": "Sismología Aplicada",
+        "professors": [
+          "Felipe Leyton F.",
+          "Sergio Ruiz T."
+        ]
+      },
+      "GF4102": {
+        "name": "Prospección Sismica",
+        "professors": [
+          "Eduardo Contreras Reyes",
+          "Emilio Vera S."
+        ]
+      },
+      "GF4901": {
+        "name": "Práctica Profesional I",
+        "professors": [
+          "Emilio Vera S.",
+          "Roberto Rondanelli"
+        ]
+      },
+      "GF4902": {
+        "name": "Taller de Práctica Profesional I",
+        "professors": [
+          "Emilio Vera S.",
+          "Roberto Rondanelli"
+        ]
+      },
+      "GF5013": {
+        "name": "Métodos Inversos Aplicados a la Geofísica",
+        "professors": [
+          "Francisco Ortega Culaciati"
+        ]
+      },
+      "GF5017": {
+        "name": "Geodesia de Tectónica Activa",
+        "professors": [
+          "Francisco Ortega Culaciati"
+        ]
+      },
+      "GF5020": {
+        "name": "Meteorología Dinámica",
+        "professors": [
+          "Roberto Rondanelli"
+        ]
+      },
+      "GF5025": {
+        "name": "Sistemas de Observación de la Atmósfera",
+        "professors": [
+          "Nicolás Huneeus L."
+        ]
+      },
+      "GF7003": {
+        "name": "Métodos Electromagnéticos de Exploración Geofísica",
+        "professors": [
+          "Daniel Díaz A."
+        ]
+      },
+      "GF41E": {
+        "name": "Geodinámica del Margen Chileno",
+        "professors": [
+          "Eduardo Contreras Reyes"
+        ]
+      },
+      "GF78B": {
+        "name": "Seminario Meteorología Avanzada II",
+        "professors": [
+          "Camilo Menares M.",
+          "Laura E. Gallardo Klenner"
+        ]
+      },
+      "GF652": {
+        "name": "Meteorología de Capa Límite",
+        "professors": [
+          "Ricardo Muñoz M."
+        ]
+      },
+      "GF732": {
+        "name": "Sismología Teórica II",
+        "professors": [
+          "Javier Ruiz P."
+        ]
+      },
+      "GF757": {
+        "name": "Seminario Peligro Sísmico I",
+        "professors": [
+          "Diana Comte S."
+        ]
+      },
+      "GF790": {
+        "name": "Introducción al Proyecto de Grado",
+        "professors": [
+          "Laura E. Gallardo Klenner"
+        ]
+      },
+      "GF791": {
+        "name": "Proyecto de Grado",
+        "professors": [
+          "Laura E. Gallardo Klenner"
+        ]
+      },
+      "GF797": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Daniel Díaz A."
+        ]
+      },
+      "GF798": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Daniel Díaz A."
+        ]
+      }
+    }
+  },
+  "16": {
+    "department": "GL - Departamento de Geología",
+    "courses": {
+      "GL3004": {
+        "name": "Estratigrafía y Paleontología",
+        "professors": [
+          "Alfonso Rubilar R.",
+          "Rodrigo Fernández V."
+        ]
+      },
+      "GL3101": {
+        "name": "Geología General",
+        "professors": [
+          "Alida Pérez F.",
+          "Fernando Barra P.",
+          "Francisco Delgado",
+          "Katja Deckart"
+        ]
+      },
+      "GL3103": {
+        "name": "Ciencia de los Minerales I",
+        "professors": [
+          "Benigno Godoy Neira"
+        ]
+      },
+      "GL3201": {
+        "name": "Sedimentología",
+        "professors": [
+          "Valentina Flores Aqueveque"
+        ]
+      },
+      "GL3203": {
+        "name": "Ciencia de los Minerales II",
+        "professors": [
+          "Benigno Godoy Neira"
+        ]
+      },
+      "GL3204": {
+        "name": "Energía de Procesos Geológicos",
+        "professors": [
+          "Alida Pérez F.",
+          "Angelo Castruccio A."
+        ]
+      },
+      "GL3205": {
+        "name": "Sistemas de Información Geográfica para Geología",
+        "professors": [
+          "Matias Taucare"
+        ]
+      },
+      "GL3402": {
+        "name": "Geomorfología",
+        "professors": [
+          "Gregory P. De Pascale"
+        ]
+      },
+      "GL4001": {
+        "name": "Fundamentos de Petrología",
+        "professors": [
+          "Miguel Ángel Parada R."
+        ]
+      },
+      "GL4010": {
+        "name": "Proyecto I",
+        "professors": [
+          "Linda Daniele"
+        ]
+      },
+      "GL4012": {
+        "name": "Sistemas de Información Geográfica para Geología (SIGG)",
+        "professors": [
+          "Matias Taucare"
+        ]
+      },
+      "GL4102": {
+        "name": "Fundamentos de Geología Estructural",
+        "professors": [
+          "Sofia Rebolledo L."
+        ]
+      },
+      "GL4401": {
+        "name": "Introducción a Yacimientos Minerales",
+        "professors": [
+          "Daniel Moncada"
+        ]
+      },
+      "GL4402": {
+        "name": "Geología de Campo I",
+        "professors": [
+          "Fernando Poblete G."
+        ]
+      },
+      "GL4502": {
+        "name": "Mineralogía de Silicatos",
+        "professors": [
+          "Benigno Godoy Neira"
+        ]
+      },
+      "GL4503": {
+        "name": "Fundamentos de Geoquímica",
+        "professors": [
+          "Martin Reich M."
+        ]
+      },
+      "GL4901": {
+        "name": "Práctica Profesional I",
+        "professors": [
+          "Angelo Castruccio A."
+        ]
+      },
+      "GL5003": {
+        "name": "Evaluación Geológica y Económica de Proyectos de Exploración de Hi",
+        "professors": [
+          "Alejandro A. Pérez Rojas"
+        ]
+      },
+      "GL5007": {
+        "name": "Geoquímica Aplicada",
+        "professors": [
+          "Brian Townley Callejas"
+        ]
+      },
+      "GL5010": {
+        "name": "Proyecto II",
+        "professors": [
+          "Linda Daniele"
+        ]
+      },
+      "GL5011": {
+        "name": "Expresión Oral y Escrita",
+        "professors": [
+          "Osvaldo Carvajal M."
+        ]
+      },
+      "GL5018": {
+        "name": "Ajustar el tiempo en el Antropoceno",
+        "professors": [
+          "Alejandra Pérez N."
+        ]
+      },
+      "GL5020": {
+        "name": "Volátiles en Sistemas de Arco",
+        "professors": [
+          "Philippe Robidoux"
+        ]
+      },
+      "GL5023": {
+        "name": "Interferometría de Radar (INSAR) aplicada a Ciencias de la Tierra: Volcanología, Fallas e Hidrogeología",
+        "professors": [
+          "Francisco Delgado"
+        ]
+      },
+      "GL5101": {
+        "name": "Geología Estructural",
+        "professors": [
+          "Marcelo Farías"
+        ]
+      },
+      "GL5102": {
+        "name": "Sedimentología",
+        "professors": [
+          "Valentina Flores Aqueveque"
+        ]
+      },
+      "GL5103": {
+        "name": "Petrología Ignea y Metamórfica",
+        "professors": [
+          "Diego Morata C."
+        ]
+      },
+      "GL5114": {
+        "name": "Geología de Chile",
+        "professors": [
+          "Marcelo Farías"
+        ]
+      },
+      "GL5201": {
+        "name": "Geología Aplicada",
+        "professors": [
+          "Marisol Lara C."
+        ]
+      },
+      "GL5212": {
+        "name": "Volcanología Física",
+        "professors": [
+          "Angelo Castruccio A."
+        ]
+      },
+      "GL5213": {
+        "name": "Hidrogeología",
+        "professors": [
+          "Linda Daniele"
+        ]
+      },
+      "GL5311": {
+        "name": "Metalogénesis",
+        "professors": [
+          "Brian Townley Callejas"
+        ]
+      },
+      "GL5505": {
+        "name": "Taller de Adaptación al Mundo Laboral",
+        "professors": [
+          "Álvaro Silva M."
+        ]
+      },
+      "GL5901": {
+        "name": "Práctica Profesional II",
+        "professors": [
+          "Angelo Castruccio A."
+        ]
+      },
+      "GL6006": {
+        "name": "Teledetección: Fundamentos y Aplicaciones en Geología",
+        "professors": [
+          "José Manuel Lattus S."
+        ]
+      },
+      "GL6007": {
+        "name": "Hidrogeoquímica y simulaciones geoquímicas",
+        "professors": [
+          "Linda Daniele"
+        ]
+      },
+      "GL6101": {
+        "name": "Geología de Campo II",
+        "professors": [
+          "Rodrigo Fernández V."
+        ]
+      },
+      "GL6301": {
+        "name": "Geología Económica",
+        "professors": [
+          "Irene Del Real C."
+        ]
+      },
+      "GL6510": {
+        "name": "Los Minerales de Arcilla en las Geociencias y sus Aplicaciones",
+        "professors": [
+          "Santiago Maza"
+        ]
+      },
+      "GL6908": {
+        "name": "Introducción al Trabajo de Título",
+        "professors": []
+      },
+      "GL6909": {
+        "name": "Trabajo de Título",
+        "professors": [
+          "Sofia Rebolledo L."
+        ]
+      },
+      "GL71C": {
+        "name": "Procesos Geodinámicos en Ambiente de Subducción",
+        "professors": [
+          "Gabriel Easton",
+          "Reynaldo Charrier G."
+        ]
+      },
+      "GL74B": {
+        "name": "Proyecto de Tesis de Magíster",
+        "professors": [
+          "Martin Reich M."
+        ]
+      },
+      "GL79C": {
+        "name": "Tesis I",
+        "professors": [
+          "Martin Reich M."
+        ]
+      },
+      "GL79D": {
+        "name": "Tesis II",
+        "professors": [
+          "Martin Reich M."
+        ]
+      },
+      "GL82B": {
+        "name": "Proyecto de Tesis de Doctorado",
+        "professors": [
+          "Martin Reich M."
+        ]
+      },
+      "GL91A": {
+        "name": "Seminario de Tesis de Grado",
+        "professors": [
+          "Martin Reich M."
+        ]
+      },
+      "GL91C": {
+        "name": "Avance de Tesis I",
+        "professors": [
+          "Martin Reich M."
+        ]
+      },
+      "GL91D": {
+        "name": "Avance de Tesis II",
+        "professors": [
+          "Martin Reich M."
+        ]
+      },
+      "GL91E": {
+        "name": "Avance de Tesis III",
+        "professors": [
+          "Martin Reich M."
+        ]
+      },
+      "GL91F": {
+        "name": "Avance de Tesis IV",
+        "professors": [
+          "Martin Reich M."
+        ]
+      }
+    }
+  },
+  "19": {
+    "department": "IN - Departamento de Ingeniería Industrial",
+    "courses": {
+      "IN2201": {
+        "name": "Economía",
+        "professors": [
+          "Alejandro Corvalan A.",
+          "Jose Rafael Correa H.",
+          "Juan Escobar",
+          "Leonardo Basso",
+          "Marcelo Olivares A.",
+          "Pamela Arellano P."
+        ]
+      },
+      "IN3101": {
+        "name": "Taller de Liderazgo e Innovación Social",
+        "professors": [
+          "Carlos Vignolo F.",
+          "Franco Vargas B.",
+          "Sergio Celis Guzmán"
+        ]
+      },
+      "IN3141": {
+        "name": "Probabilidades",
+        "professors": [
+          "Charles Thraves C."
+        ]
+      },
+      "IN3142": {
+        "name": "Oratoria",
+        "professors": [
+          "Catalina Millán Montoya",
+          "Juan Pablo Iriarte U."
+        ]
+      },
+      "IN3171": {
+        "name": "Modelamiento y Optimización",
+        "professors": [
+          "Fernando Ordoñez P."
+        ]
+      },
+      "IN3221": {
+        "name": "Teoría de Juegos y Estrategia",
+        "professors": [
+          "Rahmi Ilkilic"
+        ]
+      },
+      "IN3242": {
+        "name": "Estadística",
+        "professors": [
+          "Raimundo Undurraga R."
+        ]
+      },
+      "IN3272": {
+        "name": "Decisiones Bajo Incertidumbre",
+        "professors": [
+          "Denis Saure V."
+        ]
+      },
+      "IN3301": {
+        "name": "Evaluación de Proyectos",
+        "professors": [
+          "Alejandro Gálvez Z.",
+          "Andrés Kettlun L.",
+          "Christian Diez",
+          "Eduardo Contreras V.",
+          "Hugo Vásquez Guardamagna",
+          "Iván Álvarez V.",
+          "Karla Carrasco J.",
+          "Loreto Tamblay N.",
+          "Luis Llanos C.",
+          "Oscar Saavedra"
+        ]
+      },
+      "IN3862": {
+        "name": "Políticas Públicas, Innovación e Ingeniería",
+        "professors": [
+          "María Pía Martín",
+          "Tomás Soto Jara"
+        ]
+      },
+      "IN4002": {
+        "name": "Taller de Ingeniería Industrial II",
+        "professors": [
+          "Cristián Maturana E.",
+          "Diego Marquez",
+          "Eduardo Cáceres G.",
+          "Jorge A. Jerez Ortega",
+          "Lorena Teutsch B.",
+          "Luz Mena C.",
+          "Rubén Daza B.",
+          "Sebastián Fuenzalida Rojas",
+          "Veronica Robles Moreno",
+          "Zunilda Vergara Monsalve"
+        ]
+      },
+      "IN4137": {
+        "name": "Liderando con Ojos de Mujer",
+        "professors": [
+          "Lucía Schwember N."
+        ]
+      },
+      "IN4141": {
+        "name": "Liderazgo Efectivo para el Trabajo en Equipo",
+        "professors": [
+          "Paula Cabrera P."
+        ]
+      },
+      "IN4150": {
+        "name": "Comunicación Estratégica Efectiva",
+        "professors": [
+          "Carolina Segovia R."
+        ]
+      },
+      "IN4192": {
+        "name": "Taller de Práctica Profesional I",
+        "professors": [
+          "Karen Gutiérrez F."
+        ]
+      },
+      "IN4203": {
+        "name": "Macroeconomía",
+        "professors": [
+          "Raphael Bergoeing Vela"
+        ]
+      },
+      "IN4302": {
+        "name": "Finanzas I",
+        "professors": [
+          "Iván Álvarez V.",
+          "Luis Llanos C.",
+          "Rafael Epstein N."
+        ]
+      },
+      "IN4402": {
+        "name": "Aplicaciones de Probabilidades y Estadística en Gestión",
+        "professors": [
+          "Andrés Fernández Vergara"
+        ]
+      },
+      "IN4601": {
+        "name": "Marketing I",
+        "professors": [
+          "Andrés Musalem S."
+        ]
+      },
+      "IN4703": {
+        "name": "Gestión de Operaciones I",
+        "professors": [
+          "Andres Weintraub P.",
+          "Bastián Vejar",
+          "Carlos Villa M."
+        ]
+      },
+      "IN4704": {
+        "name": "Gestión de Operaciones II",
+        "professors": [
+          "Susana Mondschein P.",
+          "Yerko Montenegro O."
+        ]
+      },
+      "IN4821": {
+        "name": "Introducción a los Sistemas Públicos",
+        "professors": [
+          "Carlos E. Castro G.",
+          "Macarena Andrade M."
+        ]
+      },
+      "IN4839": {
+        "name": "Ética en el Mercado, la Empresa y los Negocios",
+        "professors": [
+          "Teodoro Wigodski S."
+        ]
+      },
+      "IN4864": {
+        "name": "Seminario de Educación Superior y Formación Contínua",
+        "professors": [
+          "Pablo González S."
+        ]
+      },
+      "IN4865": {
+        "name": "Seminario Proyecto País",
+        "professors": [
+          "Gastón L'Huillier T.",
+          "Guillermo Muñoz H.",
+          "Jose Inostroza Avaria"
+        ]
+      },
+      "IN4901": {
+        "name": "Práctica Profesional I",
+        "professors": [
+          "Karen Gutiérrez F."
+        ]
+      },
+      "IN5003": {
+        "name": "Dirección Estratégica",
+        "professors": [
+          "Carlos E. Castro G.",
+          "Claudio Pizarro T."
+        ]
+      },
+      "IN5101": {
+        "name": "Comportamiento Organizacional",
+        "professors": [
+          "Nicole Adaros D.",
+          "Sebastián Conde D."
+        ]
+      },
+      "IN5129": {
+        "name": "Innovación para la Sostenibilidad",
+        "professors": [
+          "Felipe Celery C."
+        ]
+      },
+      "IN5204": {
+        "name": "Organización Industrial",
+        "professors": [
+          "Ronald Fischer B."
+        ]
+      },
+      "IN5303": {
+        "name": "Finanzas II",
+        "professors": [
+          "J. Miguel Cruz"
+        ]
+      },
+      "IN5326": {
+        "name": "Economía y Regulación de Bancos",
+        "professors": [
+          "Carlos Pulgar A."
+        ]
+      },
+      "IN5502": {
+        "name": "Diseño de Procesos de Negocios",
+        "professors": [
+          "Macarena V. Osorio A.",
+          "Ángel Jiménez Molina"
+        ]
+      },
+      "IN5523": {
+        "name": "Data Warehousing",
+        "professors": [
+          "Felipe E. Vildoso Castillo",
+          "Héctor Álvarez Gómez"
+        ]
+      },
+      "IN5526": {
+        "name": "Web Intelligence",
+        "professors": [
+          "Juan D. Velásquez",
+          "Víctor Hernández M."
+        ]
+      },
+      "IN5530": {
+        "name": "Taller de Visualización de Datos",
+        "professors": [
+          "Felipe E. Vildoso Castillo",
+          "Héctor Álvarez Gómez"
+        ]
+      },
+      "IN5602": {
+        "name": "Marketing II",
+        "professors": [
+          "Pedro Arana"
+        ]
+      },
+      "IN5621": {
+        "name": "Gestión de Marca",
+        "professors": [
+          "Nicolás Fritis C."
+        ]
+      },
+      "IN5624": {
+        "name": "Negocio Internacional Agroindustrial",
+        "professors": [
+          "Marco Schwartz M."
+        ]
+      },
+      "IN5630": {
+        "name": "Experiencia de Clientes",
+        "professors": [
+          "Emilio Polit C."
+        ]
+      },
+      "IN5827": {
+        "name": "Manejo de Negocios Internacionales",
+        "professors": [
+          "Jaime Zuñiga C."
+        ]
+      },
+      "IN5848": {
+        "name": "Aspectos Jurídicos del Emprendimiento Comercial",
+        "professors": [
+          "Juan Unda"
+        ]
+      },
+      "IN5861": {
+        "name": "Estrategia y Humanidades",
+        "professors": [
+          "Claudio Pizarro T."
+        ]
+      },
+      "IN5902": {
+        "name": "Práctica Profesional II",
+        "professors": [
+          "Karen Gutiérrez F."
+        ]
+      },
+      "IN5921": {
+        "name": "Trabajo Dirigido Industrial",
+        "professors": [
+          "Karen Gutiérrez F."
+        ]
+      },
+      "IN5924": {
+        "name": "Trabajo Dirigido en Ingeniería Industrial",
+        "professors": [
+          "Karen Gutiérrez F."
+        ]
+      },
+      "IN6004": {
+        "name": "Gestión Integral de Negocios",
+        "professors": [
+          "Antonio Holgado S.",
+          "Constanza Imperatore D.",
+          "Federico Iriberry C.",
+          "Gonzalo Mena Carriel",
+          "Gustavo Salinas",
+          "Lorena Contreras Rojas",
+          "Mario Novoa",
+          "William Baeza"
+        ]
+      },
+      "IN6531": {
+        "name": "Introducción a la Minería de Datos",
+        "professors": [
+          "Richard Weber H."
+        ]
+      },
+      "IN6534": {
+        "name": "Introducción al Deep Learning",
+        "professors": [
+          "Ángel Jiménez Molina"
+        ]
+      },
+      "IN6853": {
+        "name": "Seminario de Gestión y Políticas Públicas I",
+        "professors": [
+          "Alejandra Mizala S."
+        ]
+      },
+      "IN6903": {
+        "name": "Práctica Profesional III",
+        "professors": [
+          "Karen Gutiérrez F."
+        ]
+      },
+      "IN6908": {
+        "name": "Introducción al Trabajo de Titulo",
+        "professors": [
+          "Alejandra Puente C.",
+          "Astrid Contreras F.",
+          "Carlos Pulgar A.",
+          "Carlos Reyes R.",
+          "Carolina Segovia R.",
+          "Claudio Orsini G.",
+          "Edgardo Santibañez V.",
+          "Gastón Held B.",
+          "Gastón Suarez C.",
+          "Gerardo Díaz Rodenas",
+          "Hugo Sánchez R.",
+          "Ignacio Calisto L.",
+          "Iván Díaz Campos",
+          "Javier Suazo S.",
+          "Juan Cumsille L.",
+          "Juan Romero G.",
+          "Karen Gutiérrez F.",
+          "Karina Cisterna Muñoz",
+          "Manuel Diaz Romero",
+          "María José Contreras Águila",
+          "Omar Cerda I.",
+          "Orlando Castillo E.",
+          "Pablo Marín Vicuña",
+          "Patricio Conca K.",
+          "Raúl Uribe Darrigrandi",
+          "René Esquivel C.",
+          "Ricardo Loyola M.",
+          "Ricardo San Martín Zurita",
+          "Rocío Ruiz M.",
+          "Rodolfo Urrutia U."
+        ]
+      },
+      "IN6909": {
+        "name": "Trabajo de Título",
+        "professors": [
+          "Alejandra Puente C.",
+          "Astrid Contreras F.",
+          "Carlos E. Castro G.",
+          "Carlos Pulgar A.",
+          "Carlos Reyes R.",
+          "Carolina Segovia R.",
+          "Claudio Orsini G.",
+          "Edgardo Santibañez V.",
+          "Gastón Held B.",
+          "Gastón Suarez C.",
+          "Gerardo Díaz Rodenas",
+          "Hugo Sánchez R.",
+          "Ignacio Calisto L.",
+          "Iván Díaz Campos",
+          "Javier Suazo S.",
+          "Juan Cumsille L.",
+          "Juan Romero G.",
+          "Karina Cisterna Muñoz",
+          "Luis Zaviezo Schwartzman",
+          "Manuel Diaz Romero",
+          "María José Contreras Águila",
+          "Omar Cerda I.",
+          "Orlando Castillo E.",
+          "Pablo Marín Vicuña",
+          "Patricio Conca K.",
+          "Raúl Uribe Darrigrandi",
+          "René Esquivel C.",
+          "Ricardo Loyola M.",
+          "Ricardo San Martín Zurita",
+          "Rocío Ruiz M.",
+          "Rodolfo Urrutia U.",
+          "Victor Perez V."
+        ]
+      },
+      "IN6910": {
+        "name": "Trabajo de Memoria de Título",
+        "professors": [
+          "Francisca Acosta P.",
+          "Karen Gutiérrez F."
+        ]
+      },
+      "IN6923": {
+        "name": "Trabajo Dirigido en Ingeniería Industrial",
+        "professors": [
+          "Karen Gutiérrez F."
+        ]
+      },
+      "IN6925": {
+        "name": "Trabajo Guiado en Empresa",
+        "professors": [
+          "Karen Gutiérrez F."
+        ]
+      },
+      "IN6926": {
+        "name": "Taller de Asesoría Práctica Profesional",
+        "professors": [
+          "Felipe Correa L.",
+          "Gustavo Salinas",
+          "José I. Salazar A.",
+          "Loreto Martínez G.",
+          "María José Contreras Águila",
+          "María Paz Amaya B.",
+          "Nicolás Cisternas",
+          "Paula Cabrera P."
+        ]
+      },
+      "IN7101": {
+        "name": "Lean Management",
+        "professors": [
+          "Iván Rubio P.",
+          "Jorge Fuenzalida B."
+        ]
+      },
+      "IN7103": {
+        "name": "Plan Estratégico con Balance Scorecard",
+        "professors": [
+          "Jorge Lara B."
+        ]
+      },
+      "IN7106": {
+        "name": "Gestión de Personas",
+        "professors": [
+          "Claudia Vargas P.",
+          "Sebastián Depolo"
+        ]
+      },
+      "IN7110": {
+        "name": "Gestión y control de proyectos",
+        "professors": [
+          "Carlos Bravo D.",
+          "Jorge Taboada R.",
+          "Julio Patricio Beniscelli Troncoso"
+        ]
+      },
+      "IN7112": {
+        "name": "Transformación Digital y Machine Learning",
+        "professors": [
+          "Agustin Costa",
+          "Juan D. Velásquez"
+        ]
+      },
+      "IN7300": {
+        "name": "Gestión del Cambio",
+        "professors": [
+          "Claudia Vargas P.",
+          "Claudio Caro P."
+        ]
+      },
+      "IN7308": {
+        "name": "Proyecto de Grado",
+        "professors": [
+          "Jorge Lara B."
+        ]
+      },
+      "IN7500": {
+        "name": "Taller de Tesis I",
+        "professors": [
+          "Carlos Noton N."
+        ]
+      },
+      "IN7501": {
+        "name": "Taller de Tesis II",
+        "professors": [
+          "Carlos Noton N."
+        ]
+      },
+      "IN7506": {
+        "name": "Economía del Capital Humano",
+        "professors": [
+          "Pamela Jervis"
+        ]
+      },
+      "IN7508": {
+        "name": "Plataformas y Mercados Digitales",
+        "professors": [
+          "José Ignacio Heresi"
+        ]
+      },
+      "IN7560": {
+        "name": "Diseño Colaborativo y Modelamiento de Procesos",
+        "professors": [
+          "Carlos Reveco",
+          "Cristián Andrade M."
+        ]
+      },
+      "IN7561": {
+        "name": "Análisis Estratégico y Diseño de Procesos",
+        "professors": [
+          "Cristián Amdan J."
+        ]
+      },
+      "IN7562": {
+        "name": "Arquitectura Empresarial y Rediseño de Procesos",
+        "professors": [
+          "Felipe Vera Cid",
+          "Óscar Marguirott"
+        ]
+      },
+      "IN7563": {
+        "name": "Gestión del Cambio",
+        "professors": [
+          "Eduardo Olguín Macaya"
+        ]
+      },
+      "IN7564": {
+        "name": "Introducción al Proyecto de Tesis o AFE",
+        "professors": [
+          "Cinthya Leonor Vergara Silva",
+          "Ezequiel Muñoz K."
+        ]
+      },
+      "IN7572": {
+        "name": "Innovación y Sociedad",
+        "professors": [
+          "Cecilia Ibarra M."
+        ]
+      },
+      "IN7573": {
+        "name": "Transformación Digital y Sustentabilidad",
+        "professors": [
+          "Alfredo Montecinos G.",
+          "Philippe Dussert L."
+        ]
+      },
+      "IN7580": {
+        "name": "Introducción a la Ciencia de los Datos",
+        "professors": [
+          "Juan D. Velásquez",
+          "Rocío Ruiz M."
+        ]
+      },
+      "IN7582": {
+        "name": "Agilidad de Negocio",
+        "professors": [
+          "Agustín Villena M.",
+          "Pamela Falconi S."
+        ]
+      },
+      "IN7586": {
+        "name": "Introducción a la Gestión de Datos",
+        "professors": [
+          "Juan D. Velásquez"
+        ]
+      },
+      "IN7594": {
+        "name": "Gestión de Proyectos TI",
+        "professors": [
+          "Barbara Blanco B."
+        ]
+      },
+      "IN7595": {
+        "name": "Evaluación de Proyectos Basados en TIC's",
+        "professors": [
+          "Claudio Jiménez C.",
+          "Eduardo Contreras V."
+        ]
+      },
+      "IN7602": {
+        "name": "Seminario de Taller de Tesis I",
+        "professors": [
+          "Denis Saure V."
+        ]
+      },
+      "IN7603": {
+        "name": "Seminario de Taller de Tesis II",
+        "professors": [
+          "Denis Saure V."
+        ]
+      },
+      "IN7612": {
+        "name": "Seminario de Investigación I",
+        "professors": [
+          "Marcelo Olivares A."
+        ]
+      },
+      "IN7614": {
+        "name": "Trabajo Dirigido",
+        "professors": [
+          "Marcelo Olivares A."
+        ]
+      },
+      "IN7617": {
+        "name": "Aplicaciones de Uso de Datos en Empresa y Gobierno",
+        "professors": [
+          "Pablo Galaz Cares"
+        ]
+      },
+      "IN8564": {
+        "name": "Proyecto de Grado",
+        "professors": [
+          "Felipe Vera Cid",
+          "Rocío Ruiz M."
+        ]
+      },
+      "EP600": {
+        "name": "Análisis Económico",
+        "professors": [
+          "Maximo Quiero B."
+        ]
+      },
+      "EP601": {
+        "name": "Matemáticas y Estadística",
+        "professors": [
+          "Sara Arancibia C."
+        ]
+      },
+      "IN7A1": {
+        "name": "Economía Aplicada a la Gestión",
+        "professors": [
+          "Pablo González S."
+        ]
+      },
+      "IN7A2": {
+        "name": "Métodos Cuantitativos Aplicados a la Gestión",
+        "professors": [
+          "Sara Arancibia C."
+        ]
+      },
+      "IN7A4": {
+        "name": "Marketing",
+        "professors": [
+          "Christian Diez"
+        ]
+      },
+      "IN7A6": {
+        "name": "Gestión de Operaciones",
+        "professors": [
+          "Charles Thraves C."
+        ]
+      },
+      "IN7A9": {
+        "name": "Finanzas",
+        "professors": [
+          "Eduardo Contreras V.",
+          "Joan Massons"
+        ]
+      },
+      "IN7D5": {
+        "name": "Tópicos en Macroeconomía",
+        "professors": [
+          "Ernesto Pasten H."
+        ]
+      },
+      "IN7E0": {
+        "name": "Organización Industrial Empírica",
+        "professors": [
+          "Carlos Noton N."
+        ]
+      },
+      "IN7F1": {
+        "name": "Enfoques y Modelos de Análisis en Políticas Públicas",
+        "professors": [
+          "María Pía Martín"
+        ]
+      },
+      "IN7F4": {
+        "name": "Entendiendo la Implementación de Políticas Públicas",
+        "professors": [
+          "Juan Carlos Cortazar V."
+        ]
+      },
+      "IN7G0": {
+        "name": "Gestión de Proyectos Tecnológicos de Información",
+        "professors": [
+          "Hugo Sánchez R.",
+          "Juan D. Velásquez"
+        ]
+      },
+      "IN7G6": {
+        "name": "Gobierno Abierto",
+        "professors": [
+          "Álvaro V. Ramírez Alujas"
+        ]
+      },
+      "IN7G8": {
+        "name": "Tópicos y Herramientas de Gestión Pública",
+        "professors": [
+          "Jerko Juretic D."
+        ]
+      },
+      "IN7G9": {
+        "name": "Gestión Estratégica del Presupuesto Público",
+        "professors": [
+          "Jerko Juretic D."
+        ]
+      },
+      "IN7H0": {
+        "name": "Especialización en Gestión y Políticas Públicas",
+        "professors": [
+          "Marcela Guajardo O."
+        ]
+      },
+      "IN7H2": {
+        "name": "Políticas de Innovación y Desarrollo Productivo",
+        "professors": [
+          "Carlos Álvarez V."
+        ]
+      },
+      "IN7H6": {
+        "name": "Especialización en Gestión y Políticas Públicas II",
+        "professors": [
+          "Marcela Guajardo O."
+        ]
+      },
+      "IN7M1": {
+        "name": "Estrategia",
+        "professors": [
+          "Marcos Lima A.",
+          "Teodoro Wigodski S."
+        ]
+      },
+      "IN7M2": {
+        "name": "Entorno Normativo y Regulatorio Aplicable a la Actividad Minera",
+        "professors": [
+          "Jorge Cristián Quinzio Santelices",
+          "Marcelo Olivares Cabrera",
+          "Marisol Espinosa"
+        ]
+      },
+      "IN7M3": {
+        "name": "Formulación y Evaluación de Proyectos Mineros",
+        "professors": [
+          "Andrés Kettlun L."
+        ]
+      },
+      "IN7M4": {
+        "name": "Logística Minera",
+        "professors": [
+          "Rafael Epstein N."
+        ]
+      },
+      "IN7M5": {
+        "name": "Cadena de Abastecimiento",
+        "professors": [
+          "Iván Braga C."
+        ]
+      },
+      "IN7M6": {
+        "name": "Comercialización",
+        "professors": [
+          "Roberto Ecclefield E."
+        ]
+      },
+      "IN7M7": {
+        "name": "Marketing Estratégico",
+        "professors": [
+          "Marcos Lima A."
+        ]
+      },
+      "IN7M9": {
+        "name": "Gestión de Capital Humano y Relaciones Laborales",
+        "professors": [
+          "Alejandro Mena F.",
+          "Sebastián Conde D."
+        ]
+      },
+      "IN7N1": {
+        "name": "Economía para la Gestión",
+        "professors": [
+          "Enrique Silva R.",
+          "Jaime Gatica B."
+        ]
+      },
+      "IN7N2": {
+        "name": "Tecnología de la Información",
+        "professors": [
+          "Claudio Guzmán P."
+        ]
+      },
+      "IN7N5": {
+        "name": "Gestión de Proyectos Mineros e Innovación: Análisis de Casos",
+        "professors": [
+          "Enrique Silva R.",
+          "Patricio Meller B."
+        ]
+      },
+      "IN7N6": {
+        "name": "Gestión Ambiental y Sustentabilidad",
+        "professors": [
+          "Jacques Clerc P.",
+          "Juan Olmedo H.",
+          "Rodolfo Camacho F."
+        ]
+      },
+      "IN7N7": {
+        "name": "Economía Industrial",
+        "professors": [
+          "Juan Guzmán B."
+        ]
+      },
+      "IN7N8": {
+        "name": "Análisis de los Mercados de Commodities",
+        "professors": [
+          "Enrique Silva R.",
+          "Juan Guzmán B."
+        ]
+      },
+      "IN7P2": {
+        "name": "Gestión de Activos y Competitividad",
+        "professors": [
+          "Adolfo Arata A."
+        ]
+      },
+      "IN7P8": {
+        "name": "Preparación y Evaluación de Proyectos",
+        "professors": [
+          "Christian Diez",
+          "Eduardo Contreras V."
+        ]
+      },
+      "IN7Q9": {
+        "name": "Reestructuración Empresarial",
+        "professors": [
+          "Ernesto Solis G."
+        ]
+      },
+      "IN7R1": {
+        "name": "Economía Financiera",
+        "professors": [
+          "Juan Martínez S."
+        ]
+      },
+      "IN7R5": {
+        "name": "Redes Sociales y Económicas",
+        "professors": [
+          "Rahmi Ilkilic"
+        ]
+      },
+      "IN7S4": {
+        "name": "Mercados Laborales Imperfectos",
+        "professors": [
+          "Alessandra Pizzo"
+        ]
+      },
+      "IN7S8": {
+        "name": "Desarrollo Económico",
+        "professors": [
+          "Raimundo Undurraga R."
+        ]
+      },
+      "IN7T1": {
+        "name": "Visualización de Datos y Comunicación Efectiva de Evidencia para Políticas Públicas",
+        "professors": [
+          "Patricio Rodríguez"
+        ]
+      },
+      "IN7T4": {
+        "name": "Economía y Políticas Públicas II",
+        "professors": [
+          "Jaime Gatica B."
+        ]
+      },
+      "IN7T5": {
+        "name": "Políticas Públicas",
+        "professors": [
+          "Gabriela Rubilar"
+        ]
+      },
+      "IN7U0": {
+        "name": "Las Políticas Públicas en la Era de la Incertidumbre",
+        "professors": [
+          "Ricard Gomà C."
+        ]
+      },
+      "IN7U3": {
+        "name": "Tesis I",
+        "professors": [
+          "María Pía Martín"
+        ]
+      },
+      "IN7U4": {
+        "name": "Tesis II",
+        "professors": [
+          "María Pía Martín"
+        ]
+      },
+      "IN7U8": {
+        "name": "Productividad: Desde la Macro a la Micro",
+        "professors": [
+          "Raphael Bergoeing Vela"
+        ]
+      },
+      "IN7U9": {
+        "name": "Globalización, Identidad y Migraciones: El Rol del Estado-Nación en la Cohesión Social",
+        "professors": [
+          "Pablo Isla M."
+        ]
+      },
+      "IN70A": {
+        "name": "Rol del Estado: Aspectos Socio-Políticos",
+        "professors": [
+          "Enrique Paris"
+        ]
+      },
+      "IN70B": {
+        "name": "Rol del Estado: Aspectos Económicos",
+        "professors": [
+          "Mauricio Pereira F."
+        ]
+      },
+      "IN70C": {
+        "name": "Ética y Gobierno",
+        "professors": [
+          "Mauricio Olavarria G."
+        ]
+      },
+      "IN70M": {
+        "name": "Derecho Empresarial",
+        "professors": [
+          "Fernando Barros Aravena",
+          "Hernán E. Triviño Oyarzún"
+        ]
+      },
+      "IN70U": {
+        "name": "Negociación",
+        "professors": [
+          "Cristián Binimelis S.",
+          "Sebastián Conde D."
+        ]
+      },
+      "IN70Z": {
+        "name": "Tópicos de Economía Internacional",
+        "professors": [
+          "Patricio Meller B."
+        ]
+      },
+      "IN71A": {
+        "name": "Economía y Políticas Públicas I",
+        "professors": [
+          "Pablo González S."
+        ]
+      },
+      "IN72A": {
+        "name": "Análisis Político y Gobernabilidad",
+        "professors": [
+          "Patricia Roa R."
+        ]
+      },
+      "IN72X": {
+        "name": "Introducción a la Historia del Pensamiento Económico",
+        "professors": [
+          "Ronald Fischer B."
+        ]
+      },
+      "IN73B": {
+        "name": "Metodologías Cualitativas Aplicadas a las Políticas Públicas",
+        "professors": [
+          "Gabriel Guajardo Soto"
+        ]
+      },
+      "IN73F": {
+        "name": "Métodos Cuantitativos",
+        "professors": [
+          "Sara Arancibia C."
+        ]
+      },
+      "IN73G": {
+        "name": "Evaluación de Proyectos",
+        "professors": [
+          "Michael Jorratt D."
+        ]
+      },
+      "IN74A": {
+        "name": "Gestión Pública",
+        "professors": [
+          "Juan Carlos Cortazar V."
+        ]
+      },
+      "IN74M": {
+        "name": "Sistemas de Control Empresarial",
+        "professors": [
+          "Iván Álvarez V."
+        ]
+      },
+      "IN74P": {
+        "name": "Dirección de Finanzas",
+        "professors": [
+          "Ernesto Solis G."
+        ]
+      },
+      "IN74R": {
+        "name": "Gestión Financiera I",
+        "professors": [
+          "Eduardo Contreras V.",
+          "Joan Massons"
+        ]
+      },
+      "IN74S": {
+        "name": "Gestión Financiera II",
+        "professors": [
+          "J. Miguel Cruz"
+        ]
+      },
+      "IN74V": {
+        "name": "Habilidades Directivas I",
+        "professors": [
+          "Cristián Binimelis S."
+        ]
+      },
+      "IN74W": {
+        "name": "Habilidades Directivas II",
+        "professors": [
+          "Cristián Binimelis S."
+        ]
+      },
+      "IN75N": {
+        "name": "Gestión de Operaciones y de la Innovación",
+        "professors": [
+          "Francisco Tubino C."
+        ]
+      },
+      "IN75R": {
+        "name": "Gestión de Operaciones I",
+        "professors": [
+          "Charles Thraves C.",
+          "Francisco Tubino C."
+        ]
+      },
+      "IN75S": {
+        "name": "Gestión de Operaciones II",
+        "professors": [
+          "Francisco Tubino C."
+        ]
+      },
+      "IN75T": {
+        "name": "Dirección de Operaciones",
+        "professors": [
+          "Iván Braga C."
+        ]
+      },
+      "IN77N": {
+        "name": "Marketing",
+        "professors": [
+          "Christian Diez"
+        ]
+      },
+      "IN77P": {
+        "name": "Dirección de Marketing",
+        "professors": [
+          "Christian Diez"
+        ]
+      },
+      "IN77Q": {
+        "name": "Gestión Comercial I",
+        "professors": [
+          "Christian Diez"
+        ]
+      },
+      "IN77R": {
+        "name": "Gestión Comercial II",
+        "professors": [
+          "Marcel Goic F."
+        ]
+      },
+      "IN78N": {
+        "name": "Comportamiento Organizacional",
+        "professors": [
+          "Aranguiz Salazar Cristián",
+          "Claudia Vargas P.",
+          "Sebastián Conde D."
+        ]
+      },
+      "IN78O": {
+        "name": "Microeconomía Avanzada",
+        "professors": [
+          "Andrea Canales G.",
+          "Sergio Jara D."
+        ]
+      },
+      "IN79C": {
+        "name": "Seminario Final I",
+        "professors": [
+          "Andrea Victoria Nieto Eyzaguirre",
+          "Enrique Jofre R.",
+          "Enrique Silva R.",
+          "Gerardo Díaz Rodenas",
+          "Jorge Lara B.",
+          "Jorge Taboada R.",
+          "Juan Guzmán B.",
+          "Julio Morales O.",
+          "Loreto Burgos R.",
+          "Luis Zaviezo Schwartzman",
+          "Manuel Vergara T.",
+          "Ricardo Flores B.",
+          "Roberto Freraut C."
+        ]
+      },
+      "IN79I": {
+        "name": "Diseño de Mecanismos y Aplicaciones",
+        "professors": [
+          "Juan Escobar"
+        ]
+      },
+      "IN79J": {
+        "name": "Proyecto de Tesis o AFE",
+        "professors": [
+          "Felipe Vera Cid",
+          "Rocío Ruiz M."
+        ]
+      },
+      "IN79O": {
+        "name": "Modelos Estocásticos en Sistemas de Ingeniería",
+        "professors": [
+          "Denis Saure V."
+        ]
+      },
+      "IN79P": {
+        "name": "Política de Negocios",
+        "professors": [
+          "Eduardo Kohler E."
+        ]
+      },
+      "IN79R": {
+        "name": "Seminario Final II",
+        "professors": [
+          "Andrea Victoria Nieto Eyzaguirre",
+          "Enrique Jofre R.",
+          "Enrique Silva R.",
+          "Gerardo Díaz Rodenas",
+          "Iván Braga C.",
+          "Jacques Clerc P.",
+          "Jorge Lara B.",
+          "Julio Morales O.",
+          "Loreto Burgos R.",
+          "Luis Zaviezo Schwartzman",
+          "Manuel Rojas V.",
+          "Manuel Vergara T.",
+          "Ricardo Flores B."
+        ]
+      },
+      "IN80J": {
+        "name": "Evaluación de Proyectos Basados en TIC'S",
+        "professors": [
+          "Claudio Jiménez C.",
+          "Eduardo Contreras V."
+        ]
+      }
+    }
+  },
+  "21": {
+    "department": "MA - Departamento de Ingeniería Matemática",
+    "courses": {
+      "MA1001": {
+        "name": "Introducción al Cálculo",
+        "professors": [
+          "Flavio Guíñez A."
+        ]
+      },
+      "MA1002": {
+        "name": "Cálculo Diferencial e Integral",
+        "professors": [
+          "Cristián Reyes",
+          "Jorge A. San Martín H.",
+          "Leonardo Sánchez C.",
+          "Mauricio Telias H.",
+          "Patricio Felmer A.",
+          "Raúl Gormaz A."
+        ]
+      },
+      "MA1101": {
+        "name": "Introducción al Álgebra",
+        "professors": [
+          "Ariel Perez",
+          "Maya Stein"
+        ]
+      },
+      "MA1102": {
+        "name": "Álgebra Lineal",
+        "professors": [
+          "Alejandro Maass S.",
+          "Claudio Muñoz C.",
+          "Daniel Remenik",
+          "Iván Rapaport",
+          "Jaime San Martín",
+          "José A. Soto S.",
+          "Martín Matamala",
+          "Natacha Astromujoff",
+          "Pablo R. Dartnell R.",
+          "Sergio Muñoz V."
+        ]
+      },
+      "MA2001": {
+        "name": "Cálculo en Varias Variables",
+        "professors": [
+          "Christopher Maulén Marchant"
+        ]
+      },
+      "MA2002": {
+        "name": "Cálculo Avanzado y Aplicaciones",
+        "professors": [
+          "Alexander Frank M.",
+          "Alexis Fuentes P.",
+          "Avelio Sepúlveda",
+          "Carlos Conca R.",
+          "Raúl Gormaz A.",
+          "Álvaro Hernández U."
+        ]
+      },
+      "MA2601": {
+        "name": "Ecuaciones Diferenciales Ordinarias",
+        "professors": [
+          "Claudio Muñoz C.",
+          "Raul Manasevich T."
+        ]
+      },
+      "MA3002": {
+        "name": "Tópicos en Análisis Convexo",
+        "professors": [
+          "Rafael Correa F."
+        ]
+      },
+      "MA3101": {
+        "name": "Elementos de Álgebra",
+        "professors": [
+          "Ángel Pardo"
+        ]
+      },
+      "MA3402": {
+        "name": "Estadística",
+        "professors": [
+          "Raul Gouet B."
+        ]
+      },
+      "MA3403": {
+        "name": "Probabilidades y Estadística",
+        "professors": [
+          "Felipe Tobar",
+          "Fernando Lema F.",
+          "Raul Gouet B.",
+          "Servet Martinez A."
+        ]
+      },
+      "MA3701": {
+        "name": "Optimización",
+        "professors": [
+          "Jorge G. Amaya A.",
+          "Vicente Acuña A."
+        ]
+      },
+      "MA3705": {
+        "name": "Algoritmos Combinatoriales",
+        "professors": [
+          "Martín Matamala"
+        ]
+      },
+      "MA3802": {
+        "name": "Teoría de la Medida",
+        "professors": [
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA4402": {
+        "name": "Simulación Estocástica: Teoría y Laboratorio",
+        "professors": [
+          "Joaquin Fontbona T."
+        ]
+      },
+      "MA4501": {
+        "name": "Ecología Matemática",
+        "professors": [
+          "Salome Martinez S."
+        ]
+      },
+      "MA4703": {
+        "name": "Control Óptimo: Teoría y Laboratorio",
+        "professors": [
+          "Héctor Ramírez C."
+        ]
+      },
+      "MA4802": {
+        "name": "Ecuaciones en Derivadas Parciales",
+        "professors": [
+          "Michal Kowalczyk"
+        ]
+      },
+      "MA4902": {
+        "name": "Práctica Profesional I",
+        "professors": [
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA4903": {
+        "name": "Taller de Práctica Profesional I",
+        "professors": [
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA5306": {
+        "name": "Problemas Inversos y de Control de EDP",
+        "professors": [
+          "Axel Osses A."
+        ]
+      },
+      "MA5402": {
+        "name": "Cálculo Estocástico",
+        "professors": [
+          "Jaime San Martín"
+        ]
+      },
+      "MA5408": {
+        "name": "Tópicos en Probabilidades",
+        "professors": [
+          "Daniel Remenik"
+        ]
+      },
+      "MA5500": {
+        "name": "Laboratorio de Modelamiento Matemático I",
+        "professors": [
+          "Alejandro Maass S.",
+          "Jaime San Martín"
+        ]
+      },
+      "MA5505": {
+        "name": "Teoría de Grafos",
+        "professors": [
+          "Maya Stein"
+        ]
+      },
+      "MA5506": {
+        "name": "Seminario de Recurrencia en Teoría Ergódica",
+        "professors": [
+          "Alejandro Maass S.",
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA5603": {
+        "name": "Análisis no Lineal",
+        "professors": [
+          "Gabrielle Nornberg"
+        ]
+      },
+      "MA5801": {
+        "name": "Análisis Convexo y Dualidad",
+        "professors": [
+          "Nicolás Hernández"
+        ]
+      },
+      "MA5811": {
+        "name": "Experimentación y Modelación para el Estudio de la Cognición y Edu",
+        "professors": [
+          "Roberto Araya S."
+        ]
+      },
+      "MA5902": {
+        "name": "Práctica Profesional II",
+        "professors": [
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA6095": {
+        "name": "Introducción a la Teoría Matemática de las Imágenes",
+        "professors": [
+          "Jaime Ortega P."
+        ]
+      },
+      "MA6150": {
+        "name": "Algoritmos de Aproximación",
+        "professors": [
+          "José A. Soto S."
+        ]
+      },
+      "MA6420": {
+        "name": "Seminarios",
+        "professors": [
+          "Maya Stein"
+        ]
+      },
+      "MA6902": {
+        "name": "Práctica Profesional III",
+        "professors": [
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA6908": {
+        "name": "Introducción al Trabajo de Título",
+        "professors": [
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA6909": {
+        "name": "Trabajo de Título",
+        "professors": [
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA6911": {
+        "name": "Seminario Avanzado de Matemáticas I",
+        "professors": [
+          "Martín Matamala"
+        ]
+      },
+      "MA6931": {
+        "name": "Seminario Avanzado de Matemáticas I",
+        "professors": [
+          "Emilio Vilches G.",
+          "Pedro Pérez A."
+        ]
+      },
+      "MA8960": {
+        "name": "Introducción a temas de investigación",
+        "professors": [
+          "Maya Stein"
+        ]
+      },
+      "MA799": {
+        "name": "Introducción a la Tesis",
+        "professors": [
+          "Maya Stein",
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA896": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Maya Stein",
+          "Sebastián Donoso F."
+        ]
+      },
+      "MA897": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Maya Stein"
+        ]
+      },
+      "MA898": {
+        "name": "Trabajo de Tesis III",
+        "professors": [
+          "Maya Stein"
+        ]
+      },
+      "MA899": {
+        "name": "Trabajo de Tesis IV",
+        "professors": [
+          "Maya Stein"
+        ]
+      }
+    }
+  },
+  "22": {
+    "department": "ME - Departamento de Ingeniería Mecánica",
+    "courses": {
+      "ME3110": {
+        "name": "Ciencia de los Materiales",
+        "professors": [
+          "Aquiles Sepúlveda O."
+        ]
+      },
+      "ME3120": {
+        "name": "Dibujo Mecánico",
+        "professors": [
+          "Alexis Barry D.",
+          "Mauro Monsalve R."
+        ]
+      },
+      "ME3130": {
+        "name": "Mecánica Estática",
+        "professors": [
+          "Mónica Zamora Z."
+        ]
+      },
+      "ME3140": {
+        "name": "Mecánica de Fluidos",
+        "professors": [
+          "Williams R. Calderón Muñoz"
+        ]
+      },
+      "ME3204": {
+        "name": "Mecánica de Sólidos",
+        "professors": [
+          "Roger Bustamante P."
+        ]
+      },
+      "ME3210": {
+        "name": "Materiales para la Ingeniería",
+        "professors": [
+          "Ali Akbarifakhrabadi"
+        ]
+      },
+      "ME3220": {
+        "name": "Taller Mecánico",
+        "professors": [
+          "Eduardo Aguero",
+          "Juan Carlos Salgado T."
+        ]
+      },
+      "ME3230": {
+        "name": "Mecánica de Sólidos",
+        "professors": [
+          "Roger Bustamante P."
+        ]
+      },
+      "ME3240": {
+        "name": "Termotecnia",
+        "professors": [
+          "Juan Carlos Elicer C.",
+          "Nicolás Martín Molina Godoy"
+        ]
+      },
+      "ME3250": {
+        "name": "Cinemática y Dinámica de Mecanismos",
+        "professors": [
+          "Reynaldo Cabezas Cifuentes"
+        ]
+      },
+      "ME3601": {
+        "name": "Ingeniería de Materiales I",
+        "professors": [
+          "Rodrigo Palma H."
+        ]
+      },
+      "ME4011": {
+        "name": "Centrales Nucleares",
+        "professors": [
+          "Sergio Courtin V."
+        ]
+      },
+      "ME4012": {
+        "name": "Eficiencia Energética",
+        "professors": [
+          "Reynaldo Cabezas Cifuentes"
+        ]
+      },
+      "ME4301": {
+        "name": "Termotecnia",
+        "professors": [
+          "Juan Carlos Elicer C.",
+          "Nicolás Martín Molina Godoy"
+        ]
+      },
+      "ME4302": {
+        "name": "Transferencia de Calor",
+        "professors": [
+          "Álvaro Valencia M."
+        ]
+      },
+      "ME4501": {
+        "name": "Control de Sistemas",
+        "professors": [
+          "Rodrigo Hernandez P."
+        ]
+      },
+      "ME4601": {
+        "name": "Ingeniería de Materiales II",
+        "professors": [
+          "Ali Akbarifakhrabadi"
+        ]
+      },
+      "ME4701": {
+        "name": "Vibraciones Mecánicas",
+        "professors": [
+          "Viviana Meruane N."
+        ]
+      },
+      "ME4704": {
+        "name": "Gestión de Operaciones",
+        "professors": [
+          "Rodrigo Pascual J."
+        ]
+      },
+      "ME4706": {
+        "name": "Introducción a la Biomecánica Animal",
+        "professors": [
+          "Bruno Grossi"
+        ]
+      },
+      "ME4707": {
+        "name": "Robótica",
+        "professors": [
+          "Juan C. Zagal"
+        ]
+      },
+      "ME4901": {
+        "name": "Práctica Profesional I",
+        "professors": [
+          "Juan Carlos Elicer C."
+        ]
+      },
+      "ME5101": {
+        "name": "Trabajo Dirigido",
+        "professors": [
+          "Rubén Fernández Urrutia"
+        ]
+      },
+      "ME5102": {
+        "name": "Trabajo Dirigido Avanzado",
+        "professors": [
+          "Ricardo Cartes"
+        ]
+      },
+      "ME5300": {
+        "name": "Máquinas",
+        "professors": [
+          "Juan Carlos Elicer C."
+        ]
+      },
+      "ME5301": {
+        "name": "Laboratorio de Máquinas",
+        "professors": [
+          "Kim Hauser Vavra",
+          "Ricardo Díaz S."
+        ]
+      },
+      "ME5400": {
+        "name": "Ingeniería en Termofluidos",
+        "professors": [
+          "Mónica Zamora Z.",
+          "Ramon Frederick G."
+        ]
+      },
+      "ME5500": {
+        "name": "Elementos de Máquinas",
+        "professors": [
+          "Alejandro Ortiz Bernardin"
+        ]
+      },
+      "ME5601": {
+        "name": "Diseño de Sistemas Mecánicos",
+        "professors": [
+          "Gabriel Arevalo G."
+        ]
+      },
+      "ME5602": {
+        "name": "Diseño de Equipos de Proceso",
+        "professors": [
+          "Alejandro Font F."
+        ]
+      },
+      "ME5700": {
+        "name": "Procesos de Manufactura",
+        "professors": [
+          "Rubén Fernández Urrutia"
+        ]
+      },
+      "ME5701": {
+        "name": "Proyectos en Materiales y Manufactura",
+        "professors": [
+          "Henry Valenzuela C."
+        ]
+      },
+      "ME5702": {
+        "name": "Gestión de Activos Físicos",
+        "professors": [
+          "Rodrigo Pascual J."
+        ]
+      },
+      "ME5803": {
+        "name": "Taller de Desarrollo de Carrera Profesional",
+        "professors": [
+          "Paula Cabrera P."
+        ]
+      },
+      "ME5804": {
+        "name": "Oratoria",
+        "professors": [
+          "Catalina Millán Montoya"
+        ]
+      },
+      "ME5805": {
+        "name": "Emprendimiento y Comunicación",
+        "professors": [
+          "Ninoska Leiva C.",
+          "Renato León C."
+        ]
+      },
+      "ME5901": {
+        "name": "Práctica Profesional II",
+        "professors": [
+          "Juan Carlos Elicer C."
+        ]
+      },
+      "ME6010": {
+        "name": "Introducción a la Turbulencia",
+        "professors": [
+          "Mónica Zamora Z."
+        ]
+      },
+      "ME6020": {
+        "name": "Introducción a la Dinámica No Lineal",
+        "professors": [
+          "Benjamín Herrmann"
+        ]
+      },
+      "ME6600": {
+        "name": "Proyecto en Ingeniería Mecánica",
+        "professors": [
+          "Osvaldo González"
+        ]
+      },
+      "ME6700": {
+        "name": "Dirección de Proyectos",
+        "professors": [
+          "Jorge Igor P."
+        ]
+      },
+      "ME6901": {
+        "name": "Práctica Profesional III",
+        "professors": [
+          "Juan Carlos Elicer C."
+        ]
+      },
+      "ME6908": {
+        "name": "Introducción al Trabajo de Título",
+        "professors": [
+          "Aquiles Sepúlveda O."
+        ]
+      },
+      "ME6909": {
+        "name": "Trabajo de Título",
+        "professors": [
+          "Ali Akbarifakhrabadi",
+          "Williams R. Calderón Muñoz"
+        ]
+      },
+      "ME6910": {
+        "name": "Trabajo de Memoria de Título",
+        "professors": [
+          "Williams R. Calderón Muñoz"
+        ]
+      },
+      "ME7001": {
+        "name": "Detección y Caracterización de Objetos en Nubes de Puntos 3D",
+        "professors": [
+          "Juan C. Zagal"
+        ]
+      },
+      "ME7160": {
+        "name": "Diseño y Análisis de Sistemas Solares Térmicos",
+        "professors": [
+          "Frank Dinter"
+        ]
+      },
+      "ME7250": {
+        "name": "Materiales Avanzados para Celdas Solidas en Conversión de Energía",
+        "professors": [
+          "Ali Akbarifakhrabadi"
+        ]
+      },
+      "ME7301": {
+        "name": "Taller para la Enseñanza y Aprendizaje en Educación Superior",
+        "professors": [
+          "Óscar Jerez Y."
+        ]
+      },
+      "ME67A": {
+        "name": "Mecánica de Fluidos Computacional",
+        "professors": [
+          "Álvaro Valencia M."
+        ]
+      },
+      "ME78B": {
+        "name": "Métodos Numéricos en Sistemas Mecánicos",
+        "professors": [
+          "Williams R. Calderón Muñoz"
+        ]
+      },
+      "ME701": {
+        "name": "Mecánica de Medios Continuos",
+        "professors": [
+          "Roger Bustamante P."
+        ]
+      },
+      "ME750": {
+        "name": "Métodos Matemáticos en Ingeniería",
+        "professors": [
+          "Edgardo Olate Sanzana"
+        ]
+      },
+      "ME790": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Ramon Frederick G."
+        ]
+      },
+      "ME791": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Ramon Frederick G."
+        ]
+      }
+    }
+  },
+  "23": {
+    "department": "MI - Departamento de Ingeniería de Minas",
+    "courses": {
+      "MI3100": {
+        "name": "Química Mineralógica",
+        "professors": [
+          "Pía Lois M."
+        ]
+      },
+      "MI3105": {
+        "name": "Geología para Ingenieros",
+        "professors": [
+          "Sergio D. Moraga Garay"
+        ]
+      },
+      "MI3110": {
+        "name": "Minería y Sustentabilidad",
+        "professors": [
+          "Leandro A. Voisin A.",
+          "Luis Felipe Orellana E."
+        ]
+      },
+      "MI3115": {
+        "name": "Mecánica de Rocas I",
+        "professors": [
+          "Kimie Suzuki Morales"
+        ]
+      },
+      "MI3210": {
+        "name": "Introducción a Yacimientos Minerales",
+        "professors": [
+          "Alejandro Cáceres S."
+        ]
+      },
+      "MI3215": {
+        "name": "Mecánica de Rocas II",
+        "professors": [
+          "Javier Vallejos M.",
+          "Sofia Rebolledo L."
+        ]
+      },
+      "MI3230": {
+        "name": "Fisicoquímica Metalúrgica",
+        "professors": [
+          "Gonzalo Montes A."
+        ]
+      },
+      "MI3235": {
+        "name": "Fenómenos de Transporte",
+        "professors": [
+          "Christian Ihle",
+          "Leandro A. Voisin A."
+        ]
+      },
+      "MI4020": {
+        "name": "Fundamentos de Procesos Mineralúrgicos",
+        "professors": [
+          "Pía Lois M.",
+          "Willy Kracht"
+        ]
+      },
+      "MI4040": {
+        "name": "Análisis Estadístico y Geoestadístico de Datos",
+        "professors": [
+          "Xavier Emery"
+        ]
+      },
+      "MI4060": {
+        "name": "Mecánica de Rocas",
+        "professors": [
+          "Javier Vallejos M.",
+          "Sofia Rebolledo L."
+        ]
+      },
+      "MI4070": {
+        "name": "Fundamentos de Tecnología Minera",
+        "professors": [
+          "Raúl Castro R."
+        ]
+      },
+      "MI4100": {
+        "name": "Fundamentos de Metalurgia Extractiva",
+        "professors": [
+          "Gonzalo Montes A.",
+          "Humberto Estay",
+          "Leandro A. Voisin A."
+        ]
+      },
+      "MI4110": {
+        "name": "Fisicoquímica Metalúrgica",
+        "professors": [
+          "Gonzalo Montes A."
+        ]
+      },
+      "MI4901": {
+        "name": "Práctica Profesional I",
+        "professors": []
+      },
+      "MI4902": {
+        "name": "Taller de Práctica Profesional I",
+        "professors": [
+          "Hans Göpfert"
+        ]
+      },
+      "MI5021": {
+        "name": "Ingeniería del Procesamiento de Minerales",
+        "professors": [
+          "Christian Ihle",
+          "Willy Kracht"
+        ]
+      },
+      "MI5041": {
+        "name": "Evaluación de Yacimientos",
+        "professors": [
+          "Alejandro Cáceres S.",
+          "Nadia Mery",
+          "Xavier Emery"
+        ]
+      },
+      "MI5051": {
+        "name": "Sustentabilidad en Minería",
+        "professors": [
+          "Andreina Garcia G.",
+          "Douglas Aitken",
+          "Gonzalo Montes A.",
+          "Jacques Wiertz"
+        ]
+      },
+      "MI5071": {
+        "name": "Sistemas Mineros",
+        "professors": [
+          "Enrique Jelvez M",
+          "Fabián Manríquez León",
+          "Javier Santibañez Boric",
+          "Sebastián Troncoso B."
+        ]
+      },
+      "MI5072": {
+        "name": "Simulación de Procesos Mineros",
+        "professors": [
+          "Raúl Castro R."
+        ]
+      },
+      "MI5073": {
+        "name": "Planificación Minera",
+        "professors": [
+          "Juan L. Yarmuch G."
+        ]
+      },
+      "MI5081": {
+        "name": "Economía de Minerales",
+        "professors": [
+          "Emilio Castillo Dintrans"
+        ]
+      },
+      "MI5082": {
+        "name": "Gestión y Evaluación de Proyectos Mineros",
+        "professors": [
+          "Agustín Cabañas C.",
+          "Edgar Rihm J."
+        ]
+      },
+      "MI5101": {
+        "name": "Ingeniería de Procesos Metalúrgicos",
+        "professors": [
+          "Gonzalo Montes A.",
+          "Leandro A. Voisin A.",
+          "Tomas Vargas V."
+        ]
+      },
+      "MI5901": {
+        "name": "Práctica Profesional II",
+        "professors": []
+      },
+      "MI6011": {
+        "name": "Procesos Pirometalúrgicos",
+        "professors": [
+          "Leandro A. Voisin A."
+        ]
+      },
+      "MI6041": {
+        "name": "Simulación Geoestadística",
+        "professors": [
+          "Xavier Emery"
+        ]
+      },
+      "MI6072": {
+        "name": "Diseño Minero",
+        "professors": [
+          "Fernando Peirano O.",
+          "Marcelo Vargas V."
+        ]
+      },
+      "MI6081": {
+        "name": "Gestión de Operaciones Mineras",
+        "professors": [
+          "Benjamín Galdames C."
+        ]
+      },
+      "MI6121": {
+        "name": "Taller de Proyecto Minero",
+        "professors": [
+          "Alfonso Ovalle W.",
+          "Kimie Suzuki Morales"
+        ]
+      },
+      "MI6131": {
+        "name": "Legislación Minera",
+        "professors": [
+          "Marcelo Olivares Cabrera"
+        ]
+      },
+      "MI6133": {
+        "name": "Seguridad Minera",
+        "professors": [
+          "Jorge Cubillos"
+        ]
+      },
+      "MI6142": {
+        "name": "Taller de Redacción y Presentación de Textos Técnicos",
+        "professors": [
+          "Hans Göpfert"
+        ]
+      },
+      "MI6147": {
+        "name": "Estrategia de Negocios en la Industria Minera",
+        "professors": [
+          "Antonio Cecchi Fyfe",
+          "Freddy Rojas Cortes"
+        ]
+      },
+      "MI6901": {
+        "name": "Práctica Profesional III",
+        "professors": []
+      },
+      "MI6908": {
+        "name": "Introducción al Trabajo de Título",
+        "professors": []
+      },
+      "MI6909": {
+        "name": "Trabajo de Título",
+        "professors": []
+      },
+      "MI7908": {
+        "name": "Seminario de Preparación de Tesis",
+        "professors": [
+          "Gonzalo Montes A."
+        ]
+      },
+      "MI7909": {
+        "name": "Tesis I",
+        "professors": [
+          "Gonzalo Montes A."
+        ]
+      },
+      "MI7910": {
+        "name": "Tesis II",
+        "professors": [
+          "Gonzalo Montes A."
+        ]
+      },
+      "MI8130": {
+        "name": "Análisis de Datos en Ingeniería de Minas",
+        "professors": [
+          "Xavier Emery"
+        ]
+      },
+      "MI8133": {
+        "name": "Tópicos Especiales en Mineria",
+        "professors": [
+          "Manuel Reyes J.",
+          "Xavier Emery"
+        ]
+      },
+      "MI8135": {
+        "name": "Seminario de Tesis de Doctorado",
+        "professors": [
+          "Xavier Emery"
+        ]
+      },
+      "MI8136": {
+        "name": "Unidad de Investigación 1",
+        "professors": [
+          "Xavier Emery"
+        ]
+      },
+      "MI73A": {
+        "name": "Trabajo Dirigido",
+        "professors": [
+          "Emilio Castillo Dintrans",
+          "Gonzalo Montes A."
+        ]
+      },
+      "MI74H": {
+        "name": "Fundamentos Geomecánicos para el Diseño Minero",
+        "professors": [
+          "Gonzalo Montes A."
+        ]
+      },
+      "MI74J": {
+        "name": "Geomecánica Aplicada al Diseño Minero",
+        "professors": [
+          "Gonzalo Montes A."
+        ]
+      },
+      "MI74K": {
+        "name": "Proyecto Geomecánico",
+        "professors": [
+          "Gonzalo Montes A."
+        ]
+      },
+      "MI75E": {
+        "name": "Tópicos Avanzados en Planificación Minera",
+        "professors": [
+          "Enrique Jelvez M"
+        ]
+      },
+      "MI75G": {
+        "name": "Proyecto Geoestadístico",
+        "professors": [
+          "Xavier Emery"
+        ]
+      },
+      "MI76D": {
+        "name": "Riesgo y Decisiones en Proyectos Mineros",
+        "professors": [
+          "José Munizaga R."
+        ]
+      }
+    }
+  },
+  "24": {
+    "department": "MT - Doctorado en Ciencia de los Materiales",
+    "courses": {
+      "MT77A": {
+        "name": "Seminario de Ciencias de los Materiales",
+        "professors": [
+          "Rodrigo Espinoza G."
+        ]
+      },
+      "MT754": {
+        "name": "Trabajo Dirigido I",
+        "professors": [
+          "Humberto Palza C.",
+          "Marcos Flores Carrasco",
+          "Mónica Soler"
+        ]
+      },
+      "MT771": {
+        "name": "Física de los Materiales",
+        "professors": [
+          "Victor Fuenzalida E."
+        ]
+      },
+      "MT775": {
+        "name": "Laboratorio de Materiales I",
+        "professors": [
+          "Humberto Palza C.",
+          "Rodrigo Espinoza G."
+        ]
+      },
+      "MT776": {
+        "name": "Laboratorio de Materiales II",
+        "professors": [
+          "Mónica Soler"
+        ]
+      }
+    }
+  },
+  "307": {
+    "department": "QB - Departamento de Ingeniería Química y Biotecnología",
+    "courses": {
+      "BT1211": {
+        "name": "Aplicaciones de la Biología a la Ingeniería y Ciencias",
+        "professors": [
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "BT3101": {
+        "name": "Bioquímica General",
+        "professors": [
+          "Barbara Andrews F.",
+          "Nicolás Tobar B.",
+          "Oriana Salazar A.",
+          "Rodríguez Vives Juan Pablo"
+        ]
+      },
+      "BT3102": {
+        "name": "Biología Celular",
+        "professors": [
+          "Omar Porras E.",
+          "Ziomara P. Gerdtzen"
+        ]
+      },
+      "BT3112": {
+        "name": "Biología y Metabolismo de Microorganismos",
+        "professors": [
+          "Barbara Andrews F.",
+          "Omar Porras E.",
+          "Oriana Salazar A."
+        ]
+      },
+      "BT3113": {
+        "name": "Biología Molecular",
+        "professors": [
+          "Oriana Salazar A."
+        ]
+      },
+      "BT3711": {
+        "name": "Bioética, Legislación e Innovación",
+        "professors": [
+          "Maria Elena Lienqueo C.",
+          "María Guerra H.",
+          "Sebastián Guerrero C."
+        ]
+      },
+      "BT4104": {
+        "name": "Biología Molecular II",
+        "professors": [
+          "Christian Hodar Quiroga",
+          "Lee Meisel",
+          "Oriana Salazar A."
+        ]
+      },
+      "BT4451": {
+        "name": "Introducción a la Sostenibilidad Ecológica",
+        "professors": [
+          "Matías Tapia Von Schultzendorff"
+        ]
+      },
+      "BT4901": {
+        "name": "Práctica Profesional I",
+        "professors": [
+          "Oriana Salazar A."
+        ]
+      },
+      "BT4912": {
+        "name": "Taller de Práctica Profesional I",
+        "professors": [
+          "Oriana Salazar A."
+        ]
+      },
+      "BT5304": {
+        "name": "Separación y Procesos Biotecnológicos",
+        "professors": [
+          "Juan A. Asenjo",
+          "Maria Elena Lienqueo C."
+        ]
+      },
+      "BT5404": {
+        "name": "Unidades de Investigación en Biotecnología I",
+        "professors": [
+          "Felipe Díaz Alvarado",
+          "Juan A. Asenjo",
+          "Rodrigo Espinoza G.",
+          "Tomas Vargas V.",
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "BT5405": {
+        "name": "Unidades de Investigación en Biotecnología II",
+        "professors": [
+          "Felipe Díaz Alvarado",
+          "Francisco Gracia C.",
+          "Juan A. Asenjo",
+          "Ziomara P. Gerdtzen"
+        ]
+      },
+      "BT5422": {
+        "name": "Tecnologías Microbianas",
+        "professors": [
+          "Simón Beard B."
+        ]
+      },
+      "BT5501": {
+        "name": "Inmunología Básica",
+        "professors": [
+          "Alfredo de Ioannes",
+          "María Inés Becker"
+        ]
+      },
+      "BT5901": {
+        "name": "Práctica Profesional II",
+        "professors": [
+          "Oriana Salazar A."
+        ]
+      },
+      "BT6901": {
+        "name": "Práctica Profesional III",
+        "professors": [
+          "Oriana Salazar A."
+        ]
+      },
+      "BT6908": {
+        "name": "Introducción al Trabajo de Título",
+        "professors": [
+          "Humberto Palza C.",
+          "Irene Martínez Basterrechea",
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "BT6909": {
+        "name": "Trabajo de Título",
+        "professors": [
+          "Humberto Palza C.",
+          "Irene Martínez Basterrechea",
+          "Melanie Colet L.",
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "BT7401": {
+        "name": "Trabajo Guiado en Biotecnología",
+        "professors": [
+          "Juan A. Asenjo",
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "BT7412": {
+        "name": "Bioinformática",
+        "professors": [
+          "Dante Travisany F.",
+          "Irene Martínez Basterrechea"
+        ]
+      },
+      "BT7431": {
+        "name": "Biología Molecular e Ingeniería Genética",
+        "professors": [
+          "Oriana Salazar A."
+        ]
+      },
+      "BT7511": {
+        "name": "Como Escribir una Publicación Científica",
+        "professors": [
+          "Juan A. Asenjo"
+        ]
+      },
+      "IQ2211": {
+        "name": "Química",
+        "professors": [
+          "Gabriel Mendoza Santa Cruz",
+          "Isadora Berlanga M.",
+          "Mónica Soler",
+          "Nicole Parra"
+        ]
+      },
+      "IQ2212": {
+        "name": "Termodinámica Química",
+        "professors": [
+          "Andreas Rosenkranz",
+          "Franck Quero",
+          "Gerardo Díaz Rodenas",
+          "Melanie Colet L."
+        ]
+      },
+      "IQ3111": {
+        "name": "Modelamiento y Optimización para Ingeniería de Procesos",
+        "professors": [
+          "Daniela Gormaz",
+          "Felipe Díaz Alvarado"
+        ]
+      },
+      "IQ3211": {
+        "name": "Termodinámica Aplicada",
+        "professors": [
+          "Joaquin Cortes G."
+        ]
+      },
+      "IQ3212": {
+        "name": "Fisicoquímica",
+        "professors": [
+          "Joaquin Cortes G.",
+          "Tomas Vargas V."
+        ]
+      },
+      "IQ3213": {
+        "name": "Química Orgánica",
+        "professors": [
+          "Isadora Berlanga M."
+        ]
+      },
+      "IQ3215": {
+        "name": "Ciencia de los Materiales",
+        "professors": [
+          "Eduardo Donoso C.",
+          "Rodrigo Espinoza G."
+        ]
+      },
+      "IQ3312": {
+        "name": "Fenómenos de Transporte",
+        "professors": [
+          "Felipe Díaz Alvarado"
+        ]
+      },
+      "IQ3451": {
+        "name": "Introducción a la Sustentabilidad en la Ingeniería",
+        "professors": [
+          "Mariana Bruning González"
+        ]
+      },
+      "IQ3711": {
+        "name": "Sustentabilidad en Ingeniería",
+        "professors": [
+          "Felipe Díaz Alvarado",
+          "Fernanda Salinas Urzúa",
+          "Naiara Susaeta H."
+        ]
+      },
+      "IQ4303": {
+        "name": "Operaciones Unitarias y Procesos de Separación",
+        "professors": [
+          "Juan A. Asenjo",
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "IQ4304": {
+        "name": "Operaciones Sólido Fluido",
+        "professors": [
+          "Humberto Palza C."
+        ]
+      },
+      "IQ4305": {
+        "name": "Reactores Químicos y Bioquímicos",
+        "professors": [
+          "Irene Martínez Basterrechea"
+        ]
+      },
+      "IQ4801": {
+        "name": "Laboratorio de la Ingeniería Química",
+        "professors": [
+          "Jorge Castillo G.",
+          "Raul Quijada A."
+        ]
+      },
+      "IQ4901": {
+        "name": "Práctica Profesional I",
+        "professors": [
+          "Rodrigo Espinoza G."
+        ]
+      },
+      "IQ4912": {
+        "name": "Taller de Práctica Profesional I",
+        "professors": [
+          "Rodrigo Espinoza G."
+        ]
+      },
+      "IQ5307": {
+        "name": "Dinámica y Control de Procesos",
+        "professors": [
+          "J. Cristian Salgado H."
+        ]
+      },
+      "IQ5404": {
+        "name": "Unidades de Investigación en Ingeniería Química I",
+        "professors": [
+          "Felipe Díaz Alvarado",
+          "Maria Elena Lienqueo C.",
+          "Mónica Soler"
+        ]
+      },
+      "IQ5405": {
+        "name": "Unidades de Investigación en Ingeniería Química II",
+        "professors": [
+          "Felipe Díaz Alvarado",
+          "Mónica Soler",
+          "Rodrigo Espinoza G."
+        ]
+      },
+      "IQ5413": {
+        "name": "Taller de software profesional",
+        "professors": [
+          "J. Cristian Salgado H."
+        ]
+      },
+      "IQ5423": {
+        "name": "Estabilidad Química de Depósitos de Relaves",
+        "professors": [
+          "Albert Zeppelin H."
+        ]
+      },
+      "IQ5432": {
+        "name": "Tecnología de Materiales Plásticos",
+        "professors": [
+          "Humberto Palza C.",
+          "Raul Quijada A."
+        ]
+      },
+      "IQ5472": {
+        "name": "Industria de Procesos Químicos y Biotecnológicos",
+        "professors": [
+          "Maria Elena Lienqueo C.",
+          "Melanie Colet L."
+        ]
+      },
+      "IQ5701": {
+        "name": "Taller de Diseño de Procesos",
+        "professors": [
+          "Claudia Castillo O.",
+          "Scarlet Taiba",
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "IQ5901": {
+        "name": "Práctica Profesional II",
+        "professors": [
+          "Rodrigo Espinoza G."
+        ]
+      },
+      "IQ6462": {
+        "name": "Liderazgo y Trabajo en Equipo para el Desarrollo Profesional",
+        "professors": [
+          "Andrea Rodríguez Silva"
+        ]
+      },
+      "IQ6901": {
+        "name": "Práctica Profesional III",
+        "professors": [
+          "Rodrigo Espinoza G."
+        ]
+      },
+      "IQ6908": {
+        "name": "Introducción al Trabajo de Título",
+        "professors": [
+          "Humberto Palza C.",
+          "Irene Martínez Basterrechea",
+          "Melanie Colet L.",
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "IQ6909": {
+        "name": "Trabajo de Título",
+        "professors": [
+          "Humberto Palza C.",
+          "Irene Martínez Basterrechea",
+          "Álvaro Olivera Nappa"
+        ]
+      },
+      "IQ7001": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Francisco Gracia C.",
+          "Juan A. Asenjo"
+        ]
+      },
+      "IQ7002": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Francisco Gracia C.",
+          "Juan A. Asenjo"
+        ]
+      },
+      "IQ7401": {
+        "name": "Trabajo Guiado en Ingeniería Química",
+        "professors": [
+          "Humberto Palza C."
+        ]
+      },
+      "IQ7403": {
+        "name": "Seminario Avanzado de Ingeniería Química",
+        "professors": [
+          "Felipe Díaz Alvarado",
+          "Humberto Palza C."
+        ]
+      },
+      "IQ7405": {
+        "name": "Seminario Avanzado en Ingeniería Química III",
+        "professors": [
+          "Felipe Díaz Alvarado",
+          "Francisco Gracia C.",
+          "Humberto Palza C.",
+          "Maria Elena Lienqueo C."
+        ]
+      },
+      "IQ7411": {
+        "name": "Modelación de Procesos Químicos",
+        "professors": [
+          "J. Cristian Salgado H."
+        ]
+      },
+      "IQ7422": {
+        "name": "Transferencia de Masa Avanzada",
+        "professors": [
+          "Albert Zeppelin H."
+        ]
+      },
+      "IQ7432": {
+        "name": "Procesos de Polimerización",
+        "professors": [
+          "Humberto Palza C.",
+          "Raul Quijada A."
+        ]
+      },
+      "IQ7501": {
+        "name": "Seminario de Ingeniería Química",
+        "professors": [
+          "Felipe Díaz Alvarado"
+        ]
+      },
+      "IQ7504": {
+        "name": "Seminario de Ingeniería Química",
+        "professors": [
+          "Francisco Gracia C."
+        ]
+      },
+      "IQ8003": {
+        "name": "Trabajo de Tesis I",
+        "professors": [
+          "Francisco Gracia C.",
+          "Juan A. Asenjo"
+        ]
+      },
+      "IQ8004": {
+        "name": "Trabajo de Tesis II",
+        "professors": [
+          "Francisco Gracia C.",
+          "Juan A. Asenjo"
+        ]
+      },
+      "IQ8005": {
+        "name": "Trabajo de Tesis III",
+        "professors": [
+          "Francisco Gracia C.",
+          "Juan A. Asenjo"
+        ]
+      },
+      "IQ8006": {
+        "name": "Trabajo de Tesis IV",
+        "professors": [
+          "Francisco Gracia C.",
+          "Juan A. Asenjo"
+        ]
+      }
+    }
+  }
+}

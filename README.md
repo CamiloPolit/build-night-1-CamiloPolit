@@ -14,38 +14,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+Primero, ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Luego, abre [http://localhost:3000](http://localhost:3000) Con tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
 
 ## 📄 Datos de Departamentos
 
@@ -54,7 +31,7 @@ El archivo [`src/data/departments.json`](src/data/departments.json) contiene el 
 ### 🛠️ Obtención de los datos
 
 - Los datos fueron extraídos manualmente desde el HTML de un formulario desplegable (`<select>`) utilizado en el portal oficial de la facultad.
-- Se mapearon los atributos `value` de cada etiqueta `<option>` al nombre visible del departamento.
+- Se le indicó a un llm que mapee los atributos `value` de cada etiqueta `<option>` al nombre visible del departamento.
 - El propósito de este archivo es disponer de un listado estático, confiable y actualizado, evitando la necesidad de consultar fuentes externas en tiempo de ejecución.
 
 ### 📂 Ubicación
@@ -104,3 +81,75 @@ https://ucampus.uchile.cl/m/fcfm_catalogo/?semestre=20242&depto=303&force=0
 
 - Cambiando el valor de `depto`, se pueden consultar los cursos de diferentes departamentos.
 - Cambiando el valor de `semestre`, se puede acceder a la oferta académica de distintos años y períodos.
+
+---
+
+# Documentación del Scraper de Catálogo de Cursos UCampus
+
+Este proyecto incluye un script en Python que extrae automáticamente la oferta de cursos de la FCFM en UCampus, para varios semestres y departamentos, y guarda los resultados en archivos JSON organizados.
+
+## 📂 Estructura de carpetas
+
+````text
+project-root/
+├── scripts/
+│   ├── ucampus_scraper.py    # Clase UCampusScraper (fetch + parse)
+│   └── fetch_catalog.py      # Runner: itera años/semestres/deptos y guarda JSON
+│
+├── src/
+│   └── data/
+│       ├── departments.json  # Mapeo { dept_code: dept_name }
+│       └── catalog/          # JSON de salida: un archivo por semestre
+│
+├── .venv/                    # (opcional) Entorno virtual Python
+├── package.json              # npm scripts (incluye “scrape:catalog”)
+└── README.md                 # Esta documentación
+
+## 1. Mapeo de Departamentos (`departments.json`)
+
+Ubicación: `src/data/departments.json`
+
+Formato:
+
+```json
+{
+  "12060003": "AA - Área para el Aprendizaje de la Ingeniería y Ciencias A2IC",
+  "3":        "AS - Departamento de Astronomía",
+  "5":        "CC - Departamento de Ciencias de la Computación",
+  …
+  "307":      "QB - Departamento de Ingeniería Química y Biotecnología"
+}
+
+
+
+````
+
+## 2. Script Principal (`fetch_catalog.py`)
+
+**Ubicación:** `scripts/fetch_catalog.py`
+
+### ¿Qué hace?
+
+- Carga el mapeo de departamentos desde `departments.json`.
+- Crea (si no existe) la carpeta de salida `src/data/catalog/`.
+- Itera sobre:
+  - Los últimos 5 años calendario (incluye el año actual).
+  - Dos códigos de semestre:
+    - `1` → Otoño (primer semestre)
+    - `2` → Primavera (segundo semestre)
+  - Todos los departamentos del mapeo.
+- Usa la clase `UCampusScraper` para descargar y parsear cada página de catálogo.
+- Agrupa los resultados en un diccionario que, por cada `dept_code`, contiene:
+
+  ```json
+  {
+    "department": "<nombre del depto>",
+    "courses": {
+      "<course_code>": {
+        "name":       "<nombre del curso>",
+        "professors": ["Profesor A", "Profesor B", …]
+      },
+      …
+    }
+  }
+  ```
