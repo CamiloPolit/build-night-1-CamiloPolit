@@ -1,12 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getDepartment } from "@/lib/catalog";
+import { getDepartment } from "@/api/catalog";
 
 export async function GET(
   request: NextRequest,
   { params }: { params: { catalogId: string; departmentId: string } }
 ) {
   try {
-    const { catalogId, departmentId } = params;
+    const paramsObject = await params;
+    const { catalogId, departmentId } = paramsObject;
 
     if (!catalogId || !departmentId) {
       return NextResponse.json(
@@ -32,10 +33,7 @@ export async function GET(
       data: department,
     });
   } catch (error) {
-    console.error(
-      `Error fetching department ${params.departmentId} from catalog ${params.catalogId}:`,
-      error
-    );
+    console.error(`Error fetching department:`, error);
     return NextResponse.json(
       { success: false, error: "Failed to fetch department" },
       { status: 500 }

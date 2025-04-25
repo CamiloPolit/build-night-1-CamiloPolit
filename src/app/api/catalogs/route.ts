@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getCatalogIds } from "@/lib/catalog";
+import { getCatalogIds } from "@/api/catalog";
 
 export async function GET(request: NextRequest) {
   try {
