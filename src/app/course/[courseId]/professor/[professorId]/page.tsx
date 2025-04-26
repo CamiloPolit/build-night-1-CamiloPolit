@@ -63,10 +63,10 @@ export default function ProfessorPage() {
       <main className="container mx-auto px-4 py-8">
         <div className="flex items-center mb-4">
           <button
-            onClick={() => router.push(`/course/${courseId}`)}
+            onClick={() => router.push('/')}
             className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
           >
-            ← Volver a profesores
+            ← Volver a departamentos y cursos
           </button>
         </div>
 

@@ -1,25 +1,44 @@
 import React from 'react';
 import { Professor } from '../types';
 import { ChevronRight } from 'lucide-react';
-import { reviews } from '../data/mockData';
+import { getProfessorsByCourse, reviews } from '../data/mockData';
 
-interface ProfessorListProps {
-  professors: Professor[];
-  onSelect: (professorId: string) => void;
+interface CourseProfessorsListProps {
+  courseId: string;
+  onSelectProfessor: (professorId: string) => void;
 }
 
-const ProfessorList: React.FC<ProfessorListProps> = ({ professors, onSelect }) => {
+const CourseProfessorsList: React.FC<CourseProfessorsListProps> = ({
+  courseId,
+  onSelectProfessor
+}) => {
+  // Get professors for the selected course
+  const professors = getProfessorsByCourse(courseId);
 
-  // Function to count reviews for a professor across all courses
+  // Function to count reviews for a professor in this specific course
   const getReviewsCount = (professorId: string): number => {
-    return reviews.filter(review => review.professorId === professorId).length;
+    return reviews.filter(review =>
+      review.professorId === professorId && review.courseId === courseId
+    ).length;
   };
 
+  if (professors.length === 0) {
+    return (
+      <div className="bg-white rounded-xl shadow-sm p-6 mb-6 border border-gray-100">
+        <div className="text-center py-8">
+          <span className="text-3xl mb-3 block">🔍</span>
+          <h3 className="text-lg font-medium text-gray-700">No hay profesores asociados a este curso</h3>
+          <p className="text-gray-500 text-sm mt-1">Selecciona otro curso o intenta más tarde</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="bg-white rounded-xl shadow-sm p-6 mb-6 border border-gray-100">
+    <div className="bg-white rounded-xl shadow-sm p-6 mb-6 border border-gray-100 animate-fadeIn">
       <h2 className="text-xl font-semibold text-gray-800 mb-6 flex items-center">
         <span className="text-2xl mr-2" role="img" aria-label="Graduation Cap">🎓</span>
-        Profesores disponibles
+        Profesores para este curso
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -30,7 +49,7 @@ const ProfessorList: React.FC<ProfessorListProps> = ({ professors, onSelect }) =
           return (
             <button
               key={professor.id}
-              onClick={() => onSelect(professor.id)}
+              onClick={() => onSelectProfessor(professor.id)}
               className={`group w-full p-0 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all text-left focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 ${hasNoReviews ? 'border border-amber-200' : ''}`}
             >
               <div className="flex flex-col h-full">
@@ -76,4 +95,4 @@ const ProfessorList: React.FC<ProfessorListProps> = ({ professors, onSelect }) =
   );
 };
 
-export default ProfessorList;
+export default CourseProfessorsList; 

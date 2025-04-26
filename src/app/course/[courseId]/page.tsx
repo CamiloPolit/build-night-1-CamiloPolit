@@ -1,45 +1,23 @@
 'use client';
 
-import { useParams, useRouter } from 'next/navigation';
-import Header from '@/components/Header';
-import ProfessorList from '@/components/ProfessorList';
-import Footer from '@/components/Footer';
-import { getProfessorsByCourse, getCourseById } from '@/data/mockData';
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function CoursePage() {
-  const params = useParams();
   const router = useRouter();
-  const courseId = params.courseId as string;
 
-  const course = getCourseById(courseId);
-  const professors = getProfessorsByCourse(courseId);
-
-  if (!course) {
-    return <div>Course not found</div>;
-  }
-
-  const handleProfessorSelect = (professorId: string) => {
-    router.push(`/course/${courseId}/professor/${professorId}`);
-  };
+  useEffect(() => {
+    // Redirect to home since we're handling course views on the main page now
+    router.replace('/');
+  }, [router]);
 
   return (
-    <>
-      <Header />
-      <main className="container mx-auto px-4 py-8">
-        <div className="flex items-center mb-6">
-          <button
-            onClick={() => router.push('/')}
-            className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
-          >
-            ← Volver a cursos
-          </button>
-        </div>
-        <ProfessorList
-          professors={professors}
-          onSelect={handleProfessorSelect}
-        />
-      </main>
-      <Footer />
-    </>
+    <div className="flex justify-center items-center h-screen">
+      <div className="text-center">
+        <div className="text-3xl mb-4">🔄</div>
+        <h2 className="text-xl font-medium text-gray-700 mb-2">Redirigiendo...</h2>
+        <p className="text-gray-500">Volviendo a la página principal</p>
+      </div>
+    </div>
   );
 } 

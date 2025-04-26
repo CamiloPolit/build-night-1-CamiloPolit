@@ -26,7 +26,9 @@ export default function Home() {
   };
 
   const handleCourseSelect = (courseId: string) => {
-    router.push(`/course/${courseId}`);
+    // This function is no longer used directly in this component
+    // but we need to keep it for the DepartmentCourses component prop
+    console.log("Course selected:", courseId);
   };
 
   return (
