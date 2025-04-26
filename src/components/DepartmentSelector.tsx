@@ -15,35 +15,35 @@ interface DepartmentSelectorProps {
 const DepartmentSelector: React.FC<DepartmentSelectorProps> = ({ onSelect }) => {
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
-  // Mock departments with some appealing visuals - using department names from mockData.ts
+  // Departamentos actualizados según especificaciones
   const departments: Department[] = [
     {
-      id: "Computer Science",
-      name: "Computer Science",
+      id: "Ciencias de la Computación",
+      name: "Ciencias de la Computación",
       icon: "💻",
       description: "Algoritmos, programación y teoría computacional",
       color: "bg-blue-50 border-blue-200 hover:border-blue-500 hover:bg-blue-100"
     },
     {
-      id: "Mathematics",
-      name: "Mathematics",
+      id: "Ingeniería Civil Matemática",
+      name: "Ingeniería Civil Matemática",
       icon: "📊",
-      description: "Cálculo, álgebra y análisis matemático",
+      description: "Modelamiento matemático, optimización y análisis de datos",
       color: "bg-green-50 border-green-200 hover:border-green-500 hover:bg-green-100"
     },
     {
-      id: "Physics",
-      name: "Physics",
-      icon: "⚛️",
-      description: "Mecánica, electromagnetismo y física moderna",
-      color: "bg-purple-50 border-purple-200 hover:border-purple-500 hover:bg-purple-100"
+      id: "Ingeniería Civil Eléctrica",
+      name: "Ingeniería Civil Eléctrica",
+      icon: "⚡",
+      description: "Sistemas eléctricos, electrónica y telecomunicaciones",
+      color: "bg-yellow-50 border-yellow-200 hover:border-yellow-500 hover:bg-yellow-100"
     },
     {
-      id: "Biology",
-      name: "Biology",
-      icon: "🧬",
-      description: "Biología celular, genética y ecología",
-      color: "bg-emerald-50 border-emerald-200 hover:border-emerald-500 hover:bg-emerald-100"
+      id: "Astronomía",
+      name: "Astronomía",
+      icon: "🔭",
+      description: "Estudio de cuerpos celestes, astrofísica y cosmología",
+      color: "bg-purple-50 border-purple-200 hover:border-purple-500 hover:bg-purple-100"
     }
   ];
 

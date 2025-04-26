@@ -52,7 +52,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ review }) => {
         </div>
         {medianGrade > 0 && (
           <div className="bg-blue-100 text-blue-800 text-sm font-semibold rounded-lg px-3 py-2">
-            <p className="text-xs text-blue-600">Mediana nota final</p>
+            <p className="text-xs text-blue-600">Mediana de Nota Final</p>
             <p className="text-xl font-bold text-center">{medianGrade.toFixed(1)}</p>
           </div>
         )}

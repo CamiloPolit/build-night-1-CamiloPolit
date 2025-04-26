@@ -24,74 +24,92 @@ const DepartmentCourses: React.FC<DepartmentCoursesProps> = ({
 
   // Department colors and icons for visual consistency
   const departmentStyles: Record<string, { bgColor: string, icon: string }> = {
-    "Computer Science": { bgColor: "bg-blue-50", icon: "💻" },
-    "Mathematics": { bgColor: "bg-green-50", icon: "📊" },
-    "Physics": { bgColor: "bg-purple-50", icon: "⚛️" },
-    "Biology": { bgColor: "bg-emerald-50", icon: "🧬" }
+    "Ciencias de la Computación": { bgColor: "bg-blue-50", icon: "💻" },
+    "Ingeniería Civil Matemática": { bgColor: "bg-green-50", icon: "📊" },
+    "Ingeniería Civil Eléctrica": { bgColor: "bg-yellow-50", icon: "⚡" },
+    "Astronomía": { bgColor: "bg-purple-50", icon: "🔭" }
   };
 
   // Mock courses data by department
   const coursesMap: Record<string, Course[]> = {
-    "Computer Science": [
+    "Ciencias de la Computación": [
       {
-        id: "CS101",
-        name: "Programación Fundamental",
-        code: "CS101",
-        description: "Introducción a la programación y algoritmos básicos"
+        id: "CC3001",
+        name: "Algoritmos y Estructuras de Datos",
+        code: "CC3001",
+        description: "Diseño e implementación de algoritmos eficientes y estructuras de datos avanzadas"
       },
       {
-        id: "CS201",
-        name: "Estructuras de Datos",
-        code: "CS201",
-        description: "Estudio avanzado de estructuras de datos y algoritmos"
+        id: "CC4101",
+        name: "Lenguajes de Programación",
+        code: "CC4101",
+        description: "Estudio de paradigmas y características de lenguajes de programación"
       },
       {
-        id: "CS301",
-        name: "Inteligencia Artificial",
-        code: "CS301",
-        description: "Fundamentos de IA y aprendizaje automático"
+        id: "CC5205",
+        name: "Minería de Datos",
+        code: "CC5205",
+        description: "Técnicas y algoritmos para extraer conocimiento a partir de grandes volúmenes de datos"
       }
     ],
-    "Mathematics": [
+    "Ingeniería Civil Matemática": [
       {
-        id: "MATH101",
-        name: "Cálculo I",
-        code: "MATH101",
-        description: "Límites, derivadas e integrales de funciones de una variable"
+        id: "MA3403",
+        name: "Ecuaciones Diferenciales",
+        code: "MA3403",
+        description: "Métodos analíticos y numéricos para resolver ecuaciones diferenciales"
       },
       {
-        id: "MATH201",
-        name: "Álgebra Lineal",
-        code: "MATH201",
-        description: "Estudio de vectores, matrices y sistemas lineales"
+        id: "MA4402",
+        name: "Optimización",
+        code: "MA4402",
+        description: "Teoría y algoritmos de optimización matemática para problemas complejos"
+      },
+      {
+        id: "MA5405",
+        name: "Modelamiento Estocástico",
+        code: "MA5405",
+        description: "Análisis probabilístico y simulación de sistemas estocásticos"
       }
     ],
-    "Physics": [
+    "Ingeniería Civil Eléctrica": [
       {
-        id: "PHYS101",
-        name: "Física Mecánica",
-        code: "PHYS101",
-        description: "Estudio del movimiento y las fuerzas"
+        id: "EL3104",
+        name: "Señales y Sistemas",
+        code: "EL3104",
+        description: "Análisis y procesamiento de señales en sistemas lineales"
       },
       {
-        id: "PHYS201",
-        name: "Electromagnetismo",
-        code: "PHYS201",
-        description: "Teoría electromagnética y aplicaciones"
+        id: "EL4104",
+        name: "Electrónica de Potencia",
+        code: "EL4104",
+        description: "Diseño de convertidores y sistemas de control para alta potencia"
+      },
+      {
+        id: "EL5002",
+        name: "Comunicaciones Digitales",
+        code: "EL5002",
+        description: "Modulación, codificación y transmisión de información digital"
       }
     ],
-    "Biology": [
+    "Astronomía": [
       {
-        id: "BIO101",
-        name: "Biología Celular",
-        code: "BIO101",
-        description: "Estudio de la estructura y función celular"
+        id: "AS3405",
+        name: "Astrofísica Estelar",
+        code: "AS3405",
+        description: "Estructura, evolución y clasificación de estrellas"
       },
       {
-        id: "BIO201",
-        name: "Genética",
-        code: "BIO201",
-        description: "Principios de la herencia y la genética molecular"
+        id: "AS4401",
+        name: "Cosmología",
+        code: "AS4401",
+        description: "Origen, estructura y evolución del universo"
+      },
+      {
+        id: "AS5505",
+        name: "Radioastronomía",
+        code: "AS5505",
+        description: "Técnicas observacionales en el espectro de radio"
       }
     ]
   };
