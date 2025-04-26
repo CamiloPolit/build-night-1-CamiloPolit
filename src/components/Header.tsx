@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { GraduationCap, Menu, X, Search, ChevronDown } from 'lucide-react';
+import { GraduationCap, Menu, X, ChevronDown } from 'lucide-react';
+import Link from 'next/link';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,9 +25,9 @@ const Header: React.FC = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">
-            <a href="#" className="px-4 py-2 text-gray-700 hover:text-blue-600 rounded-lg hover:bg-blue-50 transition-all font-medium text-sm">
+            <Link href="/" className="px-4 py-2 text-gray-700 hover:text-blue-600 rounded-lg hover:bg-blue-50 transition-all font-medium text-sm">
               Inicio
-            </a>
+            </Link>
             <div className="relative group">
               <a href="#" className="px-4 py-2 text-gray-700 hover:text-blue-600 rounded-lg hover:bg-blue-50 transition-all font-medium text-sm flex items-center">
                 Profesores
@@ -57,7 +58,9 @@ const Header: React.FC = () => {
                 placeholder="Buscar profesor..."
                 className="pl-10 pr-4 py-2 bg-gray-50 border border-gray-100 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 w-52 text-sm"
               />
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+              <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                🔍
+              </span>
             </div>
 
             <div className="flex space-x-2">
@@ -93,12 +96,14 @@ const Header: React.FC = () => {
                 placeholder="Buscar profesor..."
                 className="pl-10 pr-4 py-2 bg-gray-50 border border-gray-100 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 w-full text-sm"
               />
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+              <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                🔍
+              </span>
             </div>
             <div className="flex flex-col space-y-1">
-              <a href="#" className="px-4 py-3 text-gray-700 rounded-lg hover:bg-blue-50 hover:text-blue-600 font-medium">
+              <Link href="/" className="px-4 py-3 text-gray-700 rounded-lg hover:bg-blue-50 hover:text-blue-600 font-medium">
                 Inicio
-              </a>
+              </Link>
               <a href="#" className="px-4 py-3 text-gray-700 rounded-lg hover:bg-blue-50 hover:text-blue-600 font-medium">
                 Profesores
               </a>
