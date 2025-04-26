@@ -1,6 +1,6 @@
 import React from 'react';
 import { Professor } from '../types';
-import { GraduationCap, BookOpen } from 'lucide-react';
+import { GraduationCap, BookOpen, Building2 } from 'lucide-react';
 
 interface ProfessorInfoProps {
   professor: Professor;
@@ -10,33 +10,42 @@ interface ProfessorInfoProps {
 const ProfessorInfo: React.FC<ProfessorInfoProps> = ({ professor, courseName }) => {
   return (
     <div className="max-w-3xl mx-auto">
-      <div className="bg-white rounded-xl shadow-md overflow-hidden">
+      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl shadow-sm border border-blue-100 overflow-hidden">
         <div className="p-6">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center space-x-3">
-              <div className="bg-blue-100 p-3 rounded-full">
-                <GraduationCap className="w-6 h-6 text-blue-700" />
+          <div className="flex flex-wrap md:flex-nowrap items-start justify-between gap-5">
+            <div className="flex items-center">
+              <div className="bg-gradient-to-br from-blue-500 to-indigo-600 p-4 rounded-xl shadow-md">
+                <GraduationCap className="w-8 h-8 text-white" />
               </div>
-              <div>
-                <h2 className="text-2xl font-semibold text-gray-800">{professor.name}</h2>
-                <p className="text-gray-500">{professor.title}</p>
+              <div className="ml-4">
+                <h2 className="text-2xl font-bold text-gray-800">{professor.name}</h2>
+                <p className="text-indigo-600 font-medium">{professor.title}</p>
               </div>
             </div>
-            <span className="inline-block bg-blue-100 text-blue-800 text-xs px-3 py-1.5 rounded-full uppercase font-semibold tracking-wide">
-              {professor.department}
-            </span>
-          </div>
 
-          <div className="flex items-center space-x-3 mb-4 bg-gray-50 p-3 rounded-lg">
-            <BookOpen className="w-5 h-5 text-gray-600" />
-            <div>
-              <p className="text-sm text-gray-600 font-medium">Curso actual</p>
-              <p className="text-gray-800 font-medium">{courseName}</p>
+            <div className="flex-shrink-0">
+              <div className="flex flex-wrap gap-3">
+                <div className="flex items-center px-4 py-2 bg-white rounded-lg shadow-sm border border-gray-100">
+                  <Building2 className="w-4 h-4 text-indigo-600 mr-2" />
+                  <span className="text-sm font-medium text-gray-700">{professor.department}</span>
+                </div>
+
+                <div className="flex items-center px-4 py-2 bg-white rounded-lg shadow-sm border border-gray-100">
+                  <BookOpen className="w-4 h-4 text-blue-600 mr-2" />
+                  <span className="text-sm font-medium text-gray-700">{courseName}</span>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="border-t border-gray-100 pt-4">
-            <p className="text-gray-600 leading-relaxed">{professor.bio}</p>
+          <div className="mt-6">
+            <div className="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+              <div className="flex items-center mb-2">
+                <GraduationCap className="w-4 h-4 text-blue-600 mr-2" />
+                <h3 className="text-sm font-semibold text-gray-700">Departamento</h3>
+              </div>
+              <p className="font-medium text-gray-800">{professor.department}</p>
+            </div>
           </div>
         </div>
       </div>

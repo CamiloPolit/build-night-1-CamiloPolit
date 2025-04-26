@@ -47,6 +47,7 @@ export default function ProfessorPage() {
       difficulty: data.difficulty,
       hasPartials: data.hasPartials,
       partialsDescription: data.partialsDescription,
+      medianGrade: data.medianGrade,
       comment: data.comment
     };
 

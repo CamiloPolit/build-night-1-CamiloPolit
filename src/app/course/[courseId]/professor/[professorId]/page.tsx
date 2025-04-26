@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Header from '@/components/Header';
-import ProfessorInfo from '@/components/ProfessorInfo';
 import ReviewForm from '@/components/ReviewForm';
 import ReviewList from '@/components/ReviewList';
 import StatsSummary from '@/components/StatsSummary';
@@ -62,7 +61,7 @@ export default function ProfessorPage() {
     <>
       <Header />
       <main className="container mx-auto px-4 py-8">
-        <div className="flex items-center mb-6">
+        <div className="flex items-center mb-4">
           <button
             onClick={() => router.push(`/course/${courseId}`)}
             className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
@@ -71,11 +70,29 @@ export default function ProfessorPage() {
           </button>
         </div>
 
-        <div className="mb-8">
-          <ProfessorInfo
-            professor={professor}
-            courseName={course.name}
-          />
+        {/* New Professor Banner */}
+        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl shadow-sm border border-blue-100 p-6 mb-8">
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center">
+              <span className="text-4xl mr-4" role="img" aria-label="Professor">👨‍🏫</span>
+              <div>
+                <h1 className="text-2xl font-bold text-gray-800">{professor.name}</h1>
+                <p className="text-indigo-600 font-medium">{professor.title}</p>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-3">
+              <div className="px-4 py-2 bg-white rounded-lg shadow-sm border border-gray-100 flex items-center">
+                <span className="text-xl mr-2" role="img" aria-label="Department">🏛️</span>
+                <span className="text-sm font-medium text-gray-700">{professor.department}</span>
+              </div>
+
+              <div className="px-4 py-2 bg-white rounded-lg shadow-sm border border-gray-100 flex items-center">
+                <span className="text-xl mr-2" role="img" aria-label="Course">📚</span>
+                <span className="text-sm font-medium text-gray-700">{course.name}</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="max-w-6xl mx-auto">

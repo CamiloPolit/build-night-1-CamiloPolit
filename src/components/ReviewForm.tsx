@@ -20,8 +20,12 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ professor, onSubmit }) => {
     difficulty: 0,
     hasPartials: false,
     partialsDescription: '',
+    medianGrade: undefined,
     comment: ''
   });
+
+  // Add a new state to track if the user has made a selection for partials
+  const [hasPartialsSelected, setHasPartialsSelected] = useState<boolean | null>(null);
 
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [submitting, setSubmitting] = useState(false);
@@ -37,6 +41,44 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ professor, onSubmit }) => {
       setErrors(prev => {
         const newErrors = { ...prev };
         delete newErrors[name];
+        return newErrors;
+      });
+    }
+  };
+
+  // Handle numeric input changes (for median grade)
+  const handleNumericInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+
+    // Convert input to number or undefined if empty
+    const numValue = value === '' ? undefined : parseFloat(value);
+
+    setFormData(prev => ({
+      ...prev,
+      [name]: numValue
+    }));
+
+    if (errors[name]) {
+      setErrors(prev => {
+        const newErrors = { ...prev };
+        delete newErrors[name];
+        return newErrors;
+      });
+    }
+  };
+
+  // Modify the handler for hasPartials
+  const handlePartialsChange = (value: boolean) => {
+    setFormData(prev => ({
+      ...prev,
+      hasPartials: value
+    }));
+    setHasPartialsSelected(value);
+
+    if (errors.partialsDescription) {
+      setErrors(prev => {
+        const newErrors = { ...prev };
+        delete newErrors.partialsDescription;
         return newErrors;
       });
     }
@@ -75,7 +117,17 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ professor, onSubmit }) => {
       newErrors.difficulty = 'Por favor, califique la dificultad';
     }
 
-    if (formData.hasPartials && !formData.partialsDescription?.trim()) {
+    // Validate median grade if provided
+    if (formData.medianGrade !== undefined) {
+      if (formData.medianGrade < 1 || formData.medianGrade > 7) {
+        newErrors.medianGrade = 'La nota debe estar entre 1.0 y 7.0';
+      }
+    }
+
+    // Validate that a selection has been made
+    if (hasPartialsSelected === null) {
+      newErrors.hasPartials = 'Por favor, indique si hubo otras instancias de evaluación';
+    } else if (formData.hasPartials && !formData.partialsDescription?.trim()) {
       newErrors.partialsDescription = 'Por favor, describa las evaluaciones intermedias';
     }
 
@@ -100,8 +152,10 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ professor, onSubmit }) => {
           difficulty: 0,
           hasPartials: false,
           partialsDescription: '',
+          medianGrade: undefined,
           comment: ''
         });
+        setHasPartialsSelected(null);
         setSubmitting(false);
       }, 1000);
     }
@@ -109,7 +163,10 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ professor, onSubmit }) => {
 
   return (
     <div className="bg-white rounded-xl shadow-md p-8 transition-all hover:shadow-lg max-w-3xl mx-auto">
-      <h2 className="text-xl font-semibold text-gray-800 mb-6">Evaluar a {professor.name}</h2>
+      <div className="flex items-center mb-6">
+        <span className="text-3xl mr-3" role="img" aria-label="Rating">⭐</span>
+        <h2 className="text-xl font-semibold text-gray-800">Evaluar a {professor.name}</h2>
+      </div>
 
       <form onSubmit={handleSubmit}>
         <div className="mb-5">
@@ -130,7 +187,7 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ professor, onSubmit }) => {
         </div>
 
         <div className="grid grid-cols-2 gap-4 mb-5">
-          <div>
+          <div className="relative">
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Año
             </label>
@@ -138,15 +195,20 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ professor, onSubmit }) => {
               name="year"
               value={formData.year}
               onChange={handleInputChange}
-              className="w-full px-4 py-3 bg-gray-50 border border-gray-100 border-opacity-30 rounded-lg shadow-sm focus:shadow-sm focus:outline-none focus:border-blue-500 focus:border-opacity-100 transition-all appearance-none"
+              className="w-full px-4 py-3 bg-gray-50 border border-gray-100 border-opacity-30 rounded-lg shadow-sm focus:shadow-md focus:outline-none focus:border-blue-500 focus:border-opacity-100 transition-all appearance-none cursor-pointer hover:bg-gray-100"
             >
               {yearOptions.map(year => (
                 <option key={year} value={year}>{year}</option>
               ))}
             </select>
+            <div className="pointer-events-none absolute inset-y-0 right-0 top-6 flex items-center px-3 text-gray-500">
+              <svg className="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+            </div>
           </div>
 
-          <div>
+          <div className="relative">
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Semestre
             </label>
@@ -154,11 +216,16 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ professor, onSubmit }) => {
               name="semester"
               value={formData.semester}
               onChange={handleInputChange}
-              className="w-full px-4 py-3 bg-gray-50 border border-gray-100 border-opacity-30 rounded-lg shadow-sm focus:shadow-sm focus:outline-none focus:border-blue-500 focus:border-opacity-100 transition-all appearance-none"
+              className="w-full px-4 py-3 bg-gray-50 border border-gray-100 border-opacity-30 rounded-lg shadow-sm focus:shadow-md focus:outline-none focus:border-blue-500 focus:border-opacity-100 transition-all appearance-none cursor-pointer hover:bg-gray-100"
             >
               <option value={1}>1</option>
               <option value={2}>2</option>
             </select>
+            <div className="pointer-events-none absolute inset-y-0 right-0 top-6 flex items-center px-3 text-gray-500">
+              <svg className="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+            </div>
           </div>
         </div>
 
@@ -217,23 +284,53 @@ const ReviewForm: React.FC<ReviewFormProps> = ({ professor, onSubmit }) => {
         )}
 
         <div className="mb-5">
+          <label className="block text-sm font-medium text-gray-700 mb-1">
+            Mediana de la nota final (opcional)
+          </label>
+          <div className="flex items-center space-x-3">
+            <div className="relative flex-grow">
+              <input
+                type="number"
+                name="medianGrade"
+                value={formData.medianGrade === undefined ? '' : formData.medianGrade}
+                onChange={handleNumericInputChange}
+                min="1"
+                max="7"
+                step="0.1"
+                placeholder="Ej: 4.5"
+                className={`w-full px-4 py-3 bg-gray-50 border border-gray-100 border-opacity-30 rounded-lg shadow-sm focus:shadow-sm focus:outline-none focus:border-blue-500 focus:border-opacity-100 transition-all ${errors.medianGrade ? 'border-red-300 border-opacity-40' : ''}`}
+              />
+            </div>
+            <span className="text-gray-600 text-sm font-medium">/ 7.0</span>
+          </div>
+          <p className="mt-1 text-xs text-gray-500">Ingresa la mediana de la nota final del curso para tener una referencia</p>
+          {errors.medianGrade && (
+            <p className="mt-1 text-sm text-red-600">{errors.medianGrade}</p>
+          )}
+        </div>
+
+        <div className="mb-5">
           <label className="block flex text-center text-sm font-medium text-gray-700 mb-2">
             ¿Hubo otras instancias de evaluación además de los controles durante el curso?
           </label>
           <div className="mt-2 flex gap-5">
             <div
-              onClick={() => handleInputChange({ target: { name: 'hasPartials', checked: true, type: 'checkbox' } } as any)}
-              className={`flex-1 cursor-pointer rounded-lg py-4 px-5 text-center transition-all ${formData.hasPartials ? 'bg-green-100 text-green-600 border border-green-200' : 'bg-gray-50 text-gray-500 border border-gray-100 border-opacity-30 hover:bg-green-50'}`}
+              onClick={() => handlePartialsChange(true)}
+              className={`flex-1 cursor-pointer rounded-lg py-4 px-5 text-center transition-all ${hasPartialsSelected === true ? 'bg-green-100 text-green-600 border border-green-200' : 'bg-gray-50 text-gray-500 border border-gray-100 border-opacity-30 hover:bg-green-50'}`}
             >
               Sí
             </div>
             <div
-              onClick={() => handleInputChange({ target: { name: 'hasPartials', checked: false, type: 'checkbox' } } as any)}
-              className={`flex-1 cursor-pointer rounded-lg py-4 px-5 text-center transition-all ${!formData.hasPartials ? 'bg-red-100 text-red-600 border border-red-200' : 'bg-gray-50 text-gray-500 border border-gray-100 border-opacity-30 hover:bg-red-50'}`}
+              onClick={() => handlePartialsChange(false)}
+              className={`flex-1 cursor-pointer rounded-lg py-4 px-5 text-center transition-all ${hasPartialsSelected === false ? 'bg-red-100 text-red-600 border border-red-200' : 'bg-gray-50 text-gray-500 border border-gray-100 border-opacity-30 hover:bg-red-50'}`}
             >
               No
             </div>
           </div>
+
+          {errors.hasPartials && (
+            <p className="mt-1 text-sm text-red-600">{errors.hasPartials}</p>
+          )}
 
           {formData.hasPartials && (
             <div className="mt-4">

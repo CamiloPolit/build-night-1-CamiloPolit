@@ -27,7 +27,14 @@ export interface Review {
   difficulty: number;
   hasPartials: boolean;
   partialsDescription?: string;
+  medianGrade?: number;
   comment?: string;
+  overall?: number;
+  approximateMedian?: number;
+  studentName?: string;
+  course?: string;
+  knowledge?: number;
+  helpfulness?: number;
 }
 
 export interface RatingInputProps {
@@ -55,5 +62,6 @@ export interface ReviewFormData {
   difficulty: number;
   hasPartials: boolean;
   partialsDescription?: string;
+  medianGrade?: number;
   comment?: string;
 }
