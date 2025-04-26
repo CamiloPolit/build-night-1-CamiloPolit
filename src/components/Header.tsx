@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GraduationCap, Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
 
 const Header: React.FC = () => {
@@ -13,11 +13,8 @@ const Header: React.FC = () => {
     <header className="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <div className="bg-gradient-to-br from-blue-500 to-indigo-600 p-2 rounded-lg shadow-sm">
-              <GraduationCap className="h-6 w-6 text-white" />
-            </div>
+          {/* ProfeRate Text */}
+          <div className="flex items-center">
             <h1 className="text-xl font-bold bg-gradient-to-r from-blue-700 to-indigo-600 bg-clip-text text-transparent">
               ProfeRate
             </h1>

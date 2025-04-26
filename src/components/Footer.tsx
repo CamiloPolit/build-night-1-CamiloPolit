@@ -2,36 +2,24 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8 mt-16">
+    <footer className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-6 mt-12">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between">
-          <div className="mb-6 md:mb-0">
-            <h3 className="text-lg font-semibold mb-3">ProfeRate</h3>
-            <p className="text-gray-400 max-w-xs">
-              Tu plataforma para evaluar y conocer las opiniones sobre los profesores de tu universidad.
-            </p>
+        <div className="flex flex-col items-center justify-center">
+          <div className="mb-3">
+            <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-indigo-300 bg-clip-text text-transparent">
+              ProfeRate
+            </h3>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-            <div>
-              <h4 className="text-sm font-semibold uppercase mb-3">Enlaces</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="/" className="hover:text-white transition-colors">Inicio</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Profesores</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Facultades</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-sm font-semibold uppercase mb-3">Legal</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Términos</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Privacidad</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Cookies</a></li>
-              </ul>
-            </div>
+
+          <div className="flex space-x-6 mb-4">
+            <a href="/" className="text-gray-400 hover:text-white transition-colors">Inicio</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">Profesores</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">Cursos</a>
           </div>
-        </div>
-        <div className="border-t border-gray-700 mt-8 pt-6 text-sm text-gray-500 text-center">
-          © 2025 ProfeRate. Todos los derechos reservados.
+
+          <div className="text-sm text-gray-500">
+            © 2025 ProfeRate
+          </div>
         </div>
       </div>
     </footer>
