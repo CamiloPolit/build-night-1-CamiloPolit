@@ -153,3 +153,63 @@ Formato:
     }
   }
   ```
+
+# 📚 Documentación de Base de Datos
+
+Este proyecto utiliza **Prisma ORM** con **SQLite** para gestionar las entidades y relaciones asociadas al sistema de reseñas de profesores y cursos universitarios.
+
+---
+
+## 🛠 Estructura de la Base de Datos
+
+### Modelos Principales
+
+#### **Professor**
+
+- `id` (`String`): Identificador único del profesor (generado automáticamente).
+- `name` (`String`): Nombre del profesor.
+- `reviews` (`Review[]`): Lista de reseñas asociadas a este profesor.
+
+#### **Course**
+
+- `id` (`String`): Identificador único del curso (generado automáticamente).
+- `code` (`String`): Código del curso (ejemplo: `"CC1002"`).
+- `name` (`String`): Nombre oficial del curso.
+- `reviews` (`Review[]`): Lista de reseñas asociadas a este curso.
+
+#### **Review**
+
+- `id` (`String`): Identificador único de la reseña.
+- `createdAt` (`DateTime`): Fecha en que se creó la reseña.
+- **Criterios de evaluación (escala 1-5)**:
+  - `clarity`: Claridad al explicar.
+  - `knowledge`: Dominio del contenido.
+  - `helpfulness`: Disponibilidad para resolver dudas.
+  - `difficulty`: Dificultad percibida del curso (1 = muy fácil, 5 = muy difícil).
+  - `overall`: Evaluación global del profesor.
+- `approximateMedian` (`Int?`): Mediana aproximada de notas reportada por el alumno (escala 1-7) _(opcional)_.
+- `comment` (`String?`): Comentario libre del estudiante _(opcional)_.
+- `semester` (`String`): Semestre al cual pertenece la reseña (por ejemplo `"20241"` para 2024 Otoño).
+- `professorId` (`String`): Relación hacia el profesor evaluado.
+- `courseId` (`String`): Relación hacia el curso evaluado.
+
+---
+
+## 🔗 Relaciones entre los modelos
+
+- Un **Professor** puede tener **muchas** reseñas (**Review**).
+- Un **Course** puede tener **muchas** reseñas (**Review**).
+- Cada **Review** pertenece a **un único Professor** y **un único Course**.
+
+Cada reseña está **ligada a un profesor, a un curso, y a un semestre**.
+
+---
+
+## 🎯 Objetivo de cada criterio de evaluación
+
+- **clarity**: ¿Qué tan claro es el profesor al explicar los contenidos?
+- **knowledge**: ¿Qué tanto dominio muestra sobre el tema?
+- **helpfulness**: ¿Qué tan disponible está para resolver dudas?
+- **difficulty**: ¿Qué tan difícil fueron las evaluaciones con este profesor?
+- **overall**: Evaluación global del profesor en su rol docente.
+- **approximateMedian**: Valor numérico estimado (1-7) que representa la mediana de notas del curso.

@@ -1,15 +1,12 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import Header from '@/components/Header';
 import CourseSelector from '@/components/CourseSelector';
 import Footer from '@/components/Footer';
 
 export default function Home() {
-  const router = useRouter();
-
   const handleCourseSelect = (courseId: string) => {
-    router.push(`/course/${courseId}`);
+    window.location.href = `/course/${courseId}`;
   };
 
   return (

@@ -1,0 +1,52 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+
+model Professor {
+  id        String   @id @default(cuid())
+  name      String
+  reviews   Review[]
+}
+
+model Course {
+  id        String   @id @default(cuid())
+  code      String
+  name      String
+  reviews   Review[]
+}
+
+model Review {
+  id                  String   @id @default(cuid())
+  createdAt           DateTime @default(now())
+
+  clarity             Int      // Claridad al explicar (1-5)
+  knowledge           Int      // Dominio del contenido (1-5)
+  workLoad            Int      // Carga de trabajo (1-5)
+  difficulty          Int      // Dificultad del curso (1-5)
+  overall             Int      // Nota global (1-5)
+
+  approximateMedian   Int?      // Mediana aproximada reportada (1-7, (opcional))
+
+  comment             String?  // Comentario abierto
+
+  semester            String
+  professorId         String
+  courseId            String
+
+  professor           Professor @relation(fields: [professorId], references: [id])
+  course              Course    @relation(fields: [courseId], references: [id])
+}
+
+
