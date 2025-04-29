@@ -14,39 +14,88 @@ generator client {
 }
 
 
+/*────────────────────────── Course catalog ──────────────────────────*/
+
+model Department {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+
+  courses Course[] @relation("CoursesByDepartment")
+}
+
 model Professor {
-  id        String   @id @default(cuid())
-  name      String
-  reviews   Review[]
+  id       Int    @id @default(autoincrement())
+  name     String @unique
+
+  instances CourseInstance[]
 }
 
 model Course {
-  id        String   @id @default(cuid())
-  code      String
-  name      String
-  reviews   Review[]
+  id             Int    @id @default(autoincrement())
+  code           String @unique
+  name           String
+  description    String
+  department     Department @relation("CoursesByDepartment", fields: [departmentId], references: [id])
+  departmentId   Int
+
+  /* Relations */
+  instances CourseInstance[]
+  aliases   CourseAlias[]
+}
+
+model CourseAlias {
+  id       Int    @id @default(autoincrement())
+  alias    String
+  course   Course @relation(fields: [courseId], references: [id])
+  courseId Int
+
+  /* Ensures that the same alias is not duplicated for the same course */
+  @@unique([courseId, alias])
+}
+
+model CourseInstance {
+  id          Int    @id @default(autoincrement())
+
+  /* Relations */
+  course      Course     @relation(fields: [courseId], references: [id])
+  courseId    Int
+  professor   Professor  @relation(fields: [professorId], references: [id])
+  professorId Int
+
+  /* Academic period */
+  year        Int
+  semester    Int    // 1 = first semester, 2 = second semester
+
+  reviews       Review[]
+
+  /* Indexes */
+  @@index([year, semester])
+  @@unique([courseId, year, semester])
 }
 
 model Review {
-  id                  String   @id @default(cuid())
-  createdAt           DateTime @default(now())
+  id               String        @id @default(cuid())
+  createdAt        DateTime      @default(now())
 
-  clarity             Int      // Claridad al explicar (1-5)
-  knowledge           Int      // Dominio del contenido (1-5)
-  workLoad            Int      // Carga de trabajo (1-5)
-  difficulty          Int      // Dificultad del curso (1-5)
-  overall             Int      // Nota global (1-5)
+  /* rating fields (1-5) */
+  clarity          Int
+  knowledge        Int
+  workLoad         Int
+  difficulty       Int
+  overall          Int
 
-  approximateMedian   Int?      // Mediana aproximada reportada (1-7, (opcional))
+  /* optional (1-7) */
+  approximateMedian Int?
 
-  comment             String?  // Comentario abierto
+  comment          String?
 
-  semester            String
-  professorId         String
-  courseId            String
+  /*────────────────── relations ──────────────────*/
+  courseInstance   CourseInstance @relation(fields: [courseInstanceId], references: [id])
+  courseInstanceId Int            // FK to CourseInstance (holds year, semester & professor)
 
-  professor           Professor @relation(fields: [professorId], references: [id])
-  course              Course    @relation(fields: [courseId], references: [id])
+
+  @@index([courseInstanceId])
 }
+
 
 
