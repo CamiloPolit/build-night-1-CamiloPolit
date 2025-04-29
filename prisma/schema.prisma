@@ -26,6 +26,7 @@ model Department {
 model Professor {
   id       Int    @id @default(autoincrement())
   name     String @unique
+  gender   String?
 
   instances CourseInstance[]
 }
