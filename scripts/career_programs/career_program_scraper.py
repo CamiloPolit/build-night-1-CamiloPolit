@@ -23,7 +23,13 @@ class CareerScraper:
     
     def _extract_slug_from_url(self) -> str:
         """Extract the career identifier (slug) from the URL."""
-        return urlparse(self.url).path.rstrip('/').split('/')[-1]
+        slug = urlparse(self.url).path.rstrip('/').split('/')[-1]
+        
+        # Special case for geofisicoa -> geofisica
+        if slug == "geofisicoa":
+            return "geofisica"
+            
+        return slug
     
     def _roman_to_int(self, roman: str) -> int:
         """Convert Roman numeral to integer."""
