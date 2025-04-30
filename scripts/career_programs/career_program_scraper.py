@@ -18,18 +18,21 @@ class CareerScraper:
             start_semester: The semester to start collecting from (default: 1)
         """
         self.url = url
-        self.slug = self._extract_slug_from_url()
         self.start_semester = start_semester
+        self.title = None
     
-    def _extract_slug_from_url(self) -> str:
-        """Extract the career identifier (slug) from the URL."""
-        slug = urlparse(self.url).path.rstrip('/').split('/')[-1]
+    def _extract_title_from_html(self, html_content: str) -> str:
+        """Extract the career title from the HTML content."""
+        soup = BeautifulSoup(html_content, 'html.parser')
+        title_element = soup.select_one('.content__title')
         
-        # Special case for geofisicoa -> geofisica
-        if slug == "geofisicoa":
-            return "geofisica"
-            
-        return slug
+        if title_element and title_element.text.strip():
+            # Fix for Geofísico/a -> Geofísica
+            title = title_element.text.strip()
+            return title
+        
+        # Fallback to a generic title
+        return "Carrera sin título"
     
     def _roman_to_int(self, roman: str) -> int:
         """Convert Roman numeral to integer."""
@@ -57,6 +60,10 @@ class CareerScraper:
         """
         resp = requests.get(self.url)
         resp.raise_for_status()
+        
+        # Extract title from HTML
+        self.title = self._extract_title_from_html(resp.text)
+        
         soup = BeautifulSoup(resp.text, 'html.parser')
 
         semestres = {}
@@ -140,7 +147,7 @@ class ScraperManager:
         self.plan_comun = {k: self.plan_comun[k] for k in keys_to_keep if k in self.plan_comun}
         
         # Add Plan Común to results
-        self.results["plan_comun"] = self.plan_comun
+        self.results["Plan Común"] = self.plan_comun
     
     def run(self) -> None:
         """Run the scraping process for all careers."""
@@ -150,12 +157,12 @@ class ScraperManager:
         # Then scrape each career, starting from semester 5
         for url in self.URLS:
             scraper = CareerScraper(url, start_semester=5)
-            slug = scraper.slug
-            print(f"→ scraping {slug} (specific courses)")
+            # Execute scrape to get curriculum and title
             career_curriculum = scraper.scrape()
             
             if career_curriculum:  # Only add if there are specific semesters
-                self.results[slug] = career_curriculum
+                print(f"→ scraping {scraper.title}")
+                self.results[scraper.title] = career_curriculum
         
         self._save_results()
     

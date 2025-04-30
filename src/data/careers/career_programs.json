@@ -1,5 +1,5 @@
 {
-  "plan_comun": {
+  "Plan Común": {
     "Semestre I": [
       {
         "code": "MA1001",
@@ -101,7 +101,7 @@
       }
     ]
   },
-  "astronomia": {
+  "Licenciatura en Ciencias con mención en Astronomía": {
     "Semestre V": [
       {
         "code": "FI3001",
@@ -187,7 +187,7 @@
       }
     ]
   },
-  "fisica": {
+  "Licenciatura en Ciencias con mención en Física": {
     "Semestre V": [
       {
         "code": "FI3001",
@@ -273,7 +273,7 @@
       }
     ]
   },
-  "geofisica": {
+  "Geofísica": {
     "Semestre V": [
       {
         "code": "FI3001",
@@ -433,7 +433,7 @@
       }
     ]
   },
-  "geologia": {
+  "Geología": {
     "Semestre V": [
       {
         "code": "GL3103",
@@ -605,7 +605,7 @@
       }
     ]
   },
-  "ingenieria-civil-en-biotecnologia": {
+  "Ingeniería Civil en Biotecnología": {
     "Semestre V": [
       {
         "code": "MA3403",
@@ -769,7 +769,7 @@
       }
     ]
   },
-  "ingenieria-civil-en-computacion": {
+  "Ingeniería Civil en Computación": {
     "Semestre V": [
       {
         "code": "MA3403",
@@ -909,7 +909,7 @@
       }
     ]
   },
-  "ingenieria-civil-electrica": {
+  "Ingeniería Civil Eléctrica": {
     "Semestre V": [
       {
         "code": "EL3101",
@@ -1049,7 +1049,7 @@
       }
     ]
   },
-  "ingenieria-civil-industrial": {
+  "Ingeniería Civil Industrial": {
     "Semestre V": [
       {
         "code": "IN3171",
@@ -1185,7 +1185,7 @@
       }
     ]
   },
-  "ingenieria-civil-matematica": {
+  "Ingeniería Civil Matemática": {
     "Semestre V": [
       {
         "code": "MA3401",
@@ -1329,7 +1329,7 @@
       }
     ]
   },
-  "ingenieria-civil-mecanica": {
+  "Ingeniería Civil Mecánica": {
     "Semestre V": [
       {
         "code": "MA3403",
@@ -1509,7 +1509,7 @@
       }
     ]
   },
-  "ingenieria-civil-de-minas": {
+  "Ingeniería Civil de Minas": {
     "Semestre V": [
       {
         "code": "MA3403",
@@ -1681,7 +1681,7 @@
       }
     ]
   },
-  "ingenieria-civil-quimica": {
+  "Ingeniería Civil Química": {
     "Semestre V": [
       {
         "code": "MA3403",
