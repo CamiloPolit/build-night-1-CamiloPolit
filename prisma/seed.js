@@ -2,6 +2,7 @@ const { PrismaClient } = require("@prisma/client");
 const fs = require("fs");
 const path = require("path");
 const departments = require("../src/data/departments.json");
+const careerPrograms = require("../src/data/careers/career_programs.json");
 
 const prisma = new PrismaClient();
 
@@ -18,9 +19,42 @@ function extractYearSemester(filename) {
   };
 }
 
+// Function to convert Roman numeral to integer
+function romanToInt(roman) {
+  if (!roman) return null;
+
+  const values = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
+
+  let result = 0;
+  let prev = 0;
+
+  for (let i = roman.length - 1; i >= 0; i--) {
+    const current = values[roman[i]];
+    if (current < prev) {
+      result -= current;
+    } else {
+      result += current;
+    }
+    prev = current;
+  }
+
+  return result;
+}
+
 async function main() {
   console.log("Cleaning database...");
 
+  // Add CurriculumEntry and Career to the deletion cascade
+  await prisma.curriculumEntry.deleteMany({});
+  await prisma.career.deleteMany({});
   await prisma.review.deleteMany({});
   await prisma.courseInstance.deleteMany({});
   await prisma.courseAlias.deleteMany({});
@@ -94,6 +128,7 @@ async function main() {
   console.log("Seeding courses and course instances...");
   let coursesCount = 0;
   let courseInstancesCount = 0;
+  const courseCodeToIdMap = new Map(); // Will store course code -> id mappings for curriculum entries
 
   // Process each catalog file
   for (const filename of catalogFiles) {
@@ -136,6 +171,9 @@ async function main() {
           console.warn(`Failed to create course ${courseCode}. Skipping...`);
           continue;
         }
+
+        // Store the course code to id mapping for curriculum entries
+        courseCodeToIdMap.set(courseCode, course.id);
 
         coursesCount++;
 
@@ -183,7 +221,89 @@ async function main() {
   console.log(`Seeded ${coursesCount} courses successfully`);
   console.log(`Seeded ${courseInstancesCount} course instances successfully`);
 
-  // 5. Seed sample reviews
+  // 5. Seed careers and curriculum entries
+  console.log("Seeding careers and curriculum entries...");
+  let careerCount = 0;
+  let curriculumEntriesCount = 0;
+
+  for (const [careerName, semesters] of Object.entries(careerPrograms)) {
+    // Create the career
+    const career = await prisma.career.upsert({
+      where: { name: careerName },
+      update: {},
+      create: {
+        name: careerName,
+      },
+    });
+
+    careerCount++;
+
+    // Process each semester for this career
+    for (const [semesterName, courses] of Object.entries(semesters)) {
+      // Extract semester number from name (e.g. "Semestre I" -> 1)
+      const semesterMatch = semesterName.match(/Semestre\s+([IVX]+)/i);
+      if (!semesterMatch) continue;
+
+      const semesterRoman = semesterMatch[1];
+      const semesterNum = romanToInt(semesterRoman);
+
+      if (!semesterNum) {
+        console.warn(`Could not parse semester number from ${semesterName}`);
+        continue;
+      }
+
+      // Add each course for this semester
+      for (const course of courses) {
+        const courseCode = course.code;
+
+        // Skip entries without course codes
+        if (!courseCode || courseCode.trim() === "") continue;
+
+        // Find the course ID from our mapping
+        const courseId = courseCodeToIdMap.get(courseCode);
+        if (!courseId) {
+          console.warn(
+            `Course with code ${courseCode} not found in the database`
+          );
+          continue;
+        }
+
+        try {
+          // Create the curriculum entry
+          await prisma.curriculumEntry.upsert({
+            where: {
+              careerId_courseId: {
+                careerId: career.id,
+                courseId: courseId,
+              },
+            },
+            update: {
+              semester: semesterNum,
+            },
+            create: {
+              careerId: career.id,
+              courseId: courseId,
+              semester: semesterNum,
+            },
+          });
+
+          curriculumEntriesCount++;
+        } catch (error) {
+          console.warn(
+            `Error creating curriculum entry for career ${careerName}, course ${courseCode}:`,
+            error
+          );
+        }
+      }
+    }
+  }
+
+  console.log(`Seeded ${careerCount} careers successfully`);
+  console.log(
+    `Seeded ${curriculumEntriesCount} curriculum entries successfully`
+  );
+
+  // 6. Seed sample reviews
   console.log("Seeding sample reviews...");
 
   // Get some course instances
