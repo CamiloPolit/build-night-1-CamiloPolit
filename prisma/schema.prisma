@@ -42,6 +42,7 @@ model Course {
   /* Relations */
   instances CourseInstance[]
   aliases   CourseAlias[]
+  curriculumEntries CurriculumEntry[]
 }
 
 model CourseAlias {
@@ -65,7 +66,7 @@ model CourseInstance {
 
   /* Academic period */
   year        Int
-  semester    Int    // 1 = first semester, 2 = second semester
+  semester    Int
 
   reviews       Review[]
 
@@ -74,9 +75,31 @@ model CourseInstance {
   @@unique([courseId, year, semester])
 }
 
+model Career {
+  id          Int       @id @default(autoincrement())
+  slug        String    @unique
+  name        String
+  description String?
+
+  curriculumEntries CurriculumEntry[]
+}
+
+model CurriculumEntry {
+  career     Career    @relation(fields: [careerId], references: [id])
+  careerId   Int
+
+  course     Course    @relation(fields: [courseId], references: [id])
+  courseId   Int
+
+  semester   Int
+
+  @@id([careerId, courseId])
+  @@index([careerId, semester])
+}
+
 model Review {
-  id               String        @id @default(cuid())
-  createdAt        DateTime      @default(now())
+  id               String    @id @default(cuid())
+  createdAt        DateTime  @default(now())
 
   /* rating fields (1-5) */
   clarity          Int

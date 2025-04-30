@@ -1,0 +1,1844 @@
+{
+  "plan_comun": {
+    "Semestre I": [
+      {
+        "code": "MA1001",
+        "title": "INTRODUCCIÓN AL CÁLCULO"
+      },
+      {
+        "code": "MA1101",
+        "title": "INTRODUCCIÓN AL ÁLGEBRA"
+      },
+      {
+        "code": "FI1000",
+        "title": "INTRODUCCIÓN A LA FÍSICA CLÁSICA"
+      },
+      {
+        "code": "CC1000",
+        "title": "HERRAMIENTAS COMPUTACIONALES PARA INGENIERÍA Y CIENCIAS"
+      },
+      {
+        "code": "CD1100",
+        "title": "DESAFÍOS DE INNOVACIÓN EN INGENIERÍA Y CIENCIAS"
+      },
+      {
+        "code": "BT1211",
+        "title": "APLICACIONES DE LA BIOLOGÍA A LA INGENIERÍA Y CIENCIAS"
+      }
+    ],
+    "Semestre II": [
+      {
+        "code": "MA1002",
+        "title": "CÁLCULO DIFERENCIAL E INTEGRAL"
+      },
+      {
+        "code": "MA1102",
+        "title": "ÁLGEBRA LINEAL"
+      },
+      {
+        "code": "FI1100",
+        "title": "INTRODUCCIÓN A LA FÍSICA MODERNA"
+      },
+      {
+        "code": "CC1002",
+        "title": "INTRODUCCIÓN A LA PROGRAMACIÓN"
+      },
+      {
+        "code": "CD1201",
+        "title": "PROYECTO DE INNOVACIÓN EN INGENIERÍA Y CIENCIAS"
+      },
+      {
+        "code": "EH/EI/FG/DR/FT",
+        "title": "CURSOS DE FORMACIÓN GENERAL, HUMANISTAS, IDIOMAS Y DEPORTES"
+      }
+    ],
+    "Semestre III": [
+      {
+        "code": "MA2001",
+        "title": "CÁLCULO EN VARIAS VARIABLES"
+      },
+      {
+        "code": "MA2601",
+        "title": "ECUACIONES DIFERENCIALES ORDINARIAS"
+      },
+      {
+        "code": "FI2003",
+        "title": "MÉTODOS EXPERIMENTALES"
+      },
+      {
+        "code": "FI2001",
+        "title": "MECÁNICA"
+      },
+      {
+        "code": "IQ2211",
+        "title": "QUÍMICA"
+      }
+    ],
+    "Semestre IV": [
+      {
+        "code": "IN2201",
+        "title": "ECONOMÍA"
+      },
+      {
+        "code": "MA2002",
+        "title": "CÁLCULO AVANZADO Y APLICACIONES"
+      },
+      {
+        "code": "FI2002",
+        "title": "ELECTROMAGNETISMO"
+      },
+      {
+        "code": "FI2004/IQ2212",
+        "title": "TERMODINÁMICA / TERMODINÁMICA QUÍMICA"
+      },
+      {
+        "code": "CD2201",
+        "title": "MÓDULO INTERDISCIPLINARIO"
+      },
+      {
+        "code": "EH/EI/FG/DR/FT",
+        "title": "CURSOS DE FORMACIÓN GENERAL, HUMANISTAS, IDIOMAS Y DEPORTES"
+      }
+    ]
+  },
+  "astronomia": {
+    "Semestre V": [
+      {
+        "code": "FI3001",
+        "title": "VIBRACIONES Y ONDAS"
+      },
+      {
+        "code": "MA3403",
+        "title": "PROBABILIDADES Y ESTADÍSTICA"
+      },
+      {
+        "code": "FI3002",
+        "title": "MÉTODOS MATEMÁTICOS DE LA FÍSICA"
+      },
+      {
+        "code": "AS3201",
+        "title": "ASTRONOMÍA EXPERIMENTAL"
+      },
+      {
+        "code": "FI3104",
+        "title": "MÉTODOS NUMÉRICOS PARA CIENCIAS E INGENIERÍA"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "FI3111",
+        "title": "MECÁNICA CLÁSICA"
+      },
+      {
+        "code": "FI3102",
+        "title": "FÍSICA MODERNA"
+      },
+      {
+        "code": "FI3106",
+        "title": "ELECTRODINÁMICA"
+      },
+      {
+        "code": "AS3101",
+        "title": "ASTROFÍSICA DE ESTRELLAS"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "FI4001",
+        "title": "MECÁNICA CUÁNTICA"
+      },
+      {
+        "code": "AS4501",
+        "title": "ASTROINFORMÁTICA"
+      },
+      {
+        "code": "AS4101",
+        "title": "ASTROFÍSICA DE GALAXIAS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "AS4901",
+        "title": "TRABAJO TUTORIAL BÁSICO"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "FI4104",
+        "title": "MECÁNICA ESTADÍSTICA"
+      },
+      {
+        "code": "AS4103",
+        "title": "PROYECTO ASTRONÓMICO DE INVESTIGACIÓN"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ]
+  },
+  "fisica": {
+    "Semestre V": [
+      {
+        "code": "FI3001",
+        "title": "VIBRACIONES Y ONDAS"
+      },
+      {
+        "code": "MA3403",
+        "title": "PROBABILIDADES Y ESTADÍSTICA"
+      },
+      {
+        "code": "FI3002",
+        "title": "MÉTODOS MATEMÁTICOS DE LA FÍSICA"
+      },
+      {
+        "code": "FI3003",
+        "title": "FÍSICA EXPERIMENTAL I"
+      },
+      {
+        "code": "FI3104",
+        "title": "MÉTODOS NUMÉRICOS PARA CIENCIAS E INGENIERÍA"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "FI3111",
+        "title": "MECÁNICA CLÁSICA"
+      },
+      {
+        "code": "FI3102",
+        "title": "FÍSICA MODERNA"
+      },
+      {
+        "code": "FI3106",
+        "title": "ELECTRODINÁMICA"
+      },
+      {
+        "code": "FI3105",
+        "title": "FÍSICA EXPERIMENTAL II"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "FI4001",
+        "title": "MECÁNICA CUÁNTICA"
+      },
+      {
+        "code": "FI4012",
+        "title": "INTRODUCCIÓN A LA INVESTIGACIÓN I"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS"
+      },
+      {
+        "code": "FI4005",
+        "title": "MÉTODOS NUMÉRICOS PARA LA FÍSICA"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "FI4104",
+        "title": "MECÁNICA ESTADÍSTICA"
+      },
+      {
+        "code": "FI4101",
+        "title": "INTRODUCCIÓN A LA FÍSICA DEL SÓLIDO"
+      },
+      {
+        "code": "FI4112",
+        "title": "INTRODUCCIÓN A LA INVESTIGACIÓN II"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ]
+  },
+  "geofisicoa": {
+    "Semestre V": [
+      {
+        "code": "FI3001",
+        "title": "VIBRACIONES Y ONDAS"
+      },
+      {
+        "code": "MA3403/MA3401",
+        "title": "PROBABILIDADES Y ESTADÍSTICA / PROBABILIDADES"
+      },
+      {
+        "code": "GL3101",
+        "title": "GEOLOGÍA GENERAL"
+      },
+      {
+        "code": "GF3103",
+        "title": "INTRODUCCIÓN A LA METEOROLOGÍA"
+      },
+      {
+        "code": "GF3001",
+        "title": "GEOFÍSICA GENERAL"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "FI3104",
+        "title": "MÉTODOS NUMÉRICOS PARA LAS CIENCIAS E INGENIERÍA"
+      },
+      {
+        "code": "MA3701/IN3171",
+        "title": "OPTIMIZACIÓN / MODELAMIENTO Y OPTIMIZACIÓN"
+      },
+      {
+        "code": "GF4005",
+        "title": "MATEMÁTICAS APLICADAS A LA GEOCIENCIA"
+      },
+      {
+        "code": "GF3004",
+        "title": "SISTEMA CLIMÁTICO"
+      },
+      {
+        "code": "GF4001",
+        "title": "SISMOLOGÍA"
+      },
+      {
+        "code": "Código",
+        "title": "Curso - SEMESTRE VII"
+      },
+      {
+        "code": "GF4029",
+        "title": "ANÁLISIS DE SEÑALES"
+      },
+      {
+        "code": "GF4004",
+        "title": "GEODINÁMICA"
+      },
+      {
+        "code": "GF4022",
+        "title": "MECÁNICA DE FLUIDOS APLICADA A LA GEOCIENCIA"
+      },
+      {
+        "code": "GF4024",
+        "title": "SISTEMAS DE OBSERVACIÓN"
+      },
+      {
+        "code": "GF4006",
+        "title": "MÉTODOS DE EXPLORACIÓN GEOFÍSICA"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      },
+      {
+        "code": "GF4901",
+        "title": "PRÁCTICA PROFESIONAL I"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "GF5013",
+        "title": "MÉTODOS INVERSOS APLICADOS A LA GEOFÍSICA"
+      },
+      {
+        "code": "GF3024",
+        "title": "PELIGROS NATURALES"
+      },
+      {
+        "code": "IN3301",
+        "title": "EVALUACIÓN DE PROYECTOS"
+      },
+      {
+        "code": "GF3005",
+        "title": "CONTAMINACIÓN ATMOSFÉRICA"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "GF5909",
+        "title": "TRABAJO DE HABILITACIÓN PROFESIONAL I"
+      },
+      {
+        "code": "GF5019",
+        "title": "RADIACIÓN Y PERCEPCIÓN REMOTA"
+      },
+      {
+        "code": "GF5022",
+        "title": "DINÁMICA DE LA ATMÓSFERA"
+      },
+      {
+        "code": "GF5023",
+        "title": "TERMODINÁMICA ATMOSFÉRICA"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "GF5901",
+        "title": "PRÁCTICA PROFESIONAL II"
+      },
+      {
+        "code": "",
+        "title": ""
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "GF6909",
+        "title": "TRABAJO DE HABILITACIÓN PROFESIONAL II"
+      },
+      {
+        "code": "GF5030",
+        "title": "QUÍMICA ATMOSFÉRICA Y CLIMA"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "EI2090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS II"
+      }
+    ]
+  },
+  "geologia": {
+    "Semestre V": [
+      {
+        "code": "GL3103",
+        "title": "CIENCIA DE LOS MINERALES I"
+      },
+      {
+        "code": "MA3403",
+        "title": "PROBABILIDADES Y ESTADÍSTICA"
+      },
+      {
+        "code": "GL3101",
+        "title": "GEOLOGÍA GENERAL"
+      },
+      {
+        "code": "GF3001",
+        "title": "GEOFÍSICA GENERAL"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "IN3301",
+        "title": "EVALUACIÓN DE PROYECTOS"
+      },
+      {
+        "code": "GL3203",
+        "title": "CIENCIA DE LOS MINERALES II"
+      },
+      {
+        "code": "GL3204",
+        "title": "ENERGÍA DE PROCESOS GEOLÓGICOS"
+      },
+      {
+        "code": "GL3205",
+        "title": "SISTEMAS DE INFORMACIÓN GEOGRÁFICA PARA GEOLOGÍA"
+      },
+      {
+        "code": "GL3201",
+        "title": "SEDIMENTOLOGÍA"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "GL4101",
+        "title": "GEOLOGÍA ESTRUCTURAL"
+      },
+      {
+        "code": "GL4202",
+        "title": "PETROLOGÍA ÍGNEA"
+      },
+      {
+        "code": "GL4205",
+        "title": "GEOQUÍMICA"
+      },
+      {
+        "code": "GL4203",
+        "title": "GEOMORFOLOGÍA DINÁMICA"
+      },
+      {
+        "code": "GL4204",
+        "title": "ESTRATIGRAFÍA"
+      },
+      {
+        "code": "GL4206",
+        "title": "PALEONTOLOGÍA"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "GL4402",
+        "title": "GEOLOGÍA DE CAMPO I"
+      },
+      {
+        "code": "GL4403",
+        "title": "PETROLOGÍA METAMÓRFICA"
+      },
+      {
+        "code": "GL4401",
+        "title": "INTRODUCCIÓN A YACIMIENTOS MINERALES"
+      },
+      {
+        "code": "GL4212",
+        "title": "VOLCANOLOGÍA FÍSICA"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "GL4901",
+        "title": "PRÁCTICA PROFESIONAL I"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "GL5321",
+        "title": "GEOLOGÍA APLICADA A LA INGENIERÍA"
+      },
+      {
+        "code": "GL5213",
+        "title": "HIDROGEOLOGÍA"
+      },
+      {
+        "code": "GL5311",
+        "title": "METALOGÉNESIS"
+      },
+      {
+        "code": "GL5314",
+        "title": "GEOLOGÍA ANDINA"
+      },
+      {
+        "code": "GL5301",
+        "title": "GEOTECTÓNICA"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "GL6301",
+        "title": "GEOLOGÍA ECONÓMICA"
+      },
+      {
+        "code": "GL6101",
+        "title": "GEOLOGÍA DE CAMPO II"
+      },
+      {
+        "code": "GL6302",
+        "title": "GEOLOGÍA AMBIENTAL"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS DE ESPECIALIDAD"
+      },
+      {
+        "code": "GL5902",
+        "title": "PRÁCTICA PROFESIONAL II"
+      },
+      {
+        "code": "GL6908",
+        "title": "INTRODUCCIÓN AL TRABAJO DE TÍTULO"
+      }
+    ],
+    "Semestre XI": [
+      {
+        "code": "GL6919",
+        "title": "TRABAJO DE TÍTULO"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "EI2090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS II"
+      }
+    ]
+  },
+  "ingenieria-civil-en-biotecnologia": {
+    "Semestre V": [
+      {
+        "code": "MA3403",
+        "title": "PROBABILIDADES Y ESTADÍSTICA"
+      },
+      {
+        "code": "BT3111",
+        "title": "BIOLOGÍA Y METABOLISMO CELULAR"
+      },
+      {
+        "code": "BT3210",
+        "title": "QUÍMICA ORGÁNICA"
+      },
+      {
+        "code": "IQ3311",
+        "title": "ANÁLISIS DE PROCESOS"
+      },
+      {
+        "code": "IQ3211",
+        "title": "TERMODINÁMICA APLICADA"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "IQ3111",
+        "title": "MODELAMIENTO Y OPTIMIZACIÓN PARA INGENIERÍA DE PROCESOS"
+      },
+      {
+        "code": "BT3112",
+        "title": "BIOLOGÍA Y METABOLISMO DE MICROORGANISMOS"
+      },
+      {
+        "code": "BT3113",
+        "title": "BIOLOGÍA MOLECULAR"
+      },
+      {
+        "code": "IQ3312",
+        "title": "FENÓMENOS DE TRANSPORTE"
+      },
+      {
+        "code": "BT3711",
+        "title": "BIOÉTICA, LEGISLACIÓN E INNOVACIÓN"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "IQ4112",
+        "title": "MÉTODOS MATEMÁTICOS PARA PROCESOS"
+      },
+      {
+        "code": "IN4273",
+        "title": "GESTIÓN DE OPERACIONES"
+      },
+      {
+        "code": "BT4114",
+        "title": "BIOTECNOLOGÍA MOLECULAR"
+      },
+      {
+        "code": "ME4262",
+        "title": "EVALUACIÓN DE PROYECTOS EN INGENIERÍA"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "BT4911",
+        "title": "PRÁCTICA PROFESIONAL I"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "BT4315",
+        "title": "OPERACIONES DE TRANSFERENCIA DE MASA Y SEPARACIÓN"
+      },
+      {
+        "code": "IQ4314",
+        "title": "DISEÑO DE REACTORES"
+      },
+      {
+        "code": "BT4712",
+        "title": "BIOTECNOLOGÍA EN AGRICULTURA, SALUD, AMBIENTE E INDUSTRIA"
+      },
+      {
+        "code": "BT4713",
+        "title": "TALLER DE DISEÑO E INNOVACIÓN EN PROYECTOS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "BT5311",
+        "title": "INGENIERÍA DE ENZIMAS Y PROTEÍNAS"
+      },
+      {
+        "code": "BT5312",
+        "title": "INGENIERÍA METABÓLICA Y BIORREACTORES"
+      },
+      {
+        "code": "BT5714",
+        "title": "TALLER DE IMPLEMENTACIÓN DE PROYECTOS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS DE ESPECIALIDAD"
+      },
+      {
+        "code": "BT5912",
+        "title": "PRÁCTICA PROFESIONAL II"
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "IQ5113",
+        "title": "DINÁMICA Y CONTROL DE PROCESOS"
+      },
+      {
+        "code": "BT5316",
+        "title": "PROCESOS DE SEPARACIÓN EN BIOTECNOLOGÍA"
+      },
+      {
+        "code": "BT5715",
+        "title": "TALLER DE PROYECTOS EN INGENIERÍA O CIENCIAS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "BT6907",
+        "title": "TRABAJO DE HABILITACIÓN PROFESIONAL I"
+      }
+    ],
+    "Semestre XI": [
+      {
+        "code": "BT6919",
+        "title": "TRABAJO DE HABILITACIÓN PROFESIONAL II"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "EI2090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS II"
+      }
+    ]
+  },
+  "ingenieria-civil-en-computacion": {
+    "Semestre V": [
+      {
+        "code": "MA3403",
+        "title": "PROBABILIDADES Y ESTADÍSTICA"
+      },
+      {
+        "code": "CC3501",
+        "title": "MODELACIÓN Y COMPUTACIÓN GRÁFICA PARA INGENIEROS"
+      },
+      {
+        "code": "CC3001",
+        "title": "ALGORITMOS Y ESTRUCTURAS DE DATOS"
+      },
+      {
+        "code": "CC3101",
+        "title": "MATEMÁTICAS DISCRETAS PARA LA COMPUTACIÓN"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "CC3201",
+        "title": "BASES DE DATOS"
+      },
+      {
+        "code": "CC3002",
+        "title": "METODOLOGÍAS DE DISEÑO Y PROGRAMACIÓN"
+      },
+      {
+        "code": "CC3102",
+        "title": "TEORÍA DE LA COMPUTACIÓN"
+      },
+      {
+        "code": "CC3301",
+        "title": "PROGRAMACIÓN DE SOFTWARE DE SISTEMAS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "CC5205",
+        "title": "MINERÍA DE DATOS"
+      },
+      {
+        "code": "CC4401",
+        "title": "INGENIERÍA DE SOFTWARE"
+      },
+      {
+        "code": "CC4102",
+        "title": "DISEÑO Y ANÁLISIS DE ALGORITMOS"
+      },
+      {
+        "code": "CC4302",
+        "title": "SISTEMAS OPERATIVOS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "CC4901",
+        "title": "PRÁCTICA PROFESIONAL I"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "CC4402",
+        "title": "FORMULACIÓN, EVALUACIÓN Y GESTIÓN DE PROYECTOS"
+      },
+      {
+        "code": "CC4101",
+        "title": "LENGUAJES DE PROGRAMACIÓN"
+      },
+      {
+        "code": "CC4303",
+        "title": "REDES"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "",
+        "title": "ELECTIVOS DE ESPECIALIDAD"
+      },
+      {
+        "code": "",
+        "title": "NÚCLEO GESTIÓN PARA INGENIEROS"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL DE ESPECIALIDAD"
+      },
+      {
+        "code": "CC5901",
+        "title": "PRÁCTICA PROFESIONAL II"
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "",
+        "title": "ELECTIVOS DE ESPECIALIDAD"
+      },
+      {
+        "code": "CC5402",
+        "title": "PROYECTO DE SOFTWARE"
+      },
+      {
+        "code": "CC6907",
+        "title": "INTRODUCCIÓN AL TRABAJO DE TÍTULO"
+      }
+    ],
+    "Semestre XI": [
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "CC6919",
+        "title": "TRABAJO DE TÍTULO"
+      },
+      {
+        "code": "EI2090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS II"
+      }
+    ]
+  },
+  "ingenieria-civil-electrica": {
+    "Semestre V": [
+      {
+        "code": "EL3101",
+        "title": "ANÁLISIS Y DISEÑO DE CIRCUITOS ELÉCTRICOS"
+      },
+      {
+        "code": "EL3102",
+        "title": "SISTEMAS DIGITALES"
+      },
+      {
+        "code": "EL3103",
+        "title": "ELECTROMAGNETISMO APLICADO"
+      },
+      {
+        "code": "EL3104",
+        "title": "PROBABILIDAD Y PROCESOS ESTOCÁSTICOS"
+      },
+      {
+        "code": "EL3105",
+        "title": "SEMINARIO DE ING. ELÉCTRICA E INNOVACIÓN TECNOLÓGICA"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "EL3201",
+        "title": "LABORATORIO DE INGENIERÍA ELÉCTRICA"
+      },
+      {
+        "code": "EL3202",
+        "title": "CIRCUITOS ELÉCTRICOS ANALÓGICOS"
+      },
+      {
+        "code": "EL3203",
+        "title": "ANÁLISIS DE SEÑALES"
+      },
+      {
+        "code": "EL3204",
+        "title": "ANÁLISIS Y ESTIMACIÓN EN SISTEMAS DINÁMICOS"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "EL4111",
+        "title": "CONVERSIÓN DE LA ENERGÍA Y SISTEMAS ELÉCTRICOS"
+      },
+      {
+        "code": "EL4112",
+        "title": "PRINCIPIOS DE COMUNICACIONES"
+      },
+      {
+        "code": "EL4113",
+        "title": "FUNDAMENTOS DE CONTROL DE SISTEMAS"
+      },
+      {
+        "code": "EL4114",
+        "title": "OPTIMIZACIÓN"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "EL4115",
+        "title": "PRÁCTICA PROFESIONAL I"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "",
+        "title": "NÚCLEO LÍNEA DE ESPECIALIZACIÓN"
+      },
+      {
+        "code": "",
+        "title": "LABORATORIO DE LÍNEA DE ESPECIALIZACIÓN"
+      },
+      {
+        "code": "EL4203",
+        "title": "PROGRAMACIÓN AVANZADA"
+      },
+      {
+        "code": "EL4204",
+        "title": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "EL6101",
+        "title": "TALLER DE PROYECTOS TECNOLÓGICOS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS DE LÍNEA DE ESPECIALIZACIÓN"
+      },
+      {
+        "code": "EL5115",
+        "title": "PRÁCTICA PROFESIONAL II"
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "EL6201",
+        "title": "TALLER DE EMPRENDIMIENTO E INNOVACIÓN"
+      },
+      {
+        "code": "EL6908",
+        "title": "INTRODUCCIÓN AL TRABAJO DE TÍTULO"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS DE LÍNEA DE ESPECIALIZACIÓN"
+      }
+    ],
+    "Semestre XI": [
+      {
+        "code": "EL6301",
+        "title": "TALLER DE DESEMPEÑO PROFESIONAL"
+      },
+      {
+        "code": "EL6919",
+        "title": "TRABAJO DE TÍTULO"
+      },
+      {
+        "code": "EI2090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS II"
+      }
+    ]
+  },
+  "ingenieria-civil-industrial": {
+    "Semestre V": [
+      {
+        "code": "IN3171",
+        "title": "MODELAMIENTO Y OPTIMIZACIÓN"
+      },
+      {
+        "code": "IN3101",
+        "title": "TALLER DE LIDERAZGO E INNOVACIÓN SOCIAL"
+      },
+      {
+        "code": "IN3141",
+        "title": "PROBABILIDADES"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "IN3272",
+        "title": "DECISIONES BAJO INCERTIDUMBRE"
+      },
+      {
+        "code": "IN3221",
+        "title": "TEORÍA DE JUEGOS Y ESTRATEGIA"
+      },
+      {
+        "code": "IN3242",
+        "title": "ESTADÍSTICA"
+      },
+      {
+        "code": "IN3301",
+        "title": "EVALUACIÓN DE PROYECTOS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "IN4102",
+        "title": "TALLER DE CONCEPCIÓN Y DISEÑO DE PROYECTOS"
+      },
+      {
+        "code": "IN4123",
+        "title": "MACROECONOMÍA"
+      },
+      {
+        "code": "IN4143",
+        "title": "ANÁLISIS DE DATOS E INFERENCIA CAUSAL"
+      },
+      {
+        "code": "IN4151",
+        "title": "INGENIERÍA DE LA INFORMACIÓN"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "IN4191",
+        "title": "PRÁCTICA PROFESIONAL"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "IN4273",
+        "title": "GESTIÓN DE OPERACIONES"
+      },
+      {
+        "code": "IN4261",
+        "title": "MARKETING"
+      },
+      {
+        "code": "IN4232",
+        "title": "FINANZAS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "",
+        "title": "ESPECIALIZACIÓN"
+      },
+      {
+        "code": "IN5112",
+        "title": "DIRECCIÓN ESTRATÉGICA"
+      },
+      {
+        "code": "IN5111",
+        "title": "COMPORTAMIENTO ORGANIZACIONAL"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "",
+        "title": "ESPECIALIZACIÓN"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS DE ESPECIALIDAD"
+      }
+    ],
+    "Semestre XI": [
+      {
+        "code": "IN6193",
+        "title": "PROYECTO DE TÍTULO"
+      },
+      {
+        "code": "IN6192",
+        "title": "PRÁCTICA PROFESIONAL EXTENDIDA"
+      },
+      {
+        "code": "EI2090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS II"
+      }
+    ]
+  },
+  "ingenieria-civil-matematica": {
+    "Semestre V": [
+      {
+        "code": "MA3401",
+        "title": "PROBABILIDADES"
+      },
+      {
+        "code": "MA3801",
+        "title": "ANÁLISIS"
+      },
+      {
+        "code": "MA3711",
+        "title": "OPTIMIZACIÓN MATEMÁTICA"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "MA3402",
+        "title": "ESTADÍSTICA"
+      },
+      {
+        "code": "MA3802",
+        "title": "TEORÍA DE LA MEDIDA"
+      },
+      {
+        "code": "MA3705",
+        "title": "ALGORITMOS COMBINATORIALES"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "MA4401",
+        "title": "PROCESOS DE MARKOV"
+      },
+      {
+        "code": "MA4801",
+        "title": "ANÁLISIS FUNCIONAL"
+      },
+      {
+        "code": "MA4702",
+        "title": "PROGRAMACIÓN LINEAL MIXTA: TEORÍA Y LABORATORIO"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS"
+      },
+      {
+        "code": "MA4902",
+        "title": "PRÁCTICA PROFESIONAL I"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "MA4402",
+        "title": "SIMULACIÓN ESTOCÁSTICA: TEORÍA Y LABORATORIO"
+      },
+      {
+        "code": "MA4802",
+        "title": "ECUACIONES EN DERIVADAS PARCIALES"
+      },
+      {
+        "code": "MA4703",
+        "title": "CONTROL ÓPTIMO: TEORÍA Y LABORATORIO"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "MA5307",
+        "title": "ANÁLISIS NUMÉRICO DE EDP´S: TEORÍA Y LABORATORIO"
+      },
+      {
+        "code": "",
+        "title": "ESPECIALIZACIÓN"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL DE ESPECIALIDAD"
+      },
+      {
+        "code": "MA5902",
+        "title": "PRÁCTICA PROFESIONAL II"
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "MA6906",
+        "title": "INTRODUCCIÓN AL TRABAJO DE TÍTULO"
+      },
+      {
+        "code": "",
+        "title": "ESPECIALIZACIÓN"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      }
+    ],
+    "Semestre XI": [
+      {
+        "code": "MA6909",
+        "title": "TRABAJO DE TÍTULO"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL DE ESPECIALIDAD"
+      },
+      {
+        "code": "EI2090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS II"
+      },
+      {
+        "code": "MA5903",
+        "title": "PRÁCTICA PROFESIONAL III"
+      }
+    ]
+  },
+  "ingenieria-civil-mecanica": {
+    "Semestre V": [
+      {
+        "code": "MA3403",
+        "title": "PROBABILIDADES Y ESTADÍSTICA"
+      },
+      {
+        "code": "MA3701/IN3171*",
+        "title": "OPTIMIZACIÓN/MODELAMIENTO Y OPTIMIZACIÓN"
+      },
+      {
+        "code": "ME3110",
+        "title": "CIENCIA DE LOS MATERIALES"
+      },
+      {
+        "code": "ME3140",
+        "title": "MECÁNICA DE FLUIDOS"
+      },
+      {
+        "code": "ME3120",
+        "title": "DIBUJO MECÁNICO"
+      },
+      {
+        "code": "ME3130",
+        "title": "MECÁNICA ESTÁTICA"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "ME3250",
+        "title": "CINEMÁTICA Y DINÁMICA DE MECANISMOS"
+      },
+      {
+        "code": "ME3210",
+        "title": "MATERIALES PARA LA INGENIERÍA"
+      },
+      {
+        "code": "ME3240",
+        "title": "TERMOTECNIA"
+      },
+      {
+        "code": "ME3230",
+        "title": "MECÁNICA DE SÓLIDOS"
+      },
+      {
+        "code": "ME3220",
+        "title": "TALLER MECÁNICO"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "ME4160",
+        "title": "GESTIÓN DE ACTIVOS FÍSICOS"
+      },
+      {
+        "code": "ME4110",
+        "title": "PROCESOS DE MANUFACTURA"
+      },
+      {
+        "code": "ME4140",
+        "title": "TRANSFERENCIA DE CALOR"
+      },
+      {
+        "code": "ME4150",
+        "title": "AUTOMATIZACIÓN Y CONTROL"
+      },
+      {
+        "code": "ME4130",
+        "title": "VIBRACIONES MECÁNICAS"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "ME4262",
+        "title": "EVALUACIÓN DE PROYECTOS EN INGENIERÍA"
+      },
+      {
+        "code": "ME4250",
+        "title": "MECATRÓNICA"
+      },
+      {
+        "code": "ME4240",
+        "title": "MÁQUINAS"
+      },
+      {
+        "code": "ME4230",
+        "title": "ELEMENTOS DE MÁQUINAS"
+      },
+      {
+        "code": "ME4220",
+        "title": "PLANOS DE INGENIERÍA"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL DE ESPECIALIDAD"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "IN4273",
+        "title": "GESTIÓN DE OPERACIONES"
+      },
+      {
+        "code": "ME4901",
+        "title": "PRÁCTICA PROFESIONAL I"
+      },
+      {
+        "code": "ME5110",
+        "title": "PROYECTO EN MATERIALES Y MANUFACTURA"
+      },
+      {
+        "code": "ME5140",
+        "title": "INGENIERÍA EN TERMOFLUIDOS"
+      },
+      {
+        "code": "ME5150",
+        "title": "ROBÓTICA"
+      },
+      {
+        "code": "ME5120",
+        "title": "DISEÑO DE SISTEMAS MECÁNICOS"
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "ME5210",
+        "title": "MANUFACTURA AVANZADA"
+      },
+      {
+        "code": "ME5220",
+        "title": "PROYECTO EN INGENIERÍA MECÁNICA"
+      },
+      {
+        "code": "ME5240",
+        "title": "LABORATORIO DE ENERGÍA"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVOS DE ESPECIALIDAD"
+      },
+      {
+        "code": "ME6908",
+        "title": "INTRODUCCIÓN AL TRABAJO DE TÍTULO"
+      }
+    ],
+    "Semestre XI": [
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL ESPECIALIDAD"
+      },
+      {
+        "code": "ME5902",
+        "title": "PRÁCTICA PROFESIONAL II"
+      },
+      {
+        "code": "ME6909",
+        "title": "TRABAJO DE TÍTULO"
+      },
+      {
+        "code": "EI2090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS II"
+      }
+    ]
+  },
+  "ingenieria-civil-de-minas": {
+    "Semestre V": [
+      {
+        "code": "MA3403",
+        "title": "PROBABILIDADES Y ESTADÍSTICA"
+      },
+      {
+        "code": "MI3100",
+        "title": "QUÍMICA MINERALÓGICA"
+      },
+      {
+        "code": "MI3105",
+        "title": "GEOLOGÍA PARA INGENIEROS"
+      },
+      {
+        "code": "MI3110",
+        "title": "MINERÍA Y SUSTENTABILIDAD"
+      },
+      {
+        "code": "MI3115",
+        "title": "MECÁNICA DE ROCAS I"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "MA3701/IN3171",
+        "title": "OPTIMIZACIÓN / MODELAMIENTO Y OPTIMIZACIÓN"
+      },
+      {
+        "code": "MI3230",
+        "title": "FISICOQUÍMICA METALÚRGICA"
+      },
+      {
+        "code": "MI3210",
+        "title": "INTRODUCCIÓN A YACIMIENTOS MINERALES"
+      },
+      {
+        "code": "MI3235",
+        "title": "FENÓMENOS DE TRANSPORTE"
+      },
+      {
+        "code": "MI3215",
+        "title": "MECÁNICA DE ROCAS II"
+      },
+      {
+        "code": "MI4900",
+        "title": "TALLER PRÁCTICA PROFESIONAL I"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "IN3301",
+        "title": "EVALUACIÓN DE PROYECTOS"
+      },
+      {
+        "code": "MI4135",
+        "title": "METALURGIA EXTRACTIVA"
+      },
+      {
+        "code": "MI4040",
+        "title": "ANÁLISIS ESTADÍSTICO Y GEOESTADÍSTICO DE DATOS"
+      },
+      {
+        "code": "MI4070",
+        "title": "FUNDAMENTOS DE TECNOLOGÍA MINERA"
+      },
+      {
+        "code": "MI4150",
+        "title": "PROCESAMIENTO DE MINERALES I"
+      },
+      {
+        "code": "MI4901",
+        "title": "PRÁCTICA PROFESIONAL I"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "MI4260",
+        "title": "ECONOMÍA DE MINERALES"
+      },
+      {
+        "code": "MI4240",
+        "title": "EVALUACIÓN DE YACIMIENTOS"
+      },
+      {
+        "code": "MI4265",
+        "title": "LEGISLACIÓN MINERA"
+      },
+      {
+        "code": "MI4250",
+        "title": "PROCESAMIENTO DE MINERALES II"
+      },
+      {
+        "code": "",
+        "title": "FORMACIÓN INTEGRAL"
+      },
+      {
+        "code": "EI1090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS I"
+      },
+      {
+        "code": "MI5160",
+        "title": "MEDIO AMBIENTE Y COMUNIDADES"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "MI5120",
+        "title": "DISEÑO Y PLANIFICACIÓN DE MINAS SUBTERRÁNEAS"
+      },
+      {
+        "code": "MI5115",
+        "title": "DISEÑO Y PLANIFICACIÓN DE MINAS A CIELO ABIERTO"
+      },
+      {
+        "code": "MI5110",
+        "title": "GESTIÓN DE OPERACIONES MINERAS"
+      },
+      {
+        "code": "MI5170",
+        "title": "AGUA Y RELAVES"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "MI5902",
+        "title": "PRÁCTICA PROFESIONAL II"
+      },
+      {
+        "code": "MI5260",
+        "title": "SEGURIDAD MINERA"
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "MI5210",
+        "title": "TALLER DE PROYECTO MINERO"
+      },
+      {
+        "code": "MI5265",
+        "title": "EVALUACIÓN Y GESTIÓN DE PROYECTOS MINEROS"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "",
+        "title": "ELECTIVO DE ESPECIALIDAD"
+      },
+      {
+        "code": "MI6907",
+        "title": "INTRODUCCIÓN AL TRABAJO DE TÍTULO"
+      }
+    ],
+    "Semestre XI": [
+      {
+        "code": "MI6919",
+        "title": "TRABAJO DE TÍTULO"
+      },
+      {
+        "code": "EI2090",
+        "title": "EXAMEN DE SUFICIENCIA EN INGLÉS II"
+      }
+    ]
+  },
+  "ingenieria-civil-quimica": {
+    "Semestre V": [
+      {
+        "code": "MA3403",
+        "title": "Probabilidades y Estadística"
+      },
+      {
+        "code": "IQ3214",
+        "title": "Química Inorgánica"
+      },
+      {
+        "code": "IQ3213",
+        "title": "Química Orgánica"
+      },
+      {
+        "code": "IQ3311",
+        "title": "Análisis de Procesos"
+      },
+      {
+        "code": "IQ3211",
+        "title": "Termodinámica Aplicada"
+      }
+    ],
+    "Semestre VI": [
+      {
+        "code": "IQ3111",
+        "title": "Modelamiento y Optimización para Ingeniería de Procesos"
+      },
+      {
+        "code": "IQ3215",
+        "title": "Ciencia de los Materiales"
+      },
+      {
+        "code": "IQ3212",
+        "title": "Fisicoquímica"
+      },
+      {
+        "code": "IQ3312",
+        "title": "Fenómenos de Transporte"
+      },
+      {
+        "code": "IQ3711",
+        "title": "Sustentabilidad en Ingeniería"
+      }
+    ],
+    "Semestre VII": [
+      {
+        "code": "IQ4112",
+        "title": "Métodos Matemáticos para Procesos"
+      },
+      {
+        "code": "IQ4313",
+        "title": "Operaciones de Transferencia de Calor"
+      },
+      {
+        "code": "IQ4712",
+        "title": "Innovación en Ingeniería y Ciencias"
+      },
+      {
+        "code": "ME4262",
+        "title": "Evaluación de Proyectos en Ingeniería"
+      },
+      {
+        "code": "",
+        "title": "Electivo"
+      },
+      {
+        "code": "",
+        "title": "Formación Integral"
+      },
+      {
+        "code": "IQ4911",
+        "title": "Práctica Profesional I"
+      }
+    ],
+    "Semestre VIII": [
+      {
+        "code": "IQ4316",
+        "title": "Operaciones Mecánicas"
+      },
+      {
+        "code": "IQ4713",
+        "title": "Taller de Diseño e Innovación en Proyectos"
+      },
+      {
+        "code": "",
+        "title": "Electivo"
+      },
+      {
+        "code": "",
+        "title": "Formación Integral"
+      },
+      {
+        "code": "EI1090",
+        "title": "Examen de Suficiencia en inglés I"
+      }
+    ],
+    "Semestre IX": [
+      {
+        "code": "IQ5317",
+        "title": "Reactores Avanzados"
+      },
+      {
+        "code": "IQ5811",
+        "title": "Laboratorio de Ingeniería de Procesos"
+      },
+      {
+        "code": "IQ5714",
+        "title": "Taller de Implementación de Proyectos"
+      },
+      {
+        "code": "",
+        "title": "Electivos de Especialidad"
+      },
+      {
+        "code": "IQ5912",
+        "title": "Práctica Profesional II"
+      }
+    ],
+    "Semestre X": [
+      {
+        "code": "IQ5113",
+        "title": "Dinámica y Control de Procesos"
+      },
+      {
+        "code": "IN4273",
+        "title": "Gestión de Operaciones"
+      },
+      {
+        "code": "IQ5715",
+        "title": "Taller de Proyectos en Ingeniería o Ciencias"
+      },
+      {
+        "code": "",
+        "title": "Electivo de Especialidad"
+      },
+      {
+        "code": "IQ6907",
+        "title": "Trabajo de Habilitación Profesional I"
+      },
+      {
+        "code": "Sexto Año",
+        "title": ""
+      }
+    ],
+    "Semestre XI": [
+      {
+        "code": "",
+        "title": "Electivos de Especialidad"
+      },
+      {
+        "code": "IQ6919",
+        "title": "Trabajo de Habilitación Profesional II"
+      },
+      {
+        "code": "EI2090",
+        "title": "Examen de Suficiencia en inglés II"
+      }
+    ]
+  }
+}

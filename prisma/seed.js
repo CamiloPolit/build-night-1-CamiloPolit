@@ -19,6 +19,17 @@ function extractYearSemester(filename) {
 }
 
 async function main() {
+  console.log("Cleaning database...");
+
+  await prisma.review.deleteMany({});
+  await prisma.courseInstance.deleteMany({});
+  await prisma.courseAlias.deleteMany({});
+  await prisma.course.deleteMany({});
+  await prisma.professor.deleteMany({});
+  await prisma.department.deleteMany({});
+
+  console.log("Database cleaned.");
+
   console.log("Starting database seeding...");
 
   // 1. Seed Departments

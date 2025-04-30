@@ -169,7 +169,6 @@ const DepartmentCourses: React.FC<DepartmentCoursesProps> = ({
                     {course.code}
                   </span>
                 </div>
-                <p className="text-sm text-gray-600">{course.description}</p>
               </button>
             );
           })}
