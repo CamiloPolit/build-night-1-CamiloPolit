@@ -13,6 +13,19 @@ generator client {
   provider = "prisma-client-js"
 }
 
+model User {
+  id       String   @id
+  email    String   @unique
+  role     String   @default("estudiante")
+
+  // Leaderboard settings
+  showOnLeaderboard Boolean  @default(false)
+  leaderboardName   String?
+
+  reviews  Review[]
+  reviewReactions ReviewReaction[]
+}
+
 
 /*────────────────────────── Course catalog ──────────────────────────*/
 
@@ -105,19 +118,47 @@ model Review {
   knowledge        Int
   workLoad         Int
   difficulty       Int
-  overall          Int
+
+  isUncoordinated   Boolean
 
   /* optional (1-7) */
   approximateMedian Int?
 
   comment          String?
 
-  /*────────────────── relations ──────────────────*/
+  user             User           @relation(fields: [userId], references: [id])
+  userId           String
+
   courseInstance   CourseInstance @relation(fields: [courseInstanceId], references: [id])
   courseInstanceId Int            // FK to CourseInstance (holds year, semester & professor)
 
+  reviewReactions ReviewReaction[]
 
   @@index([courseInstanceId])
+  @@index([userId])
+  @@unique([userId, courseInstanceId])
+}
+
+enum ReactionType {
+  LIKE       // 👍
+  DISLIKE    // 👎
+  MOAI       // 🗿
+  BRAIN      // 🧠
+  FUNNY      // 😂
+}
+
+model ReviewReaction {
+  id         Int          @id @default(autoincrement())
+  type       ReactionType
+
+  user       User         @relation(fields: [userId], references: [id])
+  userId     String
+
+  review     Review       @relation(fields: [reviewId], references: [id])
+  reviewId   String
+
+  @@unique([userId, reviewId])
+  @@index([reviewId])
 }
 
 

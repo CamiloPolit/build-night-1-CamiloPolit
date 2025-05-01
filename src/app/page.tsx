@@ -37,10 +37,10 @@ export default function Home() {
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-3">
-            Evalúa tus profesores
+            Conoce tus cursos
           </h1>
           <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-            Selecciona un departamento y un curso para ver las evaluaciones de los profesores o agregar nuevas reseñas.
+            Selecciona un departamento y un curso para ver las opininones de alumnos que ya lo hayan cursado.
           </p>
 
           <DepartmentSelector onSelect={handleDepartmentSelect} />
