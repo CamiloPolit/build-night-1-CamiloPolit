@@ -25,6 +25,25 @@
   }
 }
 
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes subtleBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
 @layer utilities {
   .animate-fadeIn {
     animation: fadeIn 0.5s ease-out forwards;
@@ -34,7 +53,51 @@
     animation: pulse 0.5s ease-in-out;
   }
 
+  .animate-subtle-bounce {
+    animation: subtleBounce 2s ease-in-out infinite;
+  }
+
   html {
     scroll-behavior: smooth;
   }
+}
+
+/* Leaderboard interactions */
+body.leaderboard-open #main-content {
+  transform: translateX(-80px);
+}
+
+/* Content shifting transition */
+#main-content {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* For larger screens, shift content further when leaderboard is open */
+@media (min-width: 1024px) {
+  body.leaderboard-open #main-content {
+    transform: translateX(-120px);
+  }
+}
+
+/* For smaller screens, don't shift content */
+@media (max-width: 768px) {
+  body.leaderboard-open #main-content {
+    transform: none;
+  }
+}
+
+/* Trophy button effect */
+.trophy-btn {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.trophy-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.trophy-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

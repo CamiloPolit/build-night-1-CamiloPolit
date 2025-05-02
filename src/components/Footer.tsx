@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-center">
           <div className="mb-3">
             <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-indigo-300 bg-clip-text text-transparent">
-              ProfeRate
+              ramosBEAUCHEF
             </h3>
           </div>
 

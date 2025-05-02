@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import DepartmentSelector from '@/components/DepartmentSelector';
 import DepartmentCourses from '@/components/DepartmentCourses';
 import Footer from '@/components/Footer';
+import Leaderboard from '@/components/Leaderboard';
 
 export default function Home() {
   const router = useRouter();
@@ -34,7 +35,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8 transition-all duration-300 ease-in-out"
+        id="main-content">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-3">
             Conoce tus cursos
@@ -59,6 +61,7 @@ export default function Home() {
           )}
         </div>
       </main>
+      <Leaderboard />
       <Footer />
     </div>
   );
