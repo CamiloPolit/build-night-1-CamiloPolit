@@ -65,3 +65,31 @@ export interface ReviewFormData {
   medianGrade?: number;
   comment?: string;
 }
+
+export interface UserProfile {
+  id: string;
+  email: string;
+  name: string;
+  karma: number;
+  reviewCount: number;
+  reactionsReceived: number;
+  memberSince: string;
+  department?: string;
+  bio?: string;
+  achievements?: Achievement[];
+  reactionDetails?: {
+    LIKE: number;
+    DISLIKE: number;
+    MOAI: number;
+    BRAIN: number;
+    FUNNY: number;
+  };
+}
+
+export interface Achievement {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  earnedDate: string;
+}

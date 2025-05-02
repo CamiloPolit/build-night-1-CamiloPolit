@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { reviews } from '@/data/mockData';
+import { reviews, userProfiles } from '@/data/mockData';
+import ProfileLink from './ProfileLink';
 
 type ReactionCounts = {
   LIKE: number;    // 👍
@@ -149,34 +150,44 @@ const Leaderboard: React.FC = () => {
     setActiveTab(tab);
   };
 
-  const renderUserItem = (user: UserStats, index: number, showReviews: boolean) => (
-    <div
-      key={user.email + (showReviews ? 'review' : 'reaction')}
-      className="flex items-center justify-between p-4 rounded-lg hover:bg-blue-50 transition-colors animate-fadeIn"
-      style={{ animationDelay: `${index * 100}ms` }}
-    >
-      <div className="flex items-center">
-        <div className={`w-9 h-9 flex items-center justify-center rounded-full 
-          ${index === 0 ? 'bg-yellow-100 text-yellow-600 ring-2 ring-yellow-300' :
-            index === 1 ? 'bg-gray-100 text-gray-600 ring-1 ring-gray-300' :
-              index === 2 ? 'bg-amber-100 text-amber-700 ring-1 ring-amber-300' :
-                'bg-blue-50 text-blue-600'} 
-          font-bold mr-4 shadow-sm`}>
-          {index + 1}
+  const renderUserItem = (user: UserStats, index: number, showReviews: boolean) => {
+    // Find the matching user profile
+    const userProfile = userProfiles.find(profile => profile.email === user.email);
+    const userId = userProfile ? userProfile.id : '';
+
+    return (
+      <div
+        key={user.email + (showReviews ? 'review' : 'reaction')}
+        className="flex items-center justify-between p-4 rounded-lg hover:bg-blue-50 transition-colors animate-fadeIn"
+        style={{ animationDelay: `${index * 100}ms` }}
+      >
+        <div className="flex items-center">
+          <div className={`w-9 h-9 flex items-center justify-center rounded-full 
+            ${index === 0 ? 'bg-yellow-100 text-yellow-600 ring-2 ring-yellow-300' :
+              index === 1 ? 'bg-gray-100 text-gray-600 ring-1 ring-gray-300' :
+                index === 2 ? 'bg-amber-100 text-amber-700 ring-1 ring-amber-300' :
+                  'bg-blue-50 text-blue-600'} 
+            font-bold mr-4 shadow-sm`}>
+            {index + 1}
+          </div>
+          <div>
+            <ProfileLink
+              userId={userId}
+              userName={user.name}
+              showIcon={false}
+              className="font-medium text-gray-700 truncate max-w-[150px] block hover:text-blue-700"
+            />
+          </div>
         </div>
-        <div>
-          <span className="font-medium text-gray-700 truncate max-w-[150px] block">{user.name}</span>
-          <span className="text-xs text-gray-500">Usuario activo</span>
+        <div className="flex items-center bg-blue-100 text-blue-800 text-xs font-medium px-3 py-2 rounded-full">
+          {showReviews ?
+            `${user.reviewCount} reseña${user.reviewCount !== 1 ? 's' : ''}` :
+            `${user.reactionsReceived} reacción${user.reactionsReceived !== 1 ? 'es' : ''}`
+          }
         </div>
       </div>
-      <div className="flex items-center bg-blue-100 text-blue-800 text-xs font-medium px-3 py-2 rounded-full">
-        {showReviews ?
-          `${user.reviewCount} reseña${user.reviewCount !== 1 ? 's' : ''}` :
-          `${user.reactionsReceived} reacción${user.reactionsReceived !== 1 ? 'es' : ''}`
-        }
-      </div>
-    </div>
-  );
+    );
+  };
 
   const renderTop3Reactions = (user: UserStats) => {
     if (!user.reactionDetails) return null;
@@ -284,30 +295,41 @@ const Leaderboard: React.FC = () => {
         </div>
       ) : topReacted.length > 0 ? (
         <div className="space-y-6">
-          {topReacted.map((user, index) => (
-            <div
-              key={user.email + 'reaction'}
-              className="rounded-xl border border-indigo-100 overflow-hidden shadow-sm animate-fadeIn"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <div className="p-4 bg-gradient-to-r from-indigo-50 to-white">
-                <div className="flex items-center">
-                  <div className={`w-9 h-9 flex items-center justify-center rounded-full 
-                    ${index === 0 ? 'bg-yellow-100 text-yellow-600 ring-2 ring-yellow-300' :
-                      index === 1 ? 'bg-gray-100 text-gray-600 ring-1 ring-gray-300' :
-                        index === 2 ? 'bg-amber-100 text-amber-700 ring-1 ring-amber-300' :
-                          'bg-blue-50 text-blue-600'} 
-                    font-bold mr-4 shadow-sm`}>
-                    {index + 1}
-                  </div>
-                  <div>
-                    <span className="font-medium text-gray-700 truncate max-w-[200px] block">{user.name}</span>
+          {topReacted.map((user, index) => {
+            // Find the matching user profile
+            const userProfile = userProfiles.find(profile => profile.email === user.email);
+            const userId = userProfile ? userProfile.id : '';
+
+            return (
+              <div
+                key={user.email + 'reaction'}
+                className="rounded-xl border border-indigo-100 overflow-hidden shadow-sm animate-fadeIn"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <div className="p-4 bg-gradient-to-r from-indigo-50 to-white">
+                  <div className="flex items-center">
+                    <div className={`w-9 h-9 flex items-center justify-center rounded-full 
+                      ${index === 0 ? 'bg-yellow-100 text-yellow-600 ring-2 ring-yellow-300' :
+                        index === 1 ? 'bg-gray-100 text-gray-600 ring-1 ring-gray-300' :
+                          index === 2 ? 'bg-amber-100 text-amber-700 ring-1 ring-amber-300' :
+                            'bg-blue-50 text-blue-600'} 
+                      font-bold mr-4 shadow-sm`}>
+                      {index + 1}
+                    </div>
+                    <div>
+                      <ProfileLink
+                        userId={userId}
+                        userName={user.name}
+                        showIcon={false}
+                        className="font-medium text-gray-700 truncate max-w-[200px] block hover:text-indigo-700"
+                      />
+                    </div>
                   </div>
                 </div>
+                {renderTop3Reactions(user)}
               </div>
-              {renderTop3Reactions(user)}
-            </div>
-          ))}
+            );
+          })}
         </div>
       ) : (
         <div className="text-center py-6 text-gray-500">

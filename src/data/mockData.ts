@@ -197,3 +197,152 @@ export const getProfessorsByCourse = (courseId: string) => {
 export const getCourseById = (courseId: string) => {
   return courses.find((course) => course.id === courseId);
 };
+
+// Mock user profiles data
+export const userProfiles = [
+  {
+    id: "user1",
+    email: "miguel@usach.cl",
+    name: "Miguel Sánchez",
+    karma: 78,
+    reviewCount: 12,
+    reactionsReceived: 86,
+    memberSince: "2022-09-15",
+    department: "Ciencias de la Computación",
+    bio: "Estudiante de último año de Ingeniería Civil en Computación. Me apasiona el desarrollo de software y la inteligencia artificial.",
+    achievements: [
+      {
+        id: "a1",
+        name: "Crítico Destacado",
+        description: "Publicó más de 10 reseñas con alta calidad",
+        icon: "⭐",
+        earnedDate: "2023-11-10",
+      },
+      {
+        id: "a2",
+        name: "Influencer Académico",
+        description: "Sus reseñas han recibido más de 50 reacciones",
+        icon: "🏆",
+        earnedDate: "2023-12-05",
+      },
+    ],
+    reactionDetails: {
+      LIKE: 35,
+      DISLIKE: 4,
+      MOAI: 12,
+      BRAIN: 20,
+      FUNNY: 15,
+    },
+  },
+  {
+    id: "user2",
+    email: "laura@usach.cl",
+    name: "Laura Jiménez",
+    karma: 65,
+    reviewCount: 8,
+    reactionsReceived: 71,
+    memberSince: "2022-08-20",
+    department: "Ingeniería Industrial",
+    bio: "Estudiante de Ingeniería Industrial con interés en la optimización de procesos y la gestión de proyectos.",
+    achievements: [
+      {
+        id: "a3",
+        name: "Reseñador Constante",
+        description: "Ha mantenido actividad regular durante 6 meses",
+        icon: "📊",
+        earnedDate: "2023-10-15",
+      },
+    ],
+    reactionDetails: {
+      LIKE: 30,
+      DISLIKE: 5,
+      MOAI: 15,
+      BRAIN: 12,
+      FUNNY: 9,
+    },
+  },
+  {
+    id: "user3",
+    email: "javier@usach.cl",
+    name: "Javier Ruiz",
+    karma: 42,
+    reviewCount: 5,
+    reactionsReceived: 38,
+    memberSince: "2023-02-10",
+    department: "Ingeniería Civil Matemática",
+    bio: "Estudiante de Ingeniería Matemática con interés en la modelación matemática y estadística.",
+    achievements: [],
+    reactionDetails: {
+      LIKE: 15,
+      DISLIKE: 3,
+      MOAI: 5,
+      BRAIN: 10,
+      FUNNY: 5,
+    },
+  },
+  {
+    id: "user4",
+    email: "carolina@usach.cl",
+    name: "Carolina Fuentes",
+    karma: 53,
+    reviewCount: 7,
+    reactionsReceived: 62,
+    memberSince: "2023-03-05",
+    department: "Ingeniería Civil Eléctrica",
+    bio: "Estudiante de Ingeniería Eléctrica con enfoque en sistemas de control y automatización.",
+    achievements: [
+      {
+        id: "a4",
+        name: "Colaborador Valioso",
+        description: "Sus reseñas tienen un promedio de valoración alto",
+        icon: "💎",
+        earnedDate: "2023-11-22",
+      },
+    ],
+    reactionDetails: {
+      LIKE: 28,
+      DISLIKE: 4,
+      MOAI: 7,
+      BRAIN: 15,
+      FUNNY: 8,
+    },
+  },
+  {
+    id: "user5",
+    email: "pedro@usach.cl",
+    name: "Pedro Gonzalez",
+    karma: 85,
+    reviewCount: 15,
+    reactionsReceived: 92,
+    memberSince: "2022-03-18",
+    department: "Astronomía",
+    bio: "Estudiante de Astronomía con pasión por la astrofísica y la divulgación científica.",
+    achievements: [
+      {
+        id: "a5",
+        name: "Super Estrella",
+        description: "Sus reseñas han sido destacadas más de 5 veces",
+        icon: "🌟",
+        earnedDate: "2023-09-15",
+      },
+      {
+        id: "a6",
+        name: "Gran Colaborador",
+        description: "Ha publicado más de 10 reseñas detalladas",
+        icon: "👑",
+        earnedDate: "2023-08-10",
+      },
+    ],
+    reactionDetails: {
+      LIKE: 40,
+      DISLIKE: 6,
+      MOAI: 14,
+      BRAIN: 22,
+      FUNNY: 10,
+    },
+  },
+];
+
+export const getUserById = (id: string) => {
+  return userProfiles.find((user) => user.id === id) || userProfiles[0];
+};

@@ -2,7 +2,6 @@
 
 import { useState, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-import Header from '@/components/Header';
 import DepartmentSelector from '@/components/DepartmentSelector';
 import DepartmentCourses from '@/components/DepartmentCourses';
 import Footer from '@/components/Footer';
@@ -34,7 +33,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       <main className="container mx-auto px-4 py-8 transition-all duration-300 ease-in-out"
         id="main-content">
         <div className="max-w-4xl mx-auto">
@@ -42,7 +40,7 @@ export default function Home() {
             Conoce tus cursos
           </h1>
           <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-            Selecciona un departamento y un curso para ver las opininones de alumnos que ya lo hayan cursado.
+            Selecciona un departamento y un curso para ver las opiniones de alumnos que ya lo hayan cursado.
           </p>
 
           <DepartmentSelector onSelect={handleDepartmentSelect} />
