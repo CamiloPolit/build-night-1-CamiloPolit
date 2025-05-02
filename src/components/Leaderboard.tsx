@@ -350,16 +350,16 @@ const Leaderboard: React.FC = () => {
       {/* Overlay for mobile */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-[100] lg:hidden"
+          className="fixed inset-0 bg-black bg-opacity-50 z-[100] lg:hidden leaderboard-overlay"
           onClick={closeLeaderboard}
           aria-hidden="true"
         />
       )}
 
       {/* Leaderboard Panel */}
-      <div className={`fixed inset-y-0 right-0 h-screen bg-white z-[101] shadow-2xl overflow-y-auto transition-transform duration-300 ease-in-out transform w-[350px] rounded-l-lg ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      <div className={`fixed inset-y-0 right-0 h-screen bg-white z-[101] shadow-2xl overflow-y-auto transition-transform duration-300 ease-in-out transform w-full lg:w-[350px] lg:rounded-l-lg leaderboard-panel ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         {/* Header with close button */}
-        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6 flex items-center justify-between rounded-tl-lg">
+        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6 flex items-center justify-between lg:rounded-tl-lg">
           <div className="flex items-center">
             <span className="text-2xl mr-3" aria-hidden="true">🏆</span>
             <h2 className="text-xl font-bold">Leaderboard</h2>
