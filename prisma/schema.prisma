@@ -17,13 +17,28 @@ model User {
   id       String   @id
   email    String   @unique
   role     String   @default("estudiante")
+  createdAt DateTime @default(now())
+
+  reviews  Review[]
+  reviewReactions ReviewReaction[]
+  userProfile UserProfile?
+}
+
+model UserProfile {
+  id        Int     @id @default(autoincrement())
+
+  user      User    @relation(fields: [userId], references: [id])
+  userId    String  @unique
+
+  career    Career?  @relation(fields: [careerId], references: [id])
+  careerId  Int?
+
+  biography String?
+  karma     Int      @default(0)
 
   // Leaderboard settings
   showOnLeaderboard Boolean  @default(false)
   leaderboardName   String?
-
-  reviews  Review[]
-  reviewReactions ReviewReaction[]
 }
 
 
@@ -94,6 +109,7 @@ model Career {
   description String?
 
   curriculumEntries CurriculumEntry[]
+  userProfiles UserProfile[]
 }
 
 model CurriculumEntry {
