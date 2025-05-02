@@ -19,7 +19,7 @@ const GoogleButton: React.FC<GoogleButtonProps> = ({
     >
       <div className="flex items-center justify-center">
         <img
-          src="https://developers.google.com/identity/images/g-logo.png"
+          src="/g-logo.png"
           alt="Google"
           className="w-5 h-5 mr-3"
         />
