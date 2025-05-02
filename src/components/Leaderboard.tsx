@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { reviews, userProfiles } from '@/data/mockData';
 import ProfileLink from './ProfileLink';
+import Link from 'next/link';
 
 type ReactionCounts = {
   LIKE: number;    // 👍
@@ -264,8 +265,8 @@ const Leaderboard: React.FC = () => {
       )}
 
       <div className="mt-5 text-center">
-        <a
-          href="#"
+        <Link
+          href="/leaderboards"
           className="text-sm text-blue-600 hover:text-blue-800 font-medium inline-flex items-center"
           aria-label="Ver ranking completo de reseñas"
           tabIndex={0}
@@ -274,7 +275,7 @@ const Leaderboard: React.FC = () => {
           <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
-        </a>
+        </Link>
       </div>
     </>
   );
@@ -338,8 +339,8 @@ const Leaderboard: React.FC = () => {
       )}
 
       <div className="mt-6 text-center">
-        <a
-          href="#"
+        <Link
+          href="/leaderboards"
           className="text-sm text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center"
           aria-label="Ver ranking completo de reacciones"
           tabIndex={0}
@@ -348,7 +349,7 @@ const Leaderboard: React.FC = () => {
           <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
-        </a>
+        </Link>
       </div>
     </>
   );

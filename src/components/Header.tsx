@@ -52,9 +52,10 @@ const Header: React.FC = () => {
                   </a>
                 </div>
               </div>
-              <a href="#" className="px-4 py-2 text-gray-700 hover:text-blue-600 rounded-lg hover:bg-blue-50 transition-all font-medium text-sm">
-                Facultades
-              </a>
+              <Link href="/leaderboards" className="px-4 py-2 text-gray-700 hover:text-blue-600 rounded-lg hover:bg-blue-50 transition-all font-medium text-sm flex items-center">
+                <span className="mr-1.5 text-sm">🏆</span>
+                Leaderboards
+              </Link>
               <a href="#" className="px-4 py-2 text-gray-700 hover:text-blue-600 rounded-lg hover:bg-blue-50 transition-all font-medium text-sm">
                 Cursos
               </a>
@@ -120,9 +121,10 @@ const Header: React.FC = () => {
                 <a href="#" className="px-4 py-3 text-gray-700 rounded-lg hover:bg-blue-50 hover:text-blue-600 font-medium">
                   Profesores
                 </a>
-                <a href="#" className="px-4 py-3 text-gray-700 rounded-lg hover:bg-blue-50 hover:text-blue-600 font-medium">
-                  Facultades
-                </a>
+                <Link href="/leaderboards" className="px-4 py-3 text-gray-700 rounded-lg hover:bg-blue-50 hover:text-blue-600 font-medium flex items-center">
+                  <span className="mr-2 text-sm">🏆</span>
+                  Leaderboards
+                </Link>
                 <a href="#" className="px-4 py-3 text-gray-700 rounded-lg hover:bg-blue-50 hover:text-blue-600 font-medium">
                   Cursos
                 </a>

@@ -113,20 +113,6 @@ const ProfilePage = () => {
 
     return (
       <div className="bg-white rounded-lg shadow overflow-hidden">
-        <script src="https://accounts.google.com/gsi/client" async></script>
-        <div id="g_id_onload"
-          data-client_id="YOUR_GOOGLE_CLIENT_ID"
-          data-login_uri="https://your.domain/your_login_endpoint"
-          data-auto_prompt="false">
-        </div>
-        <div className="g_id_signin"
-          data-type="standard"
-          data-size="large"
-          data-theme="outline"
-          data-text="sign_in_with"
-          data-shape="rectangular"
-          data-logo_alignment="left">
-        </div>
         <ul className="divide-y divide-gray-200">
           {user.achievements.map((achievement: Achievement) => (
             <li key={achievement.id} className="p-4 hover:bg-gray-50 transition-colors">
